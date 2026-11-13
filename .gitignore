@@ -86,3 +86,7 @@ desktop.ini
 *.swp
 *.swo
 *~
+
+# Google-Doc exports are checked in deliberately: they are the exact files a
+# reviewer downloads, so they are kept in reports/downloads/ rather than ignored.
+!reports/downloads/
