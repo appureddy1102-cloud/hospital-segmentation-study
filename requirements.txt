@@ -1,0 +1,18 @@
+# Runtime dependencies for the hospital segmentation study.
+# Verified on Python 3.11-3.13. Pin removed deliberately: these are
+# stable public APIs and the analysis is deterministic given the seed.
+
+pandas>=2.2.3
+numpy>=2.3.5
+scipy>=1.17.1
+scikit-learn>=1.6.1
+matplotlib>=3.11.2
+seaborn>=0.13.2
+pyarrow>=26.0.1
+openpyxl>=3.1.5
+python-docx>=1.1.2
+python-pptx>=1.0.2
+jupyter>=1.1.1
+nbconvert>=7.17.2
+nbformat>=5.11.1
+pytest>=9.0.3

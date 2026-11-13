@@ -1,0 +1,4 @@
+P1_patients,P2_patients,P1_avg_monetary,P2_avg_monetary,P1_avg_frequency,P2_avg_frequency,P1_avg_recency,P2_avg_recency,patient_growth_pct
+6732,2170,4119.0,134300.0,1.81,2.89,183.0,178.0,-67.8
+7913,13814,34808.0,20046.0,5.49,4.3,95.0,157.0,74.6
+1891,552,165463.0,240283.0,2.18,1.91,178.0,225.0,-70.8

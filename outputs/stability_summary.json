@@ -1,0 +1,83 @@
+{
+  "k": 3,
+  "patients_p1": 28728,
+  "patients_p2": 29642,
+  "patients_both": 16536,
+  "cluster_mapping_p2_to_p1": {
+    "1": 0,
+    "0": 2,
+    "2": 1
+  },
+  "ari_kmeans": 0.1581461949744274,
+  "ari_rfm": 0.04604932796876903,
+  "retention_pct": {
+    "High-Acuity Inpatient": 20.3,
+    "Frequent OPD Regulars": 92.1,
+    "Dormant One-Time": 8.9
+  },
+  "rfm_retention_pct": {
+    "At-Risk High-Value": 25.818882466281313,
+    "Champions": 38.291711907347086,
+    "Hibernating": 38.70573870573871,
+    "High-Value Dormant": 14.02805611222445,
+    "Loyal High-Value": 23.887418811643013,
+    "New / Promising": 2.0408163265306123,
+    "Occasional Stable": 15.137614678899084
+  },
+  "migration_matrix": {
+    "High-Acuity Inpatient": {
+      "High-Acuity Inpatient": 383,
+      "Frequent OPD Regulars": 62,
+      "Dormant One-Time": 107
+    },
+    "Frequent OPD Regulars": {
+      "High-Acuity Inpatient": 499,
+      "Frequent OPD Regulars": 7287,
+      "Dormant One-Time": 6028
+    },
+    "Dormant One-Time": {
+      "High-Acuity Inpatient": 1009,
+      "Frequent OPD Regulars": 564,
+      "Dormant One-Time": 597
+    }
+  },
+  "delta": [
+    {
+      "segment": "Dormant One-Time",
+      "P1_patients": 6732,
+      "P2_patients": 2170,
+      "P1_avg_monetary": 4119.0,
+      "P2_avg_monetary": 134300.0,
+      "P1_avg_frequency": 1.81,
+      "P2_avg_frequency": 2.89,
+      "P1_avg_recency": 183.0,
+      "P2_avg_recency": 178.0,
+      "patient_growth_pct": -67.8
+    },
+    {
+      "segment": "Frequent OPD Regulars",
+      "P1_patients": 7913,
+      "P2_patients": 13814,
+      "P1_avg_monetary": 34808.0,
+      "P2_avg_monetary": 20046.0,
+      "P1_avg_frequency": 5.49,
+      "P2_avg_frequency": 4.3,
+      "P1_avg_recency": 95.0,
+      "P2_avg_recency": 157.0,
+      "patient_growth_pct": 74.6
+    },
+    {
+      "segment": "High-Acuity Inpatient",
+      "P1_patients": 1891,
+      "P2_patients": 552,
+      "P1_avg_monetary": 165463.0,
+      "P2_avg_monetary": 240283.0,
+      "P1_avg_frequency": 2.18,
+      "P2_avg_frequency": 1.91,
+      "P1_avg_recency": 178.0,
+      "P2_avg_recency": 225.0,
+      "patient_growth_pct": -70.8
+    }
+  ],
+  "off_diagonal_pct": 50.00604741170779
+}

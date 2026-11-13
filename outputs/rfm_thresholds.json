@@ -1,0 +1,54 @@
+{
+  "recency_quintiles": {
+    "0.2": 55.0,
+    "0.4": 126.0,
+    "0.6": 321.0,
+    "0.8": 785.0
+  },
+  "frequency_quintiles": {
+    "0.2": 1.0,
+    "0.4": 1.0,
+    "0.6": 3.0,
+    "0.8": 6.0
+  },
+  "monetary_quintiles": {
+    "0.2": 618.0,
+    "0.4": 1254.0,
+    "0.6": 4483.8,
+    "0.8": 40639.1
+  },
+  "scoring_rule": "R reversed (5=most recent); F,M ascending (5=highest)",
+  "segment_sizes": {
+    "Hibernating": 13650,
+    "Champions": 7353,
+    "Loyal High-Value": 7078,
+    "New / Promising": 4931,
+    "Occasional Stable": 4882,
+    "At-Risk High-Value": 2768,
+    "High-Value Dormant": 1172
+  },
+  "segment_shares_pct": {
+    "Hibernating": 32.63,
+    "Champions": 17.58,
+    "Loyal High-Value": 16.92,
+    "New / Promising": 11.79,
+    "Occasional Stable": 11.67,
+    "At-Risk High-Value": 6.62,
+    "High-Value Dormant": 2.8
+  },
+  "rfm_sum_distribution": {
+    "3": 1066,
+    "4": 3004,
+    "5": 3963,
+    "6": 3712,
+    "7": 3573,
+    "8": 3853,
+    "9": 3806,
+    "10": 3674,
+    "11": 3483,
+    "12": 3742,
+    "13": 3533,
+    "14": 2991,
+    "15": 1434
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "raw_rows": {
+    "patients": 42000,
+    "opd_visits": 162899,
+    "admissions": 31823,
+    "lab_tests": 49741,
+    "billing": 263081
+  },
+  "raw_duplicates": {
+    "opd_exact": 0,
+    "adm_exact": 0,
+    "lab_exact": 0,
+    "bill_exact": 0
+  },
+  "raw_missing_pct": {
+    "patients": {},
+    "opd_visits": {
+      "patient_id": 0.4,
+      "department": 1.096,
+      "visit_date": 0.302,
+      "diagnosis_text": 2.394,
+      "consultation_fee": 0.498
+    },
+    "admissions": {
+      "discharge_date": 0.795
+    },
+    "lab_tests": {
+      "visit_id": 5.997,
+      "test_cost": 0.398
+    },
+    "billing": {
+      "gst_amount": 0.6,
+      "total_amount": 0.005
+    }
+  },
+  "patients_age_year_of_birth": 1008,
+  "patients_age_impossible": 441,
+  "patients_age_imputed_median": 441,
+  "patients_hospital_resolved": 42000,
+  "opd_hospital_canonicalised": 10268,
+  "opd_department_canonicalised": 9668,
+  "opd_department_unresolved": 1785,
+  "opd_diagnosis_canonicalised": 30291,
+  "opd_diagnosis_unresolved": 0,
+  "opd_diagnosis_from_code_fallback": 3899,
+  "opd_missing_patient_id_dropped": 652,
+  "opd_missing_visit_date_dropped": 490,
+  "opd_orphan_patient_dropped": 0,
+  "opd_date_out_of_window_dropped": 0,
+  "opd_duplicates_removed": 3013,
+  "opd_department_imputed": 1746,
+  "opd_consultation_fee_imputed": 793,
+  "opd_rows_raw": 162899,
+  "opd_rows_clean": 158744,
+  "adm_orphan_patient_dropped": 0,
+  "adm_dates_swapped_repaired": 140,
+  "adm_missing_discharge_imputed": 253,
+  "adm_duplicates_removed": 541,
+  "adm_rows_raw": 31823,
+  "adm_rows_clean": 31282,
+  "lab_orphan_patient_dropped": 0,
+  "lab_cost_imputed": 198,
+  "lab_unlinked_to_visit": 3361,
+  "lab_rows_clean": 49741,
+  "billing_rows_matching_identity": 256721,
+  "billing_rows_double_gst_detected": 3043,
+  "billing_identity_match_pct": 97.582,
+  "billing_gst_rate_mismatch": 0,
+  "billing_gst_missing_fixed": 0,
+  "billing_negative_amount_repaired": 0,
+  "billing_zero_amount_flagged": 0,
+  "billing_10x_inflation_corrected": 188,
+  "billing_impossible_date": 1093,
+  "billing_date_unrecoverable_dropped": 8,
+  "billing_orphan_encounter": 2090,
+  "billing_rows_raw": 263081,
+  "billing_rows_clean": 263073,
+  "validation": {
+    "opd_hospital_values": 4,
+    "opd_department_values": 12,
+    "opd_diagnosis_values": 45,
+    "opd_dup_patient_date_dept": 2,
+    "adm_dup": 0,
+    "adm_negative_los": 0,
+    "bill_identity_breaks": 0,
+    "bill_negative_total": 0,
+    "bill_dates_in_window": true,
+    "pat_age_range": [
+      0.0,
+      94.0
+    ],
+    "opd_missing_patient": 0,
+    "opd_missing_date": 0
+  }
+}

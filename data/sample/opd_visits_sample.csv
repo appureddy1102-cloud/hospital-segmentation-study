@@ -1,0 +1,501 @@
+visit_id,patient_id,hospital_id,department,visit_date,visit_type,diagnosis_text,diagnosis_code,doctor_id,consultation_fee,planned_followup_days,token_no
+OPD3058627,PT115612,HSP-01,Orthopaedics,2024-09-12,Follow-up,Mechanical Low Back Pain,OR03,DR128,663.0,60,3
+OPD3006788,PT101802,HSP-02,Orthopaedics,2024-01-05,Follow-up,Mechanical Low Back Pain,OR03,DR453,596.0,60,23
+OPD3121729,PT131890,HSP-03,General Medicine,2022-02-09,New,acute gastro-enteritis,GM04,DR159,567.0,0,2
+OPD3092685,PT124426,HSP-03,General Medicine,2023-04-08,Follow-up,Iron Deficiency Anaemia,GM05,DR219,396.0,30,14
+OPD3034010,PT109030,HSP-04,ENT ,2024-04-21,New,Allergic Rhinitis,EN02,DR133,615.0,0,17
+OPD3159009,PT141709,HSP-02,Pulmonology,2024-10-11,New,Chronic Obstructive Pulmonary Disease,PU01,DR114,938.0,0,36
+OPD3118844,PT131138,HSP-01,Nephrology,2022-06-20,Follow-up,Acute Kidney Injury,NP02,DR188,664.0,0,12
+OPD3035840,PT109550,HSP-02,General Medicine,2023-01-05,New,Acute Viral Fever,GM01,DR453,438.0,0,10
+OPD3085419,PT122511,HSP-01,Dermatology,2024-03-14,New,Tinea Corporis,DR02,DR151,551.0,0,38
+OPD3038300,PT110282,HSP-01,Pulmonology,2024-01-29,New,Chronic Obstructive Pulmonary Disease,PU01,DR245,688.0,0,3
+OPD3104590,PT127470,Miyapur Community Hospital,ENT,2023-11-20,Follow-up,Acute Tonsillitis,EN03,DR247,440.0,0,48
+OPD3056694,PT115119,HSP-02,Dermatology,2023-10-25,Follow-up,Atopic Dermatitis,DR01,DR190,589.0,30,11
+OPD3080279,PT121216,HSP-03,Paediatrics,2022-03-29,Follow-up,Febrile Illness in Child,PD02,DR261,459.0,0,1
+OPD3109327,PT128671,HSP-02,Dermatology,2024-01-27,Follow-up,Chronic Urticaria,DR04,DR350,581.0,30,8
+OPD3156555,PT141080,HSP-01,Cardiology,2024-08-19,New,Congestive Heart Failure,CD01,DR145,1293.0,0,10
+OPD3089646,PT123651,HSP-01,Paediatrics,2023-03-31,New,Acute Otitis Media,PD03,DR155,329.0,0,80
+OPD3135387,PT135462,HSP-03,NEPHROLOGY,2024-10-21,Follow-up,Nephrotic Syndrome,NP03,DR391,699.0,21,1
+OPD3077522,PT120475,HSP-02,General Medicine,2022-01-18,Follow-up,AGE,GM04,DR121,519.0,0,86
+OPD3088553,PT123356,HSP-02,General Surgery,2024-12-31,New,Acute Fissure in Ano,GS04,DR169,720.0,0,19
+OPD3090221,PT123790,HSP-04,Paeds,2023-05-17,New,Protein Energy Malnutrition,PD04,DR457,480.0,0,8
+OPD3029339,PT107783,HSP-01,Paediatrics,2024-09-18,New,Febrile Illness in Child,PD02,DR213,489.0,0,39
+OPD3150390,PT139406,HSP-03,General Surgery,2023-02-17,New,appendicitis acute,GS01,DR189,518.0,0,23
+OPD3060924,PT116195,HSP-01,ENDOCRINOLOGY,2023-02-22,Follow-up,Obesity with Metabolic Syndrome,ED03,DR328,675.0,0,80
+OPD3108725,PT128516,HSP-02,General Medicine,2024-09-20,New,Iron Deficiency Anaemia,GM05,DR250,556.0,0,15
+OPD3070829,PT118724,HSP-03,General Surgery,2022-11-16,Follow-up,Cholelithiasis,GS03,DR425,548.0,0,45
+OPD3105416,PT127682,HSP-04,Obstetrics & Gynaecology,2024-09-24,New,Abnormal Uterine Bleeding,OG02,DR435,849.0,0,27
+OPD3042796,PT111521,HSP-01,Orthopaedics,2023-12-26,Follow-up,Knee OA bilateral,OR01,DR266,691.0,0,49
+OPD3011965,PT103255,hsp 01,Pulmonology,2023-10-15,Follow-up,Bronchial Asthma,PU02,DR220,936.0,14,7
+OPD3101210,PT126650,HSP-02,Pulmonology,2022-12-05,New,Bronchial Asthma,PU02,DR277,746.0,0,57
+OPD3157642,PT141338,HSP-01,General Medicine,2023-10-28,Follow-up,Essential Hypertension,GM03,DR344,377.0,7,61
+OPD3099763,PT126274,HSP-03,Cardiology,2023-04-01,New,Congestive Heart Failure,CD01,DR259,1053.0,0,34
+OPD3068440,PT118080,HSP-01,General Medicine,2022-10-17,Follow-up,Iron Deficiency Anaemia,GM05,DR404,417.0,30,21
+OPD3004330,PT101143,HSP-01,Endocrinology,2023-12-21,Follow-up,Obesity with Metabolic Syndrome,ED03,DR417,799.0,7,47
+OPD3091846,PT124222,HSP-02,ENT,2024-11-21,New,Allergic Rhinitis,EN02,DR424,579.0,0,36
+OPD3036089,PT109629,HSP-04,General Medicine,2023-10-31,Follow-up,Essential Hypertension,GM03,DR104,410.0,14,50
+OPD9000643,PT112704,HSP-01,Nephrology,2024-01-16,Follow-up,Nephrotic Syndrome,NP03,DR210,691.0,0,52
+OPD3012384,PT103361,HSP-03,Cardiology,2024-03-28,Follow-up,Atrial Fibrillation,CD03,DR158,913.0,21,84
+OPD3068374,PT118069,HSP-04,GENERAL MEDICINE,2024-04-03,Follow-up,Type 2 Diabetes Mellitus,GM02,DR247,584.0,7,48
+OPD3143803,PT137693,hsp 01,Nephrology,2023-08-01,New,Nephrotic Syndrome,NP03,DR278,654.0,0,48
+OPD3035893,PT109570,HSP-03,General Medicine,2022-10-05,New,Type 2 Diabetes Mellitus,GM02,DR388,504.0,0,26
+OPD3046467,PT112460,HSP-03,Orthopaedics,2024-06-07,Follow-up,,OR02,DR407,759.0,0,83
+OPD3084931,PT122384,HSP-03,General Medicine,2023-03-15,Follow-up,Acute Viral Fever,GM01,DR216,316.0,14,32
+OPD3034212,PT109084,HSP-04,General Medicine,2024-01-04,Follow-up,Type 2 Diabetes Mellitus,GM02,DR238,584.0,14,69
+OPD3076866,PT120296,HSP-02,General Medicine,2024-10-18,New,Iron Deficiency Anaemia,GM05,DR363,587.0,0,43
+OPD3061200,PT116286,HSP-01,General Medicine,2022-06-05,Follow-up,Type 2 Diabetes Mellitus,GM02,DR277,355.0,0,12
+OPD3156332,PT141009,HSP-03,Nephrology,2024-06-22,Follow-up,Nephrotic Syndrome,NP03,DR306,758.0,14,75
+OPD3133091,PT134888,HSP-04,Pulmonology,2022-07-07,Follow-up,Chronic Obstructive Pulmonary Disease,PU01,DR370,584.0,30,41
+OPD3091416,PT124099,HSP-01,General Medicine,2024-10-03,Follow-up,Type 2 Diabetes Mellitus,GM02,DR253,387.0,7,39
+OPD3151599,PT139750,HSP-02,General Medicine,2024-08-06,New,Iron Deficiency Anaemia,GM05,DR376,461.0,0,77
+OPD3150030,PT139296,HSP-02,Orthopaedics,2024-12-13,New,Fracture of Distal Radius,OR02,DR226,637.0,0,34
+OPD3019057,PT105110,HSP-01,Dermatology,2023-10-25,New,Tinea Corporis,DR02,DR374,715.0,0,87
+OPD3040925,PT111029,HSP-03,Endocrinology,2023-07-25,Follow-up,Obesity with Metabolic Syndrome,ED03,DR225,776.0,21,68
+OPD3153798,PT140353,HSP-03,General Surgery,2022-01-01,New,Cholelithiasis,GS03,DR121,511.0,0,3
+OPD3099581,PT126213,HSP-01,Orthopaedics,2024-10-12,New,Mechanical Low Back Pain,OR03,DR173,581.0,0,42
+OPD3101633,PT126765,HSP-04,General Medicine,2024-11-21,New,Iron Deficiency Anaemia,GM05,DR302,447.0,0,12
+OPD3047842,PT112821,HSP-01,General Medicine,2023-04-09,Follow-up,Essential Hypertension,GM03,DR157,593.0,14,52
+OPD3061744,PT116421,HSP-02,General Medicine,2022-09-16,Follow-up,Viral Fever (acute),GM01,DR198,369.0,0,47
+OPD3156689,PT141110,HSP-02,,2024-01-18,New,Acute Gastroenteritis,GM04,DR454,500.0,0,18
+OPD3140145,PT136701,HSP-04,ENT,2022-03-16,Follow-up,Acute Tonsillitis,EN03,DR263,489.0,30,12
+OPD3129276,PT133855,HSP-04,Pulmonology,2024-04-26,New,COPD,PU01,DR331,897.0,0,79
+OPD3122539,PT132093,HSP-01,Pulmonology,2024-04-09,Follow-up,Community Acquired Pneumonia,PU03,DR283,701.0,7,70
+OPD3012613,PT103425,HSP-03,Cardiology,2022-01-01,New,Congestive Heart Failure,CD01,DR447,1499.0,0,83
+OPD3153576,PT140292,HSP-01,Pulmonology,2022-08-16,Follow-up,Community Acquired Pneumonia,PU03,DR298,816.0,30,77
+OPD3116385,PT130499,HSP-03,General Medicine,2024-10-29,Follow-up,Essential Hypertension,GM03,DR422,321.0,60,5
+OPD3112180,PT129454,HSP-03,General Surgery,2022-01-01,New,Cholelithiasis,GS03,DR181,531.0,0,56
+OPD3034996,PT109305,HSP-01,Dermatology,2023-10-14,Follow-up,Chronic Urticaria,DR04,DR126,605.0,0,56
+OPD3035281,PT109381,HSP-01,ENT,2023-10-10,New,,EN01,DR276,582.0,0,6
+OPD3046264,PT112409,HSP-03,Pulmonology,2023-04-08,New,Bronchial Asthma,PU02,DR436,807.0,0,15
+OPD3138435,PT136253,HSP-01,Endocrinology,2022-10-20,Follow-up,Type 2 Diabetes Mellitus,ED01,DR408,631.0,7,5
+OPD3114274,PT129979,HSP-01,,2023-02-25,New,Hypothyroidism,ED02,DR372,560.0,0,61
+OPD3153427,PT140245,MIYAPUR COMMUNITY HOSPITAL,Orthopaedics,2022-05-31,Follow-up,Osteoarthritis of Knee,OR01,DR146,559.0,14,14
+OPD9000959,PT112840,HSP-01,Cardiology,2022-06-21,New,Stable Angina Pectoris,CD02,DR311,915.0,0,64
+OPD3095037,PT125074,HSP-03,Pulmonology,2023-02-22,Follow-up,Community Acquired Pneumonia,PU03,DR340,703.0,0,42
+OPD3074707,PT119683,HSP-03,Paediatrics,2024-04-19,Follow-up,Febrile Illness in Child,PD02,DR264,346.0,21,9
+OPD3108421,PT128431,HSP-03,Orthopaedics,2024-08-24,New,Ligament Injury of Knee,OR04,DR362,787.0,0,12
+OPD3116289,PT130467,HSP-04,,2022-12-03,New,Acute Otitis Media,PD03,DR159,505.0,0,58
+OPD3004639,PT101224,HSP-02,General Medicine,2024-07-02,Follow-up,Iron Deficiency Anaemia,GM05,DR217,472.0,0,3
+OPD3039384,PT110592,HSP-02,ENT,2023-05-15,New,Chronic Suppurative Otitis Media,EN01,DR298,634.0,0,55
+OPD3048108,PT112890,HSP-03,Orthopaedics,2024-11-04,Follow-up,Knee OA bilateral,OR01,DR209,544.0,21,79
+OPD3028481,PT107585,HSP-04,Pulmonology,2024-03-12,New,Community Acquired Pneumonia,PU03,DR151,839.0,0,61
+OPD3159874,PT141964,HSP-02,General Medicine,2023-09-10,New,acute gastro-enteritis,GM04,DR104,513.0,0,46
+OPD3098407,PT125936,HSP-01,Orthopaedics,2024-01-22,Follow-up,Fracture of Distal Radius,OR02,DR134,548.0,60,6
+OPD3095782,PT125233,HSP-04,Orthopaedics,2022-08-21,New,Osteoarthritis of Knee,OR01,DR325,672.0,0,40
+OPD3099747,PT126268,HSP-03,General Medicine,2023-12-30,Follow-up,Acute Viral Fever,GM01,DR423,571.0,21,7
+OPD3099289,PT126149,HSP-03,PULMONOLOGY,2022-02-02,Follow-up,C.O.P.D,PU01,DR297,897.0,0,66
+OPD3121549,PT131858,HSP-03,Cardiology,2022-04-05,Follow-up,Stable Angina Pectoris,CD02,DR356,1041.0,0,78
+OPD3033549,PT108880,HSP-01,Cardiology,2023-09-14,Follow-up,Atrial Fibrillation,CD03,DR252,1384.0,7,2
+OPD3031581,PT108355,HSP-03,Paediatrics,2023-07-14,Follow-up,Acute Bronchiolitis,PD01,DR136,389.0,21,83
+OPD3010043,PT102747,HSP-03,Obstetrics & Gynaecology,2022-01-16,New,Antenatal Care - Second Trimester,OG01,DR306,858.0,0,88
+OPD3076175,PT120107,MIYAPUR COMMUNITY HOSPITAL,Pulmonology,2023-07-15,Follow-up,Community Acquired Pneumonia,PU03,DR328,518.0,0,4
+OPD3053028,PT114166,HSP-01,Orthopaedics,2023-09-15,Follow-up,Osteoarthritis of Knee,OR01,DR122,700.0,7,4
+OPD3108708,PT128514,HSP-01,General Medicine,2022-12-08,New,Type 2 Diabetes Mellitus,GM02,DR176,569.0,0,71
+OPD3008942,PT102421,HSP-02,Pulmonology,2023-04-06,Follow-up,Bronchial Asthma,PU02,DR406,616.0,0,82
+OPD3068138,PT118011,HSP-02,Obstetrics & Gynaecology,2022-05-31,New,Abnormal Uterine Bleeding,OG02,DR259,775.0,0,45
+OPD3011047,PT103014,HSP-03,Pulmonology,2022-01-03,Follow-up,Bronchial Asthma,PU02,DR306,830.0,0,39
+OPD3121339,PT131799,HSP-04,Pulmonology,2023-04-23,Follow-up,Chronic Obstructive Pulmonary Disease,PU01,DR253,945.0,90,86
+OPD3155931,PT140914,HSP-01,Endocrinology,2023-09-06,Follow-up,Hypo-thyroidism,ED02,DR355,630.0,14,68
+OPD3143406,PT137586,HSP-04,,2023-07-24,Follow-up,Mechanical Low Back Pain,OR03,DR192,651.0,14,54
+OPD3009679,PT102632,HSP-04,ENT,2024-11-27,New,Allergic Rhinitis,EN02,DR202,466.0,0,62
+OPD3003437,PT100896,HSP-03,ENT,2024-10-31,Follow-up,Chronic Suppurative Otitis Media,EN01,DR403,495.0,0,81
+OPD3061786,PT116424,HSP-03,General Medicine,2024-08-09,Follow-up,Type 2 Diabetes Mellitus,GM02,DR184,317.0,21,24
+OPD3108266,PT128385,HSP-03,General Medicine,2022-07-22,Follow-up,Type-2 D.M.,GM02,DR176,555.0,30,36
+OPD3023011,PT106146,Miyapur Community Hospital,Paediatrics,2022-11-17,Follow-up,Acute Otitis Media,PD03,DR296,450.0,21,75
+OPD3069736,PT118418,HSP-03,Dermatology,2022-05-03,Follow-up,Tinea Corporis,DR02,DR142,644.0,7,24
+OPD3104898,PT127557,HSP-03,General Medicine,2022-10-28,Follow-up,Iron Deficiency Anaemia,GM05,DR433,494.0,0,27
+OPD3149920,PT139278,HSP-02,General Medicine,2024-10-25,New,Essential Hypertension,GM03,DR321,589.0,0,74
+OPD3021191,PT105683,HSP-04,Paediatrics,2024-10-17,New,Febrile Illness in Child,PD02,DR355,532.0,0,58
+OPD3086894,PT122929,HSP-02,General Medicine,2022-11-22,Follow-up,Type 2 Diabetes Mellitus,GM02,DR111,585.0,0,11
+OPD3002978,PT100770,HSP-01,Dermatology,2022-12-21,Follow-up,Acne Vulgaris,DR03,DR246,476.0,90,86
+OPD3016105,PT104346,HSP-02,General Medicine,2023-11-14,New,Iron Deficiency Anaemia,GM05,DR187,348.0,0,59
+OPD3157089,PT141206,HSP-02,Pulmonology,2024-07-08,New,COPD,PU01,DR182,851.0,0,24
+OPD3159749,PT141918,HSP-01,General Medicine,2024-11-21,New,Type 2 Diabetes Mellitus,GM02,DR349,365.0,0,3
+OPD3053608,PT114330,HSP-02,General Medicine,2023-10-25,New,Type 2 Diabetes Mellitus,GM02,DR393,502.0,0,68
+OPD3036953,PT109895,HSP-02,General Medicine,2022-09-24,Follow-up,Iron Deficiency Anaemia,GM05,DR266,474.0,14,48
+OPD3047124,PT112626,HSP-01,Cardiology,2022-02-13,Follow-up,Congestive Heart Failure,CD01,DR315,1294.0,60,8
+OPD3043774,PT111759,HSP-04,General Medicine,2024-10-29,New,Iron Deficiency Anaemia,GM05,DR184,381.0,0,16
+OPD3146342,PT138413,HSP-03,Endocrinology,2023-10-24,New,Type 2 Diabetes Mellitus,ED01,DR192,627.0,0,71
+OPD3121698,PT131877,HSP-01,Paediatrics,2022-07-10,Follow-up,Acute Bronchiolitis,PD01,DR277,351.0,30,52
+OPD3146719,PT138503,HSP-01,Dermatology,2023-10-03,New,Tinea Corporis,DR02,DR388,501.0,0,64
+OPD3030139,PT108020,HSP-02,General Medicine,2022-03-07,New,acute gastro-enteritis,GM04,DR161,561.0,0,1
+OPD3151042,PT139596,HSP-02,Orthopaedics,2022-08-09,New,Fracture of Distal Radius,OR02,DR403,847.0,0,30
+OPD3033112,PT108767,HSP-02,Pulmonology,2024-10-03,Follow-up,community acquired pneumonia,PU03,DR418,518.0,0,68
+OPD3114184,PT129965,HSP-01,Dermatology,2024-01-27,Follow-up,Acne Vulgaris,DR03,DR138,564.0,0,49
+OPD3085463,PT122528,HSP-02,Orthopaedics,2024-09-23,Follow-up,Fracture of Distal Radius,OR02,DR160,796.0,14,74
+OPD9002318,PT100714,HSP-03,Ophthalmology,2024-02-20,New,Acute Conjunctivitis,OP04,DR172,390.0,0,64
+OPD3035876,PT109564,AMEERPET COMMUNITY HOSPITAL,Ophthalmology,2022-01-13,New,Cataract - senile,OP01,DR280,565.0,0,17
+OPD3053531,PT114302,HSP-03,Pulmonology,2023-01-23,Follow-up,Chronic Obstructive Pulmonary Disease,PU01,DR267,548.0,21,89
+OPD3029052,PT107718,HSP-02,Orthopaedics,2022-01-01,New,Ligament Injury of Knee,OR04,DR139,810.0,0,70
+OPD3129085,PT133815,HSP-03,Cardiology,2023-07-04,New,Congestive Heart Failure,CD01,DR279,1409.0,0,20
+OPD3154979,PT140687,HSP-02,Pulmonology,2023-06-25,Follow-up,Bronchial Asthma,PU02,DR391,926.0,0,86
+OPD3068015,PT117967,Kukatpally Community Hospital,Dermatology,2023-04-10,Follow-up,Acne Vulgaris,DR03,DR307,433.0,0,41
+OPD3082049,PT121688,Hosp-2,Obstetrics & Gynaecology,2023-06-24,New,Abnormal Uterine Bleeding,OG02,DR126,827.0,0,68
+OPD3116718,PT130617,HSP-03,General Medicine,2023-07-19,Follow-up,Iron Deficiency Anaemia,GM05,DR364,426.0,7,10
+OPD3105931,PT127806,HSP-04,Obstetrics & Gynaecology,2024-12-13,New,Postnatal Care,OG04,DR250,507.0,0,1
+OPD3091800,PT124205,HSP-01,Cardiology,2022-01-01,New,Congestive Heart Failure,CD01,DR432,813.0,0,72
+OPD3067591,PT117862,HSP-01,Nephrology,2022-12-19,Follow-up,Acute Kidney Injury,NP02,DR275,635.0,14,80
+OPD3133915,PT135108,HSP-02,General Medicine,2022-12-08,Follow-up,Iron Deficiency Anaemia,GM05,DR153,383.0,21,61
+OPD3027827,PT107413,HSP-02,General Medicine,2024-03-13,Follow-up,Acute Viral Fever,GM01,DR226,558.0,14,50
+OPD3103737,PT127277,HSP-01,General Medicine,2024-08-29,Follow-up,Iron Deficiency Anaemia,GM05,DR106,308.0,30,78
+OPD3073595,PT119374,HSP-04,Paediatrics,2024-03-10,New,Acute Otitis Media,PD03,DR358,464.0,0,58
+OPD3069587,PT118388,HSP-03,Pulmonology,2022-08-08,Follow-up,Bronchial Asthma,PU02,DR109,687.0,30,4
+OPD3078878,PT120826,HSP-04,Obstetrics & Gynaecology,2024-06-20,New,Antenatal care 2nd trim,OG01,DR348,633.0,0,20
+OPD3150669,PT139479,HSP-01,General Medicine,2024-01-17,Follow-up,Type 2 Diabetes mellitus (T2DM),GM02,DR239,317.0,30,3
+OPD3080029,PT121137,HSP-03,Nephrology,2022-06-06,New,Nephrotic Syndrome,NP03,DR425,778.0,0,40
+OPD3077162,PT120378,HSP-02,Paediatrics,2024-06-07,Follow-up,Protein Energy Malnutrition,PD04,DR396,499.0,60,89
+OPD3056480,PT115080,HSP-03,Orthopaedics,2022-03-22,Follow-up,Ligament Injury of Knee,OR04,DR283,708.0,90,44
+OPD3018446,PT104948,HSP-01,Paediatrics,2024-10-14,New,Febrile Illness in Child,PD02,DR246,361.0,0,17
+OPD3005807,PT101565,HSP-04,Pulmonology,2023-11-16,Follow-up,Community Acquired Pneumonia,PU03,DR257,525.0,60,37
+OPD3157957,PT141416,HSP-03,Nephrology,2024-11-02,Follow-up,Nephrotic Syndrome,NP03,DR105,918.0,60,83
+OPD3154437,PT140529,HSP-02,General Medicine,2022-12-13,Follow-up,Iron Deficiency Anaemia,GM05,DR252,496.0,30,63
+OPD3076652,PT120243,HSP-04,Paediatrics,2022-04-27,Follow-up,Protein Energy Malnutrition,PD04,DR347,396.0,0,54
+OPD3118088,PT130937,HSP-01,Nephrology,2023-01-01,New,Chronic Kidney Disease Stage 3,NP01,DR254,1018.0,0,89
+OPD3103470,PT127209,HSP-02,DERMATOLOGY,2022-02-08,Follow-up,Chronic Urticaria,DR04,DR178,,30,53
+OPD3058095,PT115460,HSP-03,ENT,2022-01-01,New,Acute Tonsillitis,EN03,DR442,514.0,0,14
+OPD3104182,PT127378,HSP-03,Endocrinology,2024-10-12,New,Type 2 Diabetes Mellitus,ED01,DR170,587.0,0,17
+OPD3001222,PT100291,HSP-01,Orthopaedics,2024-11-14,New,Ligament Injury of Knee,OR04,DR167,676.0,0,30
+OPD3153315,PT140223,Hosp-3,Cardiology,2023-05-08,Follow-up,Atrial Fibrillation,CD03,DR200,829.0,14,65
+OPD3125543,PT132869,HSP-01,Endocrinology,2022-09-29,New,hypothyroid,ED02,DR399,715.0,0,48
+OPD3092558,PT124402,HSP-03,Pulmonology,2023-06-07,Follow-up,Chronic Obstructive Pulmonary Disease,PU01,DR431,745.0,14,40
+OPD3100078,PT126353,HSP-04,Paediatrics,2024-12-09,New,acute bronchiolitis (viral),PD01,DR339,438.0,0,55
+OPD3015601,PT104219,HSP-01,Dermatology,2023-04-07,Follow-up,Tinea Corporis,DR02,DR454,746.0,7,35
+OPD3096197,PT125346,HSP-03,General Surgery,2023-03-19,New,Cholelithiasis,GS03,DR175,817.0,0,48
+OPD3091001,PT124002,HSP-02,Pulmonology,2024-01-16,Follow-up,Chronic Obstructive Pulmonary Disease,PU01,DR154,649.0,30,67
+OPD3002848,PT100733,HSP-02,PULMONOLOGY,2024-06-29,Follow-up,Bronchial Asthma,PU02,DR365,902.0,21,15
+OPD3012471,PT103384,HSP-02,General Surgery,2024-10-03,New,Cholelithiasis,GS03,DR118,522.0,0,69
+OPD3027085,PT107201,HSP-02,General Medicine,2023-03-03,New,Essential Hypertension,GM03,DR335,413.0,0,20
+OPD3060955,PT116207,HSP-04,ENT,2024-04-03,New,Chronic Suppurative Otitis Media,EN01,DR145,698.0,0,84
+OPD3033943,PT109008,HSP-03,Nephrology,2024-01-02,New,Nephrotic Syndrome,NP03,DR209,1076.0,0,52
+OPD3001289,PT100304,HSP-01,Pulmonology,2023-11-20,Follow-up,COPD,PU01,DR177,829.0,7,65
+OPD3075147,PT119803,HSP-01,Pulmonology,2023-12-05,Follow-up,Chronic Obstructive Pulmonary Disease,PU01,DR232,864.0,0,8
+OPD3001405,PT100341,HSP-01,Obstetrics & Gynaecology,2023-05-25,Follow-up,Antenatal Care - Second Trimester,OG01,DR171,,30,54
+OPD3067240,PT117786,HSP-01,General Surgery,2024-11-21,New,Inguinal Hernia,GS02,DR282,686.0,0,64
+OPD3070070,PT118520,HSP-03,General Medicine,2023-07-12,Follow-up,Esenntial Hypertension,GM03,DR354,569.0,14,68
+OPD3158883,PT141680,HSP-03,Cardiology,2024-07-12,New,Atrial Fibrillation,CD03,DR248,1001.0,0,3
+OPD3143881,PT137706,HSP-02,ENT,2023-11-10,Follow-up,Chronic Suppurative Otitis Media,EN01,DR108,651.0,30,1
+OPD3016040,PT104323,HSP-01,Endocrinology,2024-07-11,Follow-up,Type 2 Diabetes Mellitus,ED01,DR445,692.0,30,89
+OPD3079394,PT120972,HSP-04,Pulmonology,2022-04-11,New,Bronchial Asthma,PU02,DR291,677.0,0,12
+OPD3090662,PT123902,HSP-01,Gen Med,2022-01-21,New,Acute Gastroenteritis,GM04,DR122,426.0,0,65
+OPD3158193,PT141479,HSP-01,General Medicine,2023-04-07,Follow-up,Type 2 Diabetes Mellitus,GM02,DR333,334.0,21,58
+OPD3075471,PT119909,HSP-03,Nephrology,2022-11-30,New,Acute Kidney Injury,NP02,DR205,839.0,0,65
+OPD3117819,PT130870,HSP-03,General Medicine,2024-01-24,New,Type 2 Diabetes Mellitus,GM02,DR138,406.0,0,81
+OPD3101887,PT126823,HSP-02,Pulmonology,2023-12-17,Follow-up,Community Acquired Pneumonia,PU03,DR328,583.0,14,81
+OPD3156189,PT140974,HSP-01,Nephrology,2023-07-08,Follow-up,Chronic Kidney Disease Stage 3,NP01,DR260,1047.0,7,37
+OPD3066603,PT117600,HSP-02,ENT,2022-08-06,Follow-up,Chronic Suppurative Otitis Media,EN01,DR165,611.0,0,21
+OPD3121802,PT131906,HSP-01,Endocrinology,2024-11-29,Follow-up,Type 2 Diabetes Mellitus,ED01,DR451,669.0,21,34
+OPD3073411,PT119335,HSP-01,Nephrology,2024-05-10,Follow-up,Nephrotic Syndrome,NP03,DR191,715.0,14,29
+OPD3012262,PT103335,HSP-01,Endocrinology,2023-01-07,Follow-up,Hypo-thyroidism,ED02,DR210,635.0,0,66
+OPD3141811,PT137134,HSP-03,Obstetrics & Gynaecology,2022-01-01,New,Postnatal Care,OG04,DR415,732.0,0,59
+OPD3130233,PT134111,HSP-04,Obstetrics & Gynaecology,2022-01-01,New,Postnatal Care,OG04,DR397,725.0,0,71
+OPD3072865,PT119214,HSP-02,ENT,2024-03-27,New,Acute Tonsillitis,EN03,DR422,441.0,0,20
+OPD3061960,PT116476,HSP-04,Pulmonology,2024-04-25,New,Bronchial Asthma,PU02,DR122,631.0,0,23
+OPD3041656,PT111207,HSP-02,General Medicine,2022-08-23,Follow-up,T2DM,GM02,DR424,405.0,30,47
+OPD3027181,PT107222,HSP-04,ENT,2024-08-09,New,Chronic Suppurative Otitis Media,EN01,DR355,658.0,0,71
+OPD3096692,PT125487,HSP-01,dermatology,2024-08-17,Follow-up,Atopic Dermatitis,DR01,DR177,498.0,0,81
+OPD3100313,PT126405,HSP-03,Dermatology,2023-08-09,New,Tinea Corporis,DR02,DR402,467.0,0,73
+OPD3081795,PT121623,Miyapur Community Hospital,,2024-09-20,Follow-up,Essential Hypertension,GM03,DR337,504.0,7,85
+OPD3101660,PT126773,HSP-04,General Medicine,2022-10-11,New,Gastroenteritis acute,GM04,DR237,315.0,0,22
+OPD9001253,PT105475,HSP-02,General Medicine,2022-01-01,Follow-up,Essential Hypertension,GM03,DR302,575.0,30,10
+OPD3116182,PT130439,HSP-02,General Medicine,2023-09-22,Follow-up,upper respiratory infection,GM06,DR283,462.0,30,76
+OPD3038152,PT110243,HSP-01,Nephrology,2023-10-24,Follow-up,Chronic Kidney Disease Stage 3,NP01,DR351,802.0,0,14
+OPD3013141,PT103569,HSP-03,Endocrinology,2024-12-03,Follow-up,Type 2 Diabetes Mellitus,ED01,DR278,881.0,30,15
+OPD3018719,PT105017,HSP-01,Nephrology,2023-10-30,Follow-up,Chronic Kidney Disease Stage 3,NP01,DR357,716.0,14,13
+OPD3138554,PT136279,HSP-02,General Medicine,2022-02-18,Follow-up,Acute Gastroenteritis,GM04,DR386,371.0,0,84
+OPD3120081,PT131486,HSP-01,General Medicine,2023-01-06,New,Type 2 Diabetes Mellitus,GM02,DR391,409.0,0,75
+OPD3082209,PT121728,HSP-03,ENT,2023-05-05,Follow-up,Acute Tonsillitis,EN03,DR197,639.0,30,10
+OPD3107966,PT128309,HSP-01,General Medicine,2023-04-28,New,Upper Respiratory Tract Infection,GM06,DR246,366.0,0,56
+OPD3035220,PT109363,HSP-01,General Medicine,2023-03-20,New,Essential Hypertension,GM03,DR443,437.0,0,40
+OPD3026413,PT107012,HSP-01,General Medicine,2022-03-08,Follow-up,Gastroenteritis acute,GM04,DR367,592.0,21,10
+OPD9001617,PT116683,HSP-03,Cardiology,2023-03-11,Follow-up,Stable Angina Pectoris,CD02,DR255,975.0,0,17
+OPD3085745,PT122599,HSP-02,General Medicine,2023-05-04,Follow-up,Type 2 Diabetes Mellitus,GM02,DR240,349.0,21,43
+OPD3150664,PT139479,HSP-01,General Medicine,2023-05-26,New,Upper Respiratory Tract Infection,GM06,DR153,538.0,0,44
+OPD3120530,PT131621,HSP-01,General Medicine,2024-07-27,Follow-up,Acute Gastroenteritis,GM04,DR153,506.0,0,53
+OPD3129038,PT133805,HSP-03,General Medicine,2023-07-14,Follow-up,Acute Gastroenteritis,GM04,DR150,410.0,30,68
+OPD3138225,PT136201,HSP-02,Pulmonology,2024-07-25,Follow-up,Bronchial Asthma,PU02,DR126,940.0,60,79
+OPD3119672,PT131371,HSP-01,Nephrology,2022-12-02,Follow-up,Chronic kidney disease stage III,NP01,DR142,912.0,14,27
+OPD3123351,PT132301,HSP-03,ENT,2022-06-01,Follow-up,Acute Tonsillitis,EN03,DR113,453.0,14,10
+OPD3091197,PT124053,HSP-03,Cardiology,2023-03-22,New,Stable Angina Pectoris,CD02,DR281,1082.0,0,4
+OPD3092980,PT124506,HSP-02,General Medicine,2022-01-26,Follow-up,Essential Hypertension,GM03,DR191,338.0,0,72
+OPD3079241,PT120934,HSP-02,General Surgery,2024-10-02,Follow-up,Acute Appendicitis,GS01,DR210,843.0,0,30
+OPD3013214,PT103589,HSP-01,ENT,2022-01-01,New,Allergic Rhinitis,EN02,DR260,490.0,0,15
+OPD3036406,PT109719,HSP-03,Obstetrics & Gynaecology,2023-10-26,Follow-up,ANC 2nd trimester,OG01,DR373,517.0,7,3
+OPD3113755,PT129867,HSP-01,Paediatrics,2022-12-10,Follow-up,,PD04,DR398,403.0,21,81
+OPD3035058,PT109316,HSP-01,Paediatrics,2024-04-30,Follow-up,Acute Otitis Media,PD03,DR238,431.0,7,36
+OPD3145846,PT138276,hsp 01,Pulmonology,2024-04-24,New,Chronic Obstructive Pulmonary Disease,PU01,DR290,859.0,0,47
+OPD3046790,PT112541,HSP-03,Cardiology,2024-05-24,New,CHF,CD01,DR363,1326.0,0,61
+OPD3066493,PT117581,HSP-04,ENT,2024-09-01,New,Acute Tonsillitis,EN03,DR150,578.0,0,30
+OPD3158004,PT141430,HSP-04,General Medicine,2022-02-19,Follow-up,Iron Deficiency Anaemia,GM05,DR299,378.0,14,19
+OPD3059091,PT115725,HSP-01,Pulmonology,2024-10-19,Follow-up,Chronic obstructive lung disease,PU01,DR224,920.0,14,48
+OPD3080098,PT121162,HSP-04,Obstetrics & Gynaecology,2022-01-01,New,Abnormal Uterine Bleeding,OG02,DR430,512.0,0,28
+OPD3133204,PT134915,HSP-01,Nephrology,2023-02-10,New,Chronic kidney disease stage III,NP01,DR452,1035.0,0,24
+OPD3002089,PT100544,HSP-02,General Medicine,2023-04-11,New,Essential Hypertension,GM03,DR403,504.0,0,52
+OPD3148962,PT139036,HSP-01,Cardiology,2022-03-03,Follow-up,Atrial Fibrillation,CD03,DR275,815.0,21,14
+OPD3004294,PT101135,Kukatpally Community Hospital,Orthopaedics,2022-10-12,New,Osteoarthritis of Knee,OR01,DR393,808.0,0,60
+OPD3068364,PT118065,HSP-01,Endocrinology,2022-11-11,Follow-up,Obesity with Metabolic Syndrome,ED03,DR232,712.0,0,18
+OPD3100885,PT126565,HSP-02,Obstetrics & Gynaecology,2023-04-28,Follow-up,Polycystic Ovary Syndrome,OG03,DR160,478.0,0,20
+OPD3052238,PT113971,HSP-01,Orthopaedics,2024-11-08,New,Knee OA bilateral,OR01,DR117,676.0,0,16
+OPD3117519,PT130800,HSP-02,Orthopaedics,2024-05-23,Follow-up,Osteoarthritis of Knee,OR01,DR433,572.0,21,75
+OPD3132091,PT134635,HSP-01,Obstetrics & Gynaecology,2022-01-01,New,Postnatal Care,OG04,DR355,612.0,0,48
+OPD3146144,PT138364,HSP-02,General Medicine,2022-03-05,Follow-up,Type 2 Diabetes Mellitus,GM02,DR337,531.0,21,61
+OPD3132870,PT134834,HSP-01,Endocrinology,2022-03-19,Follow-up,Hypothyroidism,ED02,DR242,672.0,7,35
+OPD3064374,PT117048,HSP-01,Endocrinology,2024-12-19,New,Type 2 Diabetes Mellitus,ED01,DR192,768.0,0,38
+OPD3155907,PT140909,MIYAPUR COMMUNITY HOSPITAL,Pulmonology,2023-10-27,Follow-up,Chronic Obstructive Pulmonary Disease,PU01,DR409,877.0,0,17
+OPD3084868,PT122373,Kukatpally Community Hospital,Pulmonology,2024-10-03,Follow-up,Bronchial Asthma,PU02,DR439,589.0,14,65
+OPD3095221,PT125113,HSP-02,Pulmonology,2022-03-25,Follow-up,Chronic Obstructive Pulmonary Disease,PU01,DR444,783.0,0,56
+OPD3006965,PT101866,HSP-02,General Medicine,2022-03-24,Follow-up,Essential Hypertension,GM03,DR341,464.0,14,39
+OPD3068922,PT118219,HSP-01,Orthopaedics,2022-01-19,Follow-up,Ligament Injury of Knee,OR04,DR135,615.0,0,80
+OPD3128471,PT133652,HSP-04,General Medicine,2022-01-30,New,Acute Gastroenteritis,GM04,DR178,553.0,0,76
+OPD9001118,PT126991,HSP-01,Pulmonology,2022-06-21,Follow-up,Bronchial Asthma,PU02,DR380,858.0,30,29
+OPD3150148,PT139329,HSP-01,Paediatrics,2023-10-11,Follow-up,Acute Otitis Media,PD03,DR196,,60,38
+OPD3135273,PT135427,HSP-03,Paediatrics,2024-03-28,New,Bronchiolitis acute,PD01,DR341,441.0,0,3
+OPD3080926,PT121397,HSP-01,Pulmonology,2024-10-30,New,Chronic Obstructive Pulmonary Disease,PU01,DR233,891.0,0,15
+OPD3115316,PT130251,hsp 03,Paediatrics,2024-10-11,New,Acute Bronchiolitis,PD01,DR387,489.0,0,59
+OPD3109243,PT128639,HSP-02,Pulmonology,2023-11-10,Follow-up,Chronic Obstructive Pulmonary Disease,PU01,DR102,551.0,0,58
+OPD3074307,PT119578,Hosp-2,General Medicine,2022-12-03,Follow-up,AGE,GM04,DR102,569.0,30,81
+OPD3048057,PT112885,HSP-01,Cardiology,2024-08-11,New,Congestive Heart Failure,CD01,DR286,1149.0,0,66
+OPD3039047,PT110486,HSP-04,General Medicine,2024-11-07,Follow-up,Diabetis Mellitus Type 2,GM02,DR112,520.0,0,23
+OPD3081816,PT121625,HSP-04,Pulmonology,2024-10-26,New,Bronchial Asthma,PU02,DR110,503.0,0,53
+OPD3020915,PT105610,KUKATPALLY COMMUNITY HOSPITAL,Paediatrics,2024-06-22,Follow-up,Acute Otitis Media,PD03,DR154,312.0,60,35
+OPD3002871,PT100737,HSP-01,Endocrinology,2023-10-28,Follow-up,Type 2 Diabetes Mellitus,ED01,DR170,879.0,0,43
+OPD3137747,PT136053,HSP-01,Nephrology,2022-12-11,Follow-up,Nephrotic Syndrome,NP03,DR459,623.0,30,62
+OPD9001212,PT135371,HSP-02,General Medicine,2022-07-27,New,HTN - essential,GM03,DR430,595.0,0,32
+OPD3067126,PT117749,HSP-02,ENT,2022-01-01,New,Chronic Suppurative Otitis Media,EN01,DR110,552.0,0,84
+OPD3112860,PT129650,HSP-01,Paediatrics,2022-09-15,Follow-up,Acute Bronchiolitis,PD01,DR132,326.0,0,84
+OPD3097658,PT125728,HSP-02,General Medicine,2023-11-23,Follow-up,Esenntial Hypertension,GM03,DR129,393.0,0,2
+OPD3088268,PT123295,HSP-04,Pulmonology,2023-05-29,New,Bronchial Asthma,PU02,DR294,634.0,0,44
+OPD3151146,PT139623,HSP-04,ENT,2022-12-28,Follow-up,Chronic Suppurative Otitis Media,EN01,DR247,472.0,30,62
+OPD3122047,PT131966,HSP-01,Cardiology,2022-01-25,New,Atrial Fibrillation,CD03,DR266,778.0,0,48
+OPD3009943,PT102713,HSP-01,Nephrology,2024-01-24,Follow-up,Nephrotic Syndrome,NP03,DR124,813.0,0,71
+OPD3099927,PT126309,HSP-04,Obstetrics & Gynaecology,2023-09-02,New,Postnatal Care,OG04,DR339,739.0,0,20
+OPD3088451,PT123331,HSP-01,General Medicine,2023-12-26,Follow-up,Iron Deficiency Anaemia,GM05,DR178,585.0,7,51
+OPD3112490,PT129552,HSP-03,Paediatrics,2022-08-20,New,Febrile Illness in Child,PD02,DR118,414.0,0,35
+OPD3006300,PT101699,HSP-02,Orthopaedics,2023-11-20,Follow-up,Osteoarthritis of Knee,OR01,DR365,806.0,0,59
+OPD3111021,,HSP-01,Nephrology,2022-10-14,Follow-up,Chronic kidney disease stage III,NP01,DR321,710.0,60,41
+OPD3042668,PT111474,HSP-02,ENT,2022-05-03,New,Allergic Rhinitis,EN02,DR288,528.0,0,84
+OPD3078418,PT120698,HSP-03,Endocrinology,2024-05-01,Follow-up,Hypothyroidism,ED02,DR110,895.0,30,51
+OPD3055017,PT114724,HSP-03,General Surgery,2024-10-19,Follow-up,Cholelithiasis,GS03,DR133,689.0,0,57
+OPD3102788,PT127046,HSP-02,General Medicine,2023-02-25,New,Iron Deficiency Anaemia,GM05,DR219,371.0,0,49
+OPD3048998,PT113144,HSP-03,Paediatrics,2022-11-16,New,Protein Energy Malnutrition,PD04,DR120,403.0,0,21
+OPD3135720,PT135565,HSP-02,Obstetrics & Gynaecology,2022-10-04,Follow-up,Antenatal Care - Second Trimester,OG01,DR452,478.0,0,12
+OPD3122105,PT131979,HSP-04,Generalmedicine,2023-01-18,Follow-up,Diabetis Mellitus Type 2,GM02,DR205,521.0,21,16
+OPD3036576,PT109780,HSP-03,Endocrinology,2024-04-01,New,Hypothyroidism,ED02,DR433,903.0,0,70
+OPD3094270,PT124865,HSP-03,Obstetrics & Gynaecology,2024-09-14,New,ANC - II trimester,OG01,DR184,865.0,0,72
+OPD3004877,PT101286,HSP-04,Orthopaedics,2024-04-10,New,Osteoarthritis of Knee,OR01,DR299,615.0,0,1
+OPD3045646,PT112279,HSP-01,General Medicine,2023-06-26,Follow-up,Essential Hypertension,GM03,DR386,586.0,30,74
+OPD3050218,PT113471,HSP-01,Gen. Surgery,2024-12-26,New,Acute Fissure in Ano,GS04,DR405,736.0,0,45
+OPD3009211,PT102498,HSP-04,Ophthalmology,2022-06-21,New,senile cataract (both eyes),OP01,DR201,420.0,0,23
+OPD3099899,PT126298,HSP-02,General Medicine,2024-02-17,Follow-up,Type 2 Diabetes Mellitus,GM02,DR308,499.0,0,41
+OPD3069183,PT118283,HSP-04,General Medicine,2024-10-29,Follow-up,Acute Viral Fever,GM01,DR454,349.0,0,46
+OPD3095186,PT125109,HSP-01,General Medicine,2024-02-13,New,acute gastro-enteritis,GM04,DR222,524.0,0,81
+OPD3006948,PT101862,HSP-01,Nephrology,2022-08-23,Follow-up,Nephrotic Syndrome,NP03,DR304,1031.0,21,41
+OPD3025722,PT106814,Hosp-3,Obstetrics & Gynaecology,2022-09-02,Follow-up,Postnatal Care,OG04,DR451,766.0,0,62
+OPD3065703,PT117368,HSP-02,General Medicine,2024-05-10,Follow-up,Acute viral pyrexia,GM01,DR273,521.0,0,67
+OPD3052428,PT114022,HSP-04,Orthopaedics,2022-07-01,Follow-up,Fracture of Distal Radius,OR02,DR234,617.0,7,53
+OPD3129498,PT133918,HSP-03,Endocrinology,2024-06-14,Follow-up,Hypothyroidism,ED02,DR169,805.0,0,66
+OPD3079116,PT120893,HSP-03,General Medicine,2024-10-15,Follow-up,Type 2 Diabetes Mellitus,GM02,DR415,568.0,30,17
+OPD3076084,PT120078,HSP-03,Cardiology,2024-05-13,New,Congestive Heart Failure,CD01,DR393,1327.0,0,80
+OPD3030519,PT108116,Kukatpally Community Hospital,ENT,2022-12-24,Follow-up,Allergic Rhinitis,EN02,DR446,429.0,21,58
+OPD3079373,PT120964,HSP-03,Orthopaedics,2023-09-05,New,Osteoarthritis of Knee,OR01,DR352,658.0,0,54
+OPD3034900,PT109282,HSP-03,Pulmonology,2023-12-28,New,Bronchial Asthma,PU02,DR456,638.0,0,54
+OPD3141016,PT136926,HSP-01,Endocrinology,2022-04-14,New,Obesity with Metabolic Syndrome,ED03,DR301,666.0,0,64
+OPD3157194,PT141230,HSP-02,Pulmonology,2024-06-20,New,Chronic Obstructive Pulmonary Disease,PU01,DR401,875.0,0,49
+OPD3026663,PT107070,Hosp-1,Pulm. Medicine,2022-12-05,Follow-up,Community Acquired Pneumonia,PU03,DR202,608.0,14,48
+OPD3026453,PT107023,HSP-03,General Medicine,2022-03-14,Follow-up,Type 2 Diabetes Mellitus,GM02,DR115,540.0,0,6
+OPD3016242,PT104370,HSP-04,Paediatrics,2023-06-01,Follow-up,Febrile Illness in Child,PD02,DR402,322.0,21,38
+OPD3091359,PT124086,HSP-01,Orthopaedics,2022-07-02,Follow-up,OA knee,OR01,DR222,644.0,0,5
+OPD3149780,PT139248,HSP-01,Paediatrics,2024-05-08,New,Febrile Illness in Child,PD02,DR341,341.0,0,48
+OPD3024030,PT106371,HSP-03,Paediatrics,2023-09-20,New,Acute Otitis Media,PD03,DR145,404.0,0,64
+OPD3024927,PT106583,HSP-02,General Medicine,2023-10-07,Follow-up,Iron Deficiency Anaemia,GM05,DR401,523.0,60,16
+OPD3052143,PT113936,HSP-04,Orthopaedics,2022-10-26,New,Osteoarthritis of Knee,OR01,DR244,681.0,0,27
+OPD3017527,PT104707,HSP-02,Pulmonology,2023-08-29,Follow-up,Bronchial Asthma,PU02,DR219,537.0,7,71
+OPD9000526,PT100099,HSP-01,Paediatrics,2023-06-02,New,Febrile Illness in Child,PD02,DR337,332.0,0,44
+OPD3005722,PT101547,HSP-03,Endo,2024-06-03,Follow-up,Obesity with Metabolic Syndrome,ED03,DR107,988.0,14,89
+OPD3124241,PT132511,HSP-01,General Medicine,2024-01-20,Follow-up,Type 2 Diabetes Mellitus,GM02,DR244,304.0,21,85
+OPD3137161,PT135932,HSP-03,Pulmonology,,Follow-up,Bronchial Asthma,PU02,DR247,667.0,0,30
+OPD3045256,PT112182,HSP-01,Pulmonology,2022-08-17,Follow-up,Chronic Obstructive Pulmonary Disease,PU01,DR415,607.0,14,41
+OPD3062202,PT116535,HSP-02,Orthopaedics,2024-03-20,Follow-up,Ligament Injury of Knee,OR04,DR447,461.0,14,24
+OPD3044635,PT112023,HSP-02,Pulmonology,2024-11-13,Follow-up,COPD,PU01,DR327,937.0,0,3
+OPD3139907,PT136631,HSP-02,Paediatrics,2024-08-24,Follow-up,Acute Otitis Media,PD03,DR349,412.0,0,76
+OPD3056500,PT115087,HSP-01,Dermatology,2023-09-26,Follow-up,Atopic Dermatitis,DR01,DR292,441.0,7,1
+OPD3156640,PT141101,HSP-03,Cardiology,2024-11-23,Follow-up,Atrial Fibrillation,CD03,DR356,1323.0,0,9
+OPD3138766,PT136347,HSP-01,General Surgery,2024-08-13,New,appendicitis acute,GS01,DR107,746.0,0,82
+OPD3045858,PT112330,HSP-01,Endocrinology,2022-09-10,Follow-up,Hypothyroidism,ED02,DR426,711.0,14,13
+OPD3058837,PT115662,HSP-02,Orthopaedics,2022-08-23,New,Mechanical Low Back Pain,OR03,DR458,496.0,0,13
+OPD3138962,PT136403,HSP-02,Orthopaedics,2023-01-28,Follow-up,Fracture of Distal Radius,OR02,DR371,522.0,30,77
+OPD3051940,PT113888,HSP-01,Dermatology,2022-01-09,Follow-up,Atopic Dermatitis,DR01,DR235,519.0,0,69
+OPD3154011,PT140417,HSP-03,Cardiology,2022-11-14,Follow-up,Stable Angina Pectoris,CD02,DR224,1270.0,30,39
+OPD3084603,PT122311,HSP-02,Pulmonology,2024-08-21,New,Bronchial Asthma,PU02,DR111,838.0,0,3
+OPD9000642,PT109720,HSP-01,General Medicine,2023-01-08,New,Essential Hypertension,GM03,DR115,431.0,0,52
+OPD3039379,PT110589,HSP-01,Nephrology,2024-08-22,New,Nephrotic Syndrome,NP03,DR223,977.0,0,89
+OPD3143337,PT137562,HSP-01,General Surgery,2023-02-18,Follow-up,Acute Fissure in Ano,GS04,DR112,608.0,14,54
+OPD3017367,PT104664,HSP-03,Endocrinology,2022-11-28,New,Hypo-thyroidism,ED02,DR432,590.0,0,31
+OPD3002010,PT100522,HSP-02,Obstetrics & Gynaecology,2023-11-01,Follow-up,Postnatal Care,OG04,DR325,647.0,90,54
+OPD3055877,PT114928,HSP-02,Paediatrics,2023-11-08,New,Acute Otitis Media,PD03,DR211,429.0,0,1
+OPD3011285,PT103091,HSP-01,ENT,2024-03-15,Follow-up,Chronic Suppurative Otitis Media,EN01,DR384,411.0,7,86
+OPD3155912,PT140909,HSP-03,CARDIOLOGY,2024-04-19,Follow-up,Stable Angina Pectoris,CD02,DR452,1399.0,14,14
+OPD3061855,PT116447,HSP-02,General Medicine,2024-04-22,Follow-up,Upper Respiratory Tract Infection,GM06,DR125,309.0,7,76
+OPD3010163,PT102775,HSP-02,General Surgery,2022-08-22,Follow-up,Acute Fissure in Ano,GS04,DR423,660.0,0,69
+OPD3151872,PT139842,HSP-04,ENT,2023-10-18,Follow-up,Chronic Suppurative Otitis Media,EN01,DR367,474.0,7,21
+OPD3042245,PT111341,HSP-01,Endocrinology,2024-06-11,New,Hypothyroidism,ED02,DR400,622.0,0,58
+OPD3128871,PT133761,HSP-02,Orthopaedics,2023-05-27,Follow-up,Mechanical Low Back Pain,OR03,DR175,686.0,0,3
+OPD3125593,PT132879,HSP-04,PULMONOLOGY,2022-02-03,Follow-up,Bronchial Asthma,PU02,DR378,559.0,30,43
+OPD3009618,PT102615,HSP-02,Pulmonology,2023-01-02,New,Bronchial Asthma,PU02,DR105,713.0,0,20
+OPD3056179,PT115003,HSP-04,Orthopaedics,2023-10-29,Follow-up,Mechanical Low Back Pain,OR03,DR264,500.0,0,72
+OPD3032189,PT108533,HSP-02,General Medicine,2022-07-16,Follow-up,Essential Hypertension,GM03,DR381,555.0,14,44
+OPD3091464,PT124109,HSP-03,General Medicine,2022-12-08,Follow-up,Diabetes Mellitus Type2,GM02,DR215,563.0,0,61
+OPD3017261,PT104643,HSP-03,Paediatrics,2024-11-30,New,Acute Otitis Media,PD03,DR141,543.0,0,85
+OPD3095486,PT125170,HSP-03,General Medicine,2024-12-10,New,Essential Hypertension,GM03,DR448,577.0,0,86
+OPD3071329,PT118836,HSP-02,Pulmonology,2023-04-11,Follow-up,COPD,PU01,DR273,668.0,0,82
+OPD3000073,PT100013,HSP-02,Pulmonology,2022-05-04,Follow-up,community acquired pneumonia,PU03,DR427,902.0,7,2
+OPD3039412,PT110599,HSP-02,Pulmonology,2023-09-27,Follow-up,Bronchial Asthma,PU02,DR156,734.0,14,50
+OPD3009868,PT102686,Hosp-3,Endocrinology,2024-10-17,New,Diabetes Mellitus Type2,ED01,DR338,845.0,0,14
+OPD3010417,PT102849,HSP-03,Endocrinology,2023-01-06,New,Type 2 Diabetes Mellitus,ED01,DR433,661.0,0,75
+OPD3091578,PT124142,HSP-03,General Medicine,2024-11-12,New,Upper Respiratory Tract Infection,GM06,DR125,516.0,0,9
+OPD9002570,PT118410,HSP-02,Pulmonology,2024-04-18,New,Bronchial Asthma,PU02,DR184,835.0,0,54
+OPD3014358,PT103894,HSP-03,Cardiology,2024-08-27,New,Atrial Fibrillation,CD03,DR112,1028.0,0,4
+OPD3133449,PT134978,HSP-04,General Medicine,2024-04-20,Follow-up,Essential Hypertension,GM03,DR256,524.0,14,83
+OPD3124906,PT132718,HSP-03,Nephrology,2022-05-19,Follow-up,Chronic kidney disease stage III,NP01,DR126,1057.0,0,63
+OPD3072095,PT119022,HSP-02,General Medicine,2024-05-07,Follow-up,Acute Gastroenteritis,GM04,DR341,522.0,21,40
+OPD3067719,PT117895,HSP-02,General Medicine,2022-12-07,Follow-up,Essential Hypertension,GM03,DR293,357.0,0,31
+OPD3079484,PT120996,HSP-02,General Medicine,2022-12-09,New,Acute Viral Fever,GM01,DR457,413.0,0,66
+OPD3129648,PT133958,HSP-03,General Medicine,2023-01-04,Follow-up,Essential Hypertension,GM03,DR322,444.0,0,89
+OPD3083971,PT122155,HSP-01,Ortho,2024-11-09,Follow-up,Mechanical Low Back Pain,OR03,DR385,544.0,7,48
+OPD3157490,PT141307,HSP-03,General Medicine,2024-03-25,Follow-up,Acute Gastroenteritis,GM04,DR437,340.0,21,21
+OPD3047339,PT112678,HSP-03,Dermatology,2022-07-22,Follow-up,Tinea Corporis,DR02,DR301,613.0,30,58
+OPD3061078,PT116255,HSP-02,ENT,2024-11-22,New,Chronic Suppurative Otitis Media,EN01,DR397,571.0,0,69
+OPD3118998,PT131182,HSP-01,Dermatology,2022-01-04,Follow-up,Chronic Urticaria,DR04,DR367,512.0,30,87
+OPD3153755,PT140343,HSP-03,Endocrinology,2023-08-31,Follow-up,Type 2 Diabetes Mellitus,ED01,DR265,677.0,7,48
+OPD3078287,PT120662,HSP-03,ENT,2023-11-02,Follow-up,Chronic Suppurative Otitis Media,EN01,DR339,474.0,0,39
+OPD3069161,PT118277,HSP-01,Pulmonology,2023-12-30,Follow-up,Bronchial Asthma,PU02,DR441,563.0,0,86
+OPD3010998,PT103004,HSP-04,Paediatrics,2022-01-01,New,Protein Energy Malnutrition,PD04,DR428,350.0,0,2
+OPD3131668,PT134517,HSP-02,Orthopaedics,2022-04-26,Follow-up,OA knee,OR01,DR254,597.0,60,32
+OPD3126955,PT133219,HSP-03,ENDOCRINOLOGY,2023-09-26,New,Obesity with Metabolic Syndrome,ED03,DR392,957.0,0,74
+OPD3118861,PT131141,HSP-01,Nephrology,2022-05-19,Follow-up,Nephrotic Syndrome,NP03,DR282,755.0,21,84
+OPD3056912,PT115182,HSP-03,general medicine,2023-07-05,New,Diabetis Mellitus Type 2,GM02,DR110,425.0,0,41
+OPD3131006,PT134315,HSP-03,ENT,2023-04-21,Follow-up,Chronic Suppurative Otitis Media,EN01,DR316,575.0,14,75
+OPD3003622,PT100937,HSP-01,Endocrinology,2023-06-14,Follow-up,Type 2 Diabetes Mellitus,ED01,DR167,599.0,14,89
+OPD3021652,PT105803,HSP-04,Pulmonology,2023-02-20,New,Chronic Obstructive Pulmonary Disease,PU01,DR155,945.0,0,66
+OPD3134554,PT135258,HSP-03,nephrology,2024-08-09,Follow-up,Acute Kidney Injury,NP02,DR334,1049.0,30,89
+OPD3145664,PT138222,HSP-01,Cardiology,2023-10-25,Follow-up,Congestive Heart Failure,CD01,DR373,1263.0,7,6
+OPD3024214,PT106419,HSP-02,Obstetrics & Gynaecology,2022-11-18,Follow-up,Postnatal Care,OG04,DR188,454.0,0,45
+OPD3040953,PT111039,KUKATPALLY COMMUNITY HOSPITAL,Pulmonology,2022-01-17,Follow-up,C.O.P.D,PU01,DR339,679.0,0,72
+OPD3044787,PT112065,AMEERPET COMMUNITY HOSPITAL,Cardiology,2024-07-03,Follow-up,Acute Coronary Syndrome,CD04,DR109,917.0,90,86
+OPD3040804,PT111008,HSP-02,Obstetrics & Gynaecology,2024-11-23,Follow-up,Postnatal Care,OG04,DR312,815.0,0,80
+OPD3057677,PT115378,HSP-04,General Medicine,,Follow-up,Essential Hypertension,GM03,DR127,332.0,30,31
+OPD3061277,PT116306,LB Nagar Community Hospital,Cardiology,2023-12-22,Follow-up,Acute Coronary Syndrome,CD04,DR271,923.0,0,22
+OPD3038963,PT110458,HSP-01,General Medicine,2024-06-27,Follow-up,Essential Hypertension,GM03,DR397,422.0,0,80
+OPD3136969,PT135894,HSP-03,Pulmonology,2024-10-01,New,Bronchial Asthma,PU02,DR348,832.0,0,80
+OPD3157307,PT141247,HSP-01,Pulmonology,2024-08-21,Follow-up,Chronic Obstructive Pulmonary Disease,PU01,DR330,720.0,30,70
+OPD3103144,PT127125,HSP-01,Dermatology,2022-12-24,New,Acne Vulgaris,DR03,DR103,502.0,0,39
+OPD3110520,PT128985,HSP-01,Orthopaedics,2022-01-01,New,Mechanical Low Back Pain,OR03,DR446,703.0,0,7
+OPD3020678,PT105555,HSP-02,ENT,2023-07-05,New,Acute Tonsillitis,EN03,DR127,447.0,0,62
+OPD3159905,PT141976,HSP-01,Dermatology,2024-10-31,Follow-up,Atopic Dermatitis,DR01,DR435,495.0,0,30
+OPD3140086,PT136686,HSP-01,Orthopaedics,2022-11-13,New,Ligament Injury of Knee,OR04,DR349,512.0,0,20
+OPD3032229,PT108539,HSP-01,Orthopaedics,2022-06-28,Follow-up,,OR04,DR436,631.0,7,65
+OPD3127575,PT133395,HSP-01,Pulmonology,2024-11-24,New,Chronic Obstructive Pulmonary Disease,PU01,DR266,587.0,0,19
+OPD3037813,PT110155,HSP-03,Obstetrics & Gynaecology,2024-12-27,New,Polycystic Ovary Syndrome,OG03,DR117,840.0,0,31
+OPD3096178,PT125340,HSP-01,Nephrology,2024-07-04,Follow-up,Nephrotic Syndrome,NP03,DR349,671.0,60,14
+OPD3069830,PT118450,HSP-04,Pulmonology,2023-09-22,New,Chronic Obstructive Pulmonary Disease,PU01,DR325,795.0,0,4
+OPD3115280,PT130242,HSP-01,Cardiology,2023-06-27,Follow-up,Congestive Heart Failure,CD01,DR301,1459.0,60,38
+OPD3048431,PT112987,HSP-04,Pulmonology,2022-09-27,New,Chronic Obstructive Pulmonary Disease,PU01,DR431,765.0,0,36
+OPD3152449,PT139996,HSP-01,Endocrinology,2022-11-17,Follow-up,hypothyroid,ED02,DR189,806.0,14,27
+OPD3043578,PT111703,HSP-01,Orthopaedics,2024-07-17,Follow-up,Knee OA bilateral,OR01,DR273,718.0,7,62
+OPD3041909,PT111266,HSP-03,Dermatology,2024-02-26,Follow-up,Tinea Corporis,DR02,DR396,429.0,14,42
+OPD3002181,PT100559,HSP-02,Orthopaedics,2024-04-18,Follow-up,Knee OA bilateral,OR01,DR193,456.0,21,51
+OPD3042549,PT111428,HSP-02,Pulmonology,2022-05-26,Follow-up,,PU02,DR361,929.0,14,37
+OPD3002790,PT100713,HSP-03,Endocrinology,2024-11-21,New,Type 2 Diabetes Mellitus,ED01,DR175,698.0,0,38
+OPD3069341,PT118325,HSP-03,General Medicine,2023-05-27,Follow-up,Esenntial Hypertension,GM03,DR198,390.0,7,84
+OPD3029962,PT107962,HSP-02,ENT,2024-11-28,New,Chronic Suppurative Otitis Media,EN01,DR238,664.0,0,88
+OPD3008471,PT102304,HSP-03,ENT,2024-11-07,New,Chronic Suppurative Otitis Media,EN01,DR105,452.0,0,81
+OPD3131237,PT134385,HSP-01,Endocrinology,2024-08-05,Follow-up,Hypothyroidism,ED02,DR103,598.0,0,45
+OPD3117064,PT130684,HSP-02,General Medicine,2022-12-14,New,Acute Gastroenteritis,GM04,DR420,393.0,0,83
+OPD3063726,PT116895,HSP-01,Nephrology,2024-07-26,Follow-up,,NP01,DR456,1044.0,0,67
+OPD3111380,PT129219,HSP-03,Orthopaedics,2024-10-01,Follow-up,Osteoarthritis of Knee,OR01,DR312,529.0,0,66
+OPD9001855,PT106802,HSP-02,General Surgery,2024-08-01,New,Cholelithiasis,GS03,DR396,899.0,0,8
+OPD3085556,PT122556,HSP-01,Obstetrics & Gynaecology,2023-09-13,Follow-up,Antenatal Care - Second Trimester,OG01,DR459,702.0,7,14
+OPD3085343,PT122489,HSP-04,General Medicine,2023-01-17,Follow-up,Acute Gastroenteritis,GM04,DR172,562.0,90,58
+OPD3075753,PT119986,HSP-01,General Medicine,2024-02-24,Follow-up,Gastroenteritis acute,GM04,DR185,543.0,0,39
+OPD3013625,PT103711,HSP-01,Pulmonology,2022-02-03,Follow-up,Bronchial Asthma,PU02,DR302,706.0,14,48
+OPD3010093,PT102768,HSP-02,Paediatrics,2023-02-15,Follow-up,Acute Bronchiolitis,PD01,DR411,309.0,30,62
+OPD3038839,PT110429,HSP-01,ENT,2023-03-29,New,Acute Tonsillitis,EN03,DR216,661.0,0,17
+OPD3055321,PT114787,HSP-01,General Medicine,2024-08-25,Follow-up,Iron Deficiency Anaemia,GM05,DR424,390.0,14,54
+OPD3017333,PT104658,HSP-01,ENT,2022-11-29,Follow-up,Allergic Rhinitis,EN02,DR308,481.0,0,40
+OPD3155224,PT140743,HSP-02,ENT,2024-09-02,Follow-up,Allergic Rhinitis,EN02,DR363,600.0,30,42
+OPD3059583,PT115857,HSP-02,Orthopaedics,2022-02-04,Follow-up,Osteoarthritis of Knee,OR01,DR235,634.0,60,84
+OPD3076097,PT120080,HSP-03,OBG,2024-02-03,New,Abnormal Uterine Bleeding,OG02,DR116,865.0,0,64
+OPD3142536,PT137341,HSP-01,Obstetrics & Gynaecology,2023-01-13,New,Postnatal Care,OG04,DR167,511.0,0,30
+OPD3105447,PT127698,HSP-03,Pulmonology,2024-06-16,Follow-up,Bronchial Asthma,PU02,DR154,793.0,0,14
+OPD3114755,PT130095,HSP-01,General Medicine,2024-10-02,New,HYPERTENSION,GM03,DR117,366.0,0,43
+OPD3101092,PT126625,HSP-04,General Medicine,2024-07-24,Follow-up,Essential Hypertension,GM03,DR189,414.0,0,17
+OPD3001526,PT100377,HSP-03,Obstetrics & Gynaecology,2023-10-19,Follow-up,Abnormal Uterine Bleeding,OG02,DR245,525.0,7,3
+OPD3035554,PT109470,HSP-01,ENT,2022-01-01,New,Chronic Suppurative Otitis Media,EN01,DR209,391.0,0,78
+OPD3003162,PT100814,HSP-04,General Medicine,2023-12-07,Follow-up,Essential Hypertension,GM03,DR217,345.0,0,64
+OPD3051811,PT113853,HSP-03,Paediatrics,2022-11-30,New,Febrile Illness in Child,PD02,DR359,466.0,0,34
+OPD3077101,PT120361,HSP-03,,2024-02-15,Follow-up,Community Acquired Pneumonia,PU03,DR415,592.0,0,1
+OPD3000755,PT100193,HSP-01,,2023-05-30,Follow-up,Essential Hypertension,GM03,DR264,488.0,0,34
+OPD3146863,PT138543,HSP-01,Gen Med,2023-04-14,Follow-up,Acute Viral Fever,GM01,DR238,545.0,7,38
+OPD3133791,PT135068,HSP-01,Orthopaedics,2022-02-19,New,Ligament Injury of Knee,OR04,DR297,506.0,0,34
+OPD3079703,PT121044,Kukatpally Community Hospital,Pulmonology,2024-05-27,Follow-up,Chronic Obstructive Pulmonary Disease,PU01,DR415,727.0,7,64
+OPD3048553,PT113017,HSP-01,Pulmonology,2023-11-29,Follow-up,CAP,PU03,DR297,732.0,60,84
+OPD3037636,PT110105,HSP-01,ENT,2023-02-24,New,Acute Tonsillitis,EN03,DR391,637.0,0,57
+OPD3073837,PT119438,HSP-04,Paediatrics,2024-05-15,Follow-up,Acute Otitis Media,PD03,DR346,511.0,0,51
+OPD3043741,PT111750,HSP-02,Dermatology,2023-09-27,Follow-up,Acne Vulgaris,DR03,DR394,446.0,30,62
+OPD3131159,PT134367,HSP-03,Dermatology,2023-01-16,Follow-up,Chronic Urticaria,DR04,DR246,447.0,0,54
+OPD3138034,PT136134,HSP-01,General Medicine,2022-05-10,New,Esenntial Hypertension,GM03,DR267,464.0,0,70
+OPD3085151,PT122429,HSP-02,Pulm. Medicine,2023-07-05,Follow-up,Chronic Obstructive Pulmonary Disease,PU01,DR399,512.0,90,76
+OPD3129683,PT133965,HSP-02,Dermatology,2023-12-13,Follow-up,Tinea Corporis,DR02,DR164,499.0,30,26
+OPD3143062,PT137489,HSP-03,General Medicine,2024-12-09,New,,GM04,DR193,518.0,0,8
+OPD3113466,PT129802,HSP-04,Ophthalmology,2022-01-01,New,Senile Cataract,OP01,DR228,625.0,0,17
+OPD3029895,PT107952,HSP-02,general medicine,2023-05-03,Follow-up,Type 2 Diabetes Mellitus,GM02,DR257,455.0,0,17
+OPD3089296,PT123550,HSP-01,Dermatology,2022-11-15,New,Atopic Dermatitis,DR01,DR281,455.0,0,12
+OPD3130810,PT134261,HSP-02,Pulmonology,2022-04-19,Follow-up,Bronchial Asthma,PU02,DR458,631.0,0,54
+OPD3090054,PT123743,HSP-02,General Medicine,2024-01-05,New,Type 2 Diabetes Mellitus,GM02,DR362,301.0,0,8
+OPD3060297,PT116029,HSP-01,General Medicine,2024-09-09,Follow-up,Type 2 Diabetes Mellitus,GM02,DR424,308.0,14,31
+OPD9001799,PT105862,HSP-01,Endocrinology,2024-07-31,New,Hypo-thyroidism,ED02,DR412,761.0,0,8
+OPD3096209,PT125349,HSP-02,Pulmonology,2022-10-27,Follow-up,Bronchial Asthma,PU02,DR305,561.0,30,7
+OPD3053544,PT114305,HSP-03,Dermatology,2024-05-22,Follow-up,Tinea Corporis,DR02,DR218,454.0,0,72
+OPD3092726,PT124436,HSP-01,Pulmonology,2024-06-03,Follow-up,Chronic Obstructive Pulmonary Disease,PU01,DR221,507.0,14,11
+OPD3098587,PT125978,HSP-04,General Medicine,2022-04-14,Follow-up,Essential Hypertension,GM03,DR362,360.0,0,82
+OPD3121153,PT131764,HSP-01,ENT,2024-09-23,Follow-up,Allergic Rhinitis,EN02,DR117,457.0,30,2
+OPD3113017,PT129679,HSP-01,Endocrinology,2024-08-02,Follow-up,Obesity with Metabolic Syndrome,ED03,DR180,864.0,7,3
+OPD3157039,PT141186,HSP-04,Pulmonology,2023-10-21,New,,PU01,DR322,552.0,0,53
+OPD3072602,PT119149,HSP-01,Dermatology,2024-11-06,Follow-up,Tinea Corporis,DR02,DR203,498.0,0,20
+OPD3138236,PT136205,HSP-01,Endocrinology,2023-05-27,Follow-up,Hypothyroidism,ED02,DR362,619.0,30,81
+OPD3086009,PT122671,HSP-03,General Medicine,2022-07-01,New,acute gastro-enteritis,GM04,DR334,518.0,0,42
+OPD9001059,PT127000,HSP-03,Nephrology,2023-09-01,Follow-up,Nephrotic Syndrome,NP03,DR390,668.0,7,64
+OPD3138690,PT136325,HSP-02,Obstetrics & Gynaecology,2024-12-25,New,Abnormal Uterine Bleeding,OG02,DR431,746.0,0,15
+OPD3102454,PT126959,HSP-02,Pulmonology,2022-07-22,New,C.O.P.D,PU01,DR194,500.0,0,25
+OPD3026945,PT107159,HSP-03,Cardiology,2023-04-25,New,Stable Angina Pectoris,CD02,DR392,1028.0,0,11
+OPD3043258,PT111614,HSP-04,Orthopaedics,2024-11-08,New,Mechanical Low Back Pain,OR03,DR311,468.0,0,6
+OPD3159164,PT141748,HSP-03,Pulmonology,2024-03-06,New,Chronic Obstructive Pulmonary Disease,PU01,DR171,565.0,0,12
+OPD3128782,PT133728,HSP-03,Paediatrics,2023-12-15,Follow-up,Acute Bronchiolitis,PD01,DR320,454.0,60,59
+OPD3102509,PT126974,HSP-03,General Medicine,2024-05-23,New,upper respiratory infection,GM06,DR103,438.0,0,65
+OPD3146263,PT138388,HSP-04,General Medicine,2022-11-15,Follow-up,Acute Viral Fever,GM01,DR248,530.0,14,87
+OPD3098402,PT125934,HSP-01,Cardio,2022-10-01,Follow-up,congestive heart failure,CD01,DR397,1075.0,0,86
+OPD3060110,PT115978,HSP-01,Pulmonology,2024-08-05,Follow-up,Bronchial Asthma,PU02,DR454,540.0,7,81
+OPD3095330,PT125133,Ameerpet Community Hospital,Orthopaedics,2022-02-23,Follow-up,Mechanical Low Back Pain,OR03,DR297,598.0,0,55
+OPD3145405,PT138133,HSP-01,Orthopaedics,2022-02-21,Follow-up,Knee OA bilateral,OR01,DR397,631.0,7,16
+OPD3123376,PT132304,HSP-03,Endocrinology,2024-10-09,New,Obesity with Metabolic Syndrome,ED03,DR313,717.0,0,17
+OPD3061250,PT116302,LB Nagar Community Hospital,Nephrology,2023-12-23,Follow-up,Nephrotic Syndrome,NP03,DR340,1052.0,0,89
+OPD3012408,PT103365,AMEERPET COMMUNITY HOSPITAL,Gen. Medicine,2022-07-08,Follow-up,essential HTN,GM03,DR414,411.0,21,50
+OPD3087028,PT122971,HSP-02,Ent,2024-03-25,New,Chronic Suppurative Otitis Media,EN01,DR280,458.0,0,81
+OPD3017462,PT104689,HSP-03,Pulmonology,2023-10-24,Follow-up,C.O.P.D,PU01,DR365,913.0,21,33
+OPD3043173,PT111598,HSP-01,,2023-10-05,Follow-up,T2DM,ED01,DR160,574.0,14,69
+OPD9002615,PT124285,HSP-01,Nephrology,2024-12-03,Follow-up,Chronic Kidney Disease Stage 3,NP01,DR422,600.0,90,67
+OPD3056051,PT114977,HSP-04,General Medicine,2023-03-05,Follow-up,Iron Deficiency Anaemia,GM05,DR349,401.0,0,9
+OPD3017505,PT104702,HSP-01,Obstetrics & Gynaecology,2022-07-20,Follow-up,Abnormal Uterine Bleeding,OG02,DR413,724.0,14,46
+OPD3063573,PT116858,HSP-01,Paediatrics,2023-03-14,Follow-up,Protein Energy Malnutrition,PD04,DR146,451.0,14,7
+OPD3138825,PT136364,HSP-02,General Medicine,2024-06-28,Follow-up,Diabetis Mellitus Type 2,GM02,DR341,459.0,14,88
+OPD3052941,PT114148,HSP-04,General Medicine,2022-07-07,New,Essential Hypertension,GM03,DR127,536.0,0,67
+OPD3014481,PT103918,HSP-03,Nephrology,2023-11-07,Follow-up,Chronic Kidney Disease Stage 3,NP01,DR447,718.0,21,74
+OPD3098584,PT125978,HSP-01,nephrology,2024-09-30,Follow-up,Nephrotic Syndrome,NP03,DR223,631.0,7,87
+OPD9000773,PT114554,HSP-03,Dermatology,2022-01-01,New,Chronic Urticaria,DR04,DR100,569.0,0,61
+OPD3094389,PT124900,HSP-03,ENT,2023-11-22,New,Acute Tonsillitis,EN03,DR190,644.0,0,89
+OPD3150143,PT139327,HSP-01,Paediatrics,2022-02-08,Follow-up,Febrile Illness in Child,PD02,DR196,365.0,90,28
+OPD3031377,PT108306,HSP-04,Orthopaedics,2024-11-06,New,Mechanical Low Back Pain,OR03,DR119,774.0,0,56
+OPD3035571,,HSP-04,Paediatrics,2022-03-11,Follow-up,Acute Bronchiolitis,PD01,DR244,341.0,30,21
+OPD3099068,PT126107,HSP-01,Gen. Surgery,2022-08-15,Follow-up,Inguinal Hernia,GS02,DR335,853.0,0,48
+OPD3026102,PT106919,hsp-02 ,General Surgery,2022-01-04,New,Acute Fissure in Ano,GS04,DR264,610.0,0,15
+OPD3098006,PT125825,HSP-02,Obstetrics & Gynaecology,2022-04-26,Follow-up,Antenatal Care - Second Trimester,OG01,DR265,841.0,30,76
+OPD3104622,PT127471,HSP-01,Cardiology,2023-09-18,Follow-up,Congestive Heart Failure,CD01,DR268,700.0,21,19

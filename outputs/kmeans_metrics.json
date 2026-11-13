@@ -1,0 +1,62 @@
+{
+  "k": 3,
+  "silhouette": 0.4599465321398403,
+  "calinski_harabasz": 42439.71751606115,
+  "davies_bouldin": 0.9495656897308545,
+  "inertia": 177887.1013089183,
+  "n_init": 50,
+  "reason_for_k": "k=3 selected by the composite operational utility score (0.586, highest among eligible solutions). It has silhouette 0.460, bootstrap ARI 0.996, smallest segment 14.3% (>= 5% floor), KPI spread 1.66 and revenue separation 0.279. k=2 had a comparable silhouette (0.648) but was rejected as operationally unusable: its smaller segment is 14.6% of the base, leaving a 85.4% residual that no single intervention can serve, and its KPI spread (0.81) is the lowest of any candidate.",
+  "bootstrap": {
+    "k": 3.0,
+    "n_bootstrap": 15.0,
+    "ari_mean": 0.9964324818971179,
+    "ari_sd": 0.0019296033352859654,
+    "ari_min": 0.9935429077829114,
+    "ari_max": 0.9991192834491323
+  },
+  "ari_vs_latent_truth": 0.15618244427422043,
+  "prep": {
+    "features": [
+      "log_recency",
+      "log_frequency",
+      "log_monetary",
+      "visits_per_month",
+      "admission_rate",
+      "lab_per_visit",
+      "dept_diversity",
+      "recent_activity_ratio"
+    ],
+    "missing_before_impute": {
+      "log_recency": 0,
+      "log_frequency": 0,
+      "log_monetary": 0,
+      "visits_per_month": 0,
+      "admission_rate": 0,
+      "lab_per_visit": 0,
+      "dept_diversity": 0,
+      "recent_activity_ratio": 0
+    },
+    "scaler": "RobustScaler (median / IQR)",
+    "transform": "log1p applied to skewed count and currency columns",
+    "median": {
+      "log_recency": 5.3132,
+      "log_frequency": 0.6931,
+      "log_monetary": 7.6783,
+      "visits_per_month": 0.0274,
+      "admission_rate": 0.0,
+      "lab_per_visit": 0.0,
+      "dept_diversity": 0.0833,
+      "recent_activity_ratio": 0.6931
+    },
+    "iqr": {
+      "log_recency": 2.2566,
+      "log_frequency": 1.0986,
+      "log_monetary": 3.5943,
+      "visits_per_month": 0.1027,
+      "admission_rate": 0.1667,
+      "lab_per_visit": 0.2624,
+      "dept_diversity": 0.1667,
+      "recent_activity_ratio": 1.0
+    }
+  }
+}

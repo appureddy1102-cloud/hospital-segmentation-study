@@ -1,0 +1,501 @@
+admission_id,patient_id,hospital_id,department,admission_date,discharge_date,admitting_diagnosis,ward_type,icu_flag,discharge_status
+IPD416582,PT122323,HSP-01,Nephrology,2024-10-24,2024-10-28,Acute Kidney Injury,Semi-Private,0,Recovered
+IPD403739,PT105062,HSP-01,Cardiology,2022-07-17,2022-07-19,Atrial Fibrillation,ICU,1,Recovered
+IPD408193,PT111119,HSP-04,General Medicine,2022-03-21,2022-03-28,Upper Respiratory Tract Infection,Semi-Private,0,Recovered
+IPD409525,PT112859,HSP-02,Obstetrics & Gynaecology,2024-11-30,2024-12-01,Polycystic Ovary Syndrome,General Ward,0,Improved
+IPD426335,PT135117,HSP-01,General Medicine,2023-04-15,2023-04-18,Essential Hypertension,Private Room,0,Improved
+IPD404914,PT106678,HSP-02,General Medicine,2024-03-31,2024-04-03,Iron Deficiency Anaemia,General Ward,0,Recovered
+IPD426161,PT134882,HSP-04,General Medicine,2023-04-20,2023-04-24,Acute Gastroenteritis,Semi-Private,0,Recovered
+IPD403220,PT104420,HSP-03,Orthopaedics,2023-02-27,2023-03-18,Ligament Injury of Knee,General Ward,0,Recovered
+IPD900104,PT112141,HSP-01,Orthopaedics,2022-06-26,2022-06-30,Mechanical Low Back Pain,General Ward,0,Improved
+IPD405226,PT107134,HSP-01,General Medicine,2022-09-25,2022-09-27,Upper Respiratory Tract Infection,Semi-Private,0,Recovered
+IPD413994,PT118579,HSP-01,Paediatrics,2022-01-06,2022-01-10,Acute Bronchiolitis,Private Room,0,Expired
+IPD405007,PT106850,HSP-02,Pulmonology,2022-12-20,2022-12-24,Community Acquired Pneumonia,Private Room,0,Recovered
+IPD411881,PT115947,HSP-01,General Medicine,2022-04-15,2022-04-22,Essential Hypertension,Private Room,0,Recovered
+IPD425207,PT133647,HSP-03,Paediatrics,2022-01-05,2022-01-07,Febrile Illness in Child,General Ward,0,Recovered
+IPD412503,PT116696,HSP-02,Orthopaedics,2023-09-10,2023-09-12,Osteoarthritis of Knee,Private Room,0,Recovered
+IPD428195,PT137562,HSP-02,General Surgery,2023-04-04,2023-04-06,Acute Appendicitis,General Ward,0,Improved
+IPD424280,PT132396,HSP-02,Pulmonology,2024-08-03,2024-08-07,Chronic Obstructive Pulmonary Disease,Private Room,0,Recovered
+IPD404929,PT106713,HSP-01,Pulmonology,2022-01-06,2022-01-13,Community Acquired Pneumonia,General Ward,0,Recovered
+IPD413834,PT118357,HSP-03,General Surgery,2023-05-29,2023-06-03,Acute Appendicitis,General Ward,0,Recovered
+IPD410396,PT114044,HSP-04,General Medicine,2023-09-28,2023-10-02,Acute Viral Fever,General Ward,0,Recovered
+IPD426308,PT135068,HSP-03,Cardiology,2022-11-18,2022-11-27,Acute Coronary Syndrome,ICU,1,Recovered
+IPD425770,PT134370,HSP-03,Orthopaedics,2023-05-14,2023-05-18,Fracture of Distal Radius,Private Room,0,Recovered
+IPD401973,PT102649,HSP-01,Endocrinology,2022-01-06,2022-01-09,Type 2 Diabetes Mellitus,General Ward,0,LAMA
+IPD417456,PT123398,HSP-01,Orthopaedics,2022-10-08,2022-10-16,Ligament Injury of Knee,Private Room,0,Referred
+IPD413101,PT117448,HSP-01,General Medicine,2023-08-30,2023-09-01,Essential Hypertension,Semi-Private,0,Improved
+IPD403121,PT104276,HSP-04,Orthopaedics,2023-04-04,2023-04-13,Fracture of Distal Radius,Semi-Private,0,Referred
+IPD415183,PT120311,HSP-03,General Medicine,2024-02-03,2024-02-08,Upper Respiratory Tract Infection,General Ward,0,Recovered
+IPD408117,PT111007,HSP-01,Endocrinology,2024-11-24,2024-11-30,Hypothyroidism,Private Room,0,Recovered
+IPD400225,PT100278,HSP-02,General Medicine,2022-03-08,2022-03-11,Acute Gastroenteritis,Semi-Private,0,Improved
+IPD427291,PT136494,HSP-03,Cardiology,2022-08-13,2022-08-23,Atrial Fibrillation,Private Room,0,Improved
+IPD403676,PT104966,HSP-01,General Medicine,2023-12-05,2023-12-08,Type 2 Diabetes Mellitus,Private Room,0,Recovered
+IPD419773,PT126578,HSP-02,ENT,2023-08-28,2023-09-01,Allergic Rhinitis,General Ward,0,Improved
+IPD426904,PT135902,HSP-04,General Medicine,2023-12-09,2023-12-12,Acute Gastroenteritis,Private Room,0,Recovered
+IPD420300,PT127211,HSP-01,General Medicine,2022-04-10,2022-04-13,Type 2 Diabetes Mellitus,General Ward,0,Recovered
+IPD429120,PT138735,HSP-03,Nephrology,2022-05-08,2022-05-13,Acute Kidney Injury,ICU,1,Recovered
+IPD407322,PT109933,HSP-01,General Medicine,2022-12-30,2023-01-07,Iron Deficiency Anaemia,Private Room,0,Recovered
+IPD405100,PT106974,HSP-01,Nephrology,2023-02-17,2023-02-25,Nephrotic Syndrome,ICU,1,Improved
+IPD424541,PT132793,HSP-03,General Medicine,2024-02-19,2024-02-25,Acute Viral Fever,Private Room,0,Recovered
+IPD417367,PT123315,HSP-02,General Surgery,2024-12-11,2024-12-26,Cholelithiasis,Private Room,0,Recovered
+IPD416201,PT121801,HSP-02,Orthopaedics,2022-01-01,2022-01-07,Osteoarthritis of Knee,General Ward,0,Recovered
+IPD418544,PT124961,HSP-01,General Surgery,2024-02-01,2024-02-06,Acute Appendicitis,ICU,1,Recovered
+IPD400691,PT100956,HSP-01,General Medicine,2023-10-14,2023-10-16,Acute Gastroenteritis,Private Room,0,Referred
+IPD415181,PT120311,HSP-03,Orthopaedics,2023-11-02,2023-11-08,Ligament Injury of Knee,General Ward,0,LAMA
+IPD429682,PT139448,HSP-01,Orthopaedics,2024-12-13,2024-12-16,Osteoarthritis of Knee,General Ward,0,Recovered
+IPD423469,PT131391,HSP-03,Pulmonology,2022-01-04,2022-01-08,Chronic Obstructive Pulmonary Disease,Semi-Private,0,Referred
+IPD407196,PT109764,HSP-03,Cardiology,2023-01-24,2023-02-03,Congestive Heart Failure,Private Room,0,Recovered
+IPD405985,PT108163,HSP-01,General Medicine,2022-01-09,2022-01-11,Acute Gastroenteritis,Semi-Private,0,Recovered
+IPD410837,PT114592,HSP-02,General Medicine,2022-10-03,2022-10-05,Acute Gastroenteritis,General Ward,0,Recovered
+IPD407515,PT110184,HSP-01,ENT,2023-05-15,2023-05-20,Acute Tonsillitis,Private Room,0,Referred
+IPD900249,PT112783,HSP-03,Cardiology,2024-10-22,2024-10-27,Stable Angina Pectoris,General Ward,0,Recovered
+IPD423960,PT132015,HSP-02,General Medicine,2022-03-27,2022-04-07,Upper Respiratory Tract Infection,General Ward,0,Improved
+IPD401493,PT102017,HSP-02,General Surgery,2022-01-04,2022-01-08,Cholelithiasis,General Ward,0,Referred
+IPD409700,PT113103,HSP-04,Paediatrics,2023-03-08,2023-03-13,Febrile Illness in Child,Private Room,0,Improved
+IPD424985,PT133316,HSP-03,Cardiology,2024-09-04,2024-09-10,Stable Angina Pectoris,Private Room,0,Recovered
+IPD425608,PT134198,HSP-02,Orthopaedics,2023-03-29,2023-04-04,Mechanical Low Back Pain,Semi-Private,0,Improved
+IPD426411,PT135200,HSP-02,Orthopaedics,2022-09-23,2022-09-30,Osteoarthritis of Knee,Semi-Private,0,Recovered
+IPD402511,PT103450,HSP-03,Cardiology,2022-08-03,2022-08-08,Atrial Fibrillation,General Ward,0,Improved
+IPD406259,PT108509,HSP-04,Pulmonology,2022-02-09,2022-02-12,Chronic Obstructive Pulmonary Disease,Private Room,0,Recovered
+IPD402912,PT104010,HSP-03,Obstetrics & Gynaecology,2024-03-22,2024-03-23,Postnatal Care,Semi-Private,0,Improved
+IPD416199,PT121791,HSP-02,Paediatrics,2024-11-22,2024-11-24,Febrile Illness in Child,General Ward,0,Recovered
+IPD410391,PT114038,HSP-03,General Medicine,2022-12-15,2022-12-22,Acute Viral Fever,Semi-Private,0,Recovered
+IPD403628,PT104932,HSP-03,Cardiology,2023-04-07,2023-04-16,Acute Coronary Syndrome,General Ward,0,Recovered
+IPD419842,PT126646,HSP-03,Cardiology,2024-12-02,2024-12-11,Acute Coronary Syndrome,Semi-Private,0,Recovered
+IPD420574,PT127550,HSP-03,General Surgery,2022-01-01,2022-01-04,Inguinal Hernia,Private Room,0,Referred
+IPD417420,PT123354,HSP-02,General Medicine,2022-09-17,2022-09-22,Essential Hypertension,Semi-Private,0,Referred
+IPD421850,PT129279,HSP-02,Orthopaedics,2023-02-14,2023-02-19,Osteoarthritis of Knee,Private Room,0,Recovered
+IPD431350,PT141694,HSP-04,Orthopaedics,2022-09-25,2022-09-30,Osteoarthritis of Knee,General Ward,0,Recovered
+IPD406616,PT109002,HSP-01,ENT,2022-01-26,2022-02-01,Allergic Rhinitis,General Ward,0,Recovered
+IPD418177,PT124479,HSP-03,Paediatrics,2024-07-01,2024-07-11,Acute Otitis Media,Semi-Private,0,Recovered
+IPD409708,PT113122,HSP-04,General Medicine,2022-01-01,2022-01-04,Iron Deficiency Anaemia,Semi-Private,0,Recovered
+IPD413939,PT118481,HSP-01,Nephrology,2022-04-15,2022-04-18,Chronic Kidney Disease Stage 3,General Ward,0,Improved
+IPD427072,PT136147,HSP-03,General Surgery,2024-03-14,2024-03-19,Cholelithiasis,ICU,1,Recovered
+IPD430344,PT140395,HSP-02,General Medicine,2023-04-08,2023-04-11,Upper Respiratory Tract Infection,General Ward,0,Recovered
+IPD429574,PT139292,HSP-03,Nephrology,2022-11-30,2022-12-07,Acute Kidney Injury,General Ward,0,Recovered
+IPD403697,PT104997,HSP-01,Cardiology,2023-08-20,2023-08-22,Atrial Fibrillation,Semi-Private,0,Recovered
+IPD402632,PT103630,HSP-03,Cardiology,2024-07-02,2024-07-06,Stable Angina Pectoris,Semi-Private,0,Recovered
+IPD407452,PT110099,HSP-01,General Surgery,2022-08-29,2022-09-06,Acute Fissure in Ano,Private Room,0,Improved
+IPD410987,PT114799,HSP-02,Orthopaedics,2022-06-12,2022-06-15,Fracture of Distal Radius,Semi-Private,0,Recovered
+IPD414975,PT119950,HSP-04,General Medicine,2022-09-24,2022-09-29,Essential Hypertension,Private Room,0,Recovered
+IPD430209,PT140234,HSP-01,Pulmonology,2024-11-20,2024-11-26,Chronic Obstructive Pulmonary Disease,Semi-Private,0,Recovered
+IPD402390,PT103248,HSP-03,Endocrinology,2024-02-15,2024-02-18,Type 2 Diabetes Mellitus,Semi-Private,0,Improved
+IPD426077,PT134790,HSP-01,General Medicine,2023-04-29,2023-05-02,Upper Respiratory Tract Infection,Semi-Private,0,Recovered
+IPD425001,PT133334,HSP-04,General Medicine,2024-04-13,2024-05-06,Iron Deficiency Anaemia,Semi-Private,0,Improved
+IPD412341,PT116492,HSP-01,General Medicine,2024-01-25,2024-01-27,Acute Gastroenteritis,Semi-Private,0,Recovered
+IPD424855,PT133142,HSP-02,ENT,2024-02-16,2024-02-18,Acute Tonsillitis,General Ward,0,Recovered
+IPD411268,PT115145,HSP-02,General Medicine,2022-12-31,2023-01-04,Essential Hypertension,Private Room,0,Recovered
+IPD413081,PT117414,HSP-02,Pulmonology,2024-08-15,2024-08-19,Bronchial Asthma,Semi-Private,0,Recovered
+IPD420145,PT127045,HSP-02,General Surgery,2024-07-07,2024-07-14,Acute Fissure in Ano,ICU,1,Recovered
+IPD408715,PT111833,HSP-01,Paediatrics,2022-10-16,2022-10-17,Febrile Illness in Child,Semi-Private,0,Recovered
+IPD401582,PT102153,HSP-01,Nephrology,2022-02-25,2022-02-28,Chronic Kidney Disease Stage 3,Semi-Private,0,Recovered
+IPD409882,PT113331,HSP-01,Paediatrics,2022-01-02,2022-01-04,Acute Bronchiolitis,General Ward,0,Recovered
+IPD422095,PT129627,HSP-02,General Medicine,2023-01-05,2023-01-16,Essential Hypertension,Private Room,0,Recovered
+IPD413582,PT118042,HSP-03,General Medicine,2024-03-29,2024-04-04,Essential Hypertension,Private Room,0,Recovered
+IPD403135,PT104301,HSP-01,Obstetrics & Gynaecology,2024-02-10,2024-02-12,Postnatal Care,Private Room,0,Recovered
+IPD428099,PT137457,HSP-02,Pulmonology,2024-02-02,2024-03-03,Community Acquired Pneumonia,General Ward,0,Recovered
+IPD414054,PT118667,HSP-02,Orthopaedics,2024-07-02,2024-07-07,Mechanical Low Back Pain,General Ward,0,Referred
+IPD402864,PT103931,HSP-01,Paediatrics,2022-07-13,2022-07-15,Acute Bronchiolitis,General Ward,0,Recovered
+IPD423544,PT131505,HSP-03,General Medicine,2023-11-19,2023-11-21,Essential Hypertension,Private Room,0,Recovered
+IPD401064,PT101513,HSP-02,Pulmonology,2022-06-18,2022-07-01,Bronchial Asthma,General Ward,0,Improved
+IPD423269,PT131156,HSP-02,Orthopaedics,2024-11-17,2024-11-25,Ligament Injury of Knee,Semi-Private,0,Recovered
+IPD427866,PT137184,HSP-02,Orthopaedics,2024-12-04,2024-12-13,Fracture of Distal Radius,Semi-Private,0,Improved
+IPD404433,PT106014,HSP-01,Pulmonology,2024-08-11,2024-08-13,Chronic Obstructive Pulmonary Disease,General Ward,0,Recovered
+IPD409854,PT113294,HSP-02,Orthopaedics,2023-07-10,2023-07-19,Osteoarthritis of Knee,General Ward,0,Recovered
+IPD402577,PT103563,HSP-03,Obstetrics & Gynaecology,2022-12-16,2023-01-03,Antenatal Care - Second Trimester,Private Room,0,Recovered
+IPD407157,PT109714,HSP-02,Obstetrics & Gynaecology,2022-02-15,2022-02-18,Antenatal Care - Second Trimester,General Ward,0,Recovered
+IPD431168,PT141508,HSP-01,General Medicine,2024-08-31,2024-09-16,Acute Gastroenteritis,General Ward,0,Recovered
+IPD407885,PT110693,HSP-03,General Medicine,2023-07-23,2023-07-25,Iron Deficiency Anaemia,Semi-Private,0,Recovered
+IPD419948,PT126784,HSP-01,Orthopaedics,2023-02-27,2023-03-03,Fracture of Distal Radius,Semi-Private,0,Recovered
+IPD428175,PT137550,HSP-04,Paediatrics,2023-10-26,2023-10-29,Protein Energy Malnutrition,Private Room,0,Recovered
+IPD416566,PT122299,HSP-01,Orthopaedics,2023-03-19,2023-03-24,Fracture of Distal Radius,Semi-Private,0,Recovered
+IPD430063,PT140044,HSP-01,Obstetrics & Gynaecology,2024-10-18,2024-10-19,Polycystic Ovary Syndrome,Semi-Private,0,Recovered
+IPD420182,PT127083,HSP-03,Cardiology,2022-09-26,2022-10-05,Stable Angina Pectoris,Private Room,0,Improved
+IPD406491,PT108836,HSP-01,General Medicine,2023-12-20,2023-12-26,Type 2 Diabetes Mellitus,General Ward,0,Recovered
+IPD427082,PT136152,HSP-03,General Medicine,2023-11-07,2023-11-11,Upper Respiratory Tract Infection,Private Room,0,Recovered
+IPD426028,PT134731,HSP-01,Cardiology,2024-06-02,2024-06-06,Atrial Fibrillation,Semi-Private,0,Recovered
+IPD403110,PT104269,HSP-04,General Medicine,2023-12-25,2024-01-05,Upper Respiratory Tract Infection,Private Room,0,Recovered
+IPD402078,PT102793,HSP-01,Endocrinology,2023-02-21,2023-02-24,Hypothyroidism,General Ward,0,Improved
+IPD415554,PT120893,HSP-03,General Medicine,2023-02-09,2023-02-11,Essential Hypertension,General Ward,0,Recovered
+IPD425805,PT134421,HSP-04,General Medicine,2023-08-25,2023-08-29,Acute Gastroenteritis,Semi-Private,0,Recovered
+IPD407621,PT110325,HSP-04,Pulmonology,2023-06-03,2023-06-06,Community Acquired Pneumonia,Private Room,0,Recovered
+IPD414613,PT119364,HSP-02,General Medicine,2022-07-06,2022-07-15,Essential Hypertension,Private Room,0,Improved
+IPD417259,PT123141,HSP-02,General Medicine,2023-12-23,2023-12-25,Acute Viral Fever,General Ward,0,Improved
+IPD409443,PT112757,HSP-04,General Medicine,2022-02-05,2022-02-06,Type 2 Diabetes Mellitus,Semi-Private,0,Referred
+IPD409336,PT112586,HSP-01,Nephrology,2024-12-14,2024-12-20,Chronic Kidney Disease Stage 3,Private Room,0,Recovered
+IPD430791,PT140982,HSP-01,General Surgery,2024-09-10,2024-09-13,Acute Appendicitis,Semi-Private,0,Recovered
+IPD426256,PT135008,HSP-03,General Medicine,2024-04-23,2024-04-26,Acute Viral Fever,General Ward,0,Recovered
+IPD409175,PT112379,HSP-03,General Medicine,2024-10-21,2024-10-27,Iron Deficiency Anaemia,General Ward,0,Improved
+IPD414798,PT119714,HSP-04,General Medicine,2024-03-11,2024-03-14,Iron Deficiency Anaemia,General Ward,0,Recovered
+IPD428493,PT137967,HSP-04,Obstetrics & Gynaecology,2023-07-04,2023-07-07,Postnatal Care,General Ward,0,Recovered
+IPD406831,PT109302,HSP-02,Orthopaedics,2024-02-09,2024-02-12,Osteoarthritis of Knee,General Ward,0,Recovered
+IPD424552,PT132814,HSP-02,General Surgery,2024-01-12,2024-01-15,Acute Appendicitis,Semi-Private,0,Improved
+IPD405919,PT108077,HSP-04,Orthopaedics,2022-04-07,2022-04-13,Fracture of Distal Radius,General Ward,0,Recovered
+IPD412129,PT116269,HSP-03,Cardiology,2022-03-30,2022-04-03,Stable Angina Pectoris,General Ward,0,Improved
+IPD431261,PT141585,HSP-01,General Medicine,2023-04-18,2023-04-20,Essential Hypertension,Private Room,0,Recovered
+IPD429310,PT138955,HSP-04,General Medicine,2023-11-28,2023-12-01,Iron Deficiency Anaemia,Private Room,0,Improved
+IPD431342,PT141685,HSP-01,General Medicine,2023-05-28,2023-05-30,Type 2 Diabetes Mellitus,Private Room,0,Recovered
+IPD422277,PT129838,HSP-04,Obstetrics & Gynaecology,2024-11-20,2024-11-22,Polycystic Ovary Syndrome,General Ward,0,Expired
+IPD410371,PT113998,HSP-04,Orthopaedics,2022-06-28,2022-07-04,Ligament Injury of Knee,Private Room,0,Recovered
+IPD410892,PT114696,HSP-03,Orthopaedics,2022-01-01,2022-01-12,Mechanical Low Back Pain,Private Room,0,Recovered
+IPD425428,PT133961,HSP-01,Obstetrics & Gynaecology,2023-07-22,2023-07-25,Postnatal Care,General Ward,0,Recovered
+IPD429696,PT139455,HSP-04,General Medicine,2022-07-23,2022-07-29,Acute Viral Fever,Private Room,0,Recovered
+IPD402233,PT103020,HSP-01,Pulmonology,2023-05-30,2023-06-02,Community Acquired Pneumonia,General Ward,0,Recovered
+IPD405125,PT106994,HSP-04,General Medicine,2023-02-20,2023-02-22,Essential Hypertension,General Ward,0,Recovered
+IPD406016,PT108194,HSP-04,General Medicine,2024-02-28,2024-03-01,Upper Respiratory Tract Infection,Semi-Private,0,Improved
+IPD409031,PT112226,HSP-03,Orthopaedics,2023-11-02,2023-11-08,Osteoarthritis of Knee,Semi-Private,0,Recovered
+IPD424974,PT133294,HSP-01,General Medicine,2023-06-25,2023-06-30,Upper Respiratory Tract Infection,General Ward,0,Recovered
+IPD430424,PT140516,HSP-02,General Surgery,2023-12-05,2023-12-09,Inguinal Hernia,Private Room,0,Recovered
+IPD407846,PT110647,HSP-02,Orthopaedics,2024-03-10,2024-03-24,Osteoarthritis of Knee,General Ward,0,Recovered
+IPD426582,PT135421,HSP-01,Obstetrics & Gynaecology,2024-12-23,2024-12-26,Postnatal Care,Private Room,0,Recovered
+IPD408652,PT111794,HSP-04,Orthopaedics,2023-11-10,2023-11-16,Ligament Injury of Knee,Semi-Private,0,Improved
+IPD407686,PT110411,HSP-03,Orthopaedics,2023-10-15,2023-10-19,Ligament Injury of Knee,General Ward,0,Recovered
+IPD423024,PT130807,HSP-01,Nephrology,2023-06-03,2023-06-11,Chronic Kidney Disease Stage 3,Private Room,0,Recovered
+IPD415346,PT120564,HSP-02,General Surgery,2023-06-30,2023-07-04,Cholelithiasis,Semi-Private,0,Recovered
+IPD405378,PT107350,HSP-03,Nephrology,2024-11-19,2024-12-06,Acute Kidney Injury,Semi-Private,0,Recovered
+IPD403602,PT104897,HSP-01,Orthopaedics,2024-02-14,2024-02-16,Osteoarthritis of Knee,Private Room,0,Recovered
+IPD410812,PT114557,HSP-01,Pulmonology,2024-07-06,2024-07-11,Chronic Obstructive Pulmonary Disease,Semi-Private,0,Recovered
+IPD411971,PT116071,HSP-03,Nephrology,2022-10-24,,Chronic Kidney Disease Stage 3,Semi-Private,0,Referred
+IPD429695,PT139455,HSP-03,Orthopaedics,2022-07-25,2022-07-29,Ligament Injury of Knee,Semi-Private,0,Improved
+IPD418975,PT125496,HSP-01,General Medicine,2022-11-05,2022-11-09,Acute Gastroenteritis,Private Room,0,Recovered
+IPD425740,PT134349,HSP-04,General Medicine,2023-11-26,2023-12-02,Acute Gastroenteritis,General Ward,0,Recovered
+IPD423391,PT131317,HSP-01,General Surgery,2022-11-08,2022-11-14,Cholelithiasis,Private Room,0,Improved
+IPD410916,PT114729,HSP-01,General Medicine,2024-02-22,2024-02-24,Acute Viral Fever,Private Room,0,Recovered
+IPD403821,PT105188,HSP-03,General Medicine,2022-01-21,2022-01-28,Acute Gastroenteritis,General Ward,0,Recovered
+IPD400083,PT100068,HSP-04,Orthopaedics,2024-06-20,2024-06-26,Osteoarthritis of Knee,Semi-Private,0,Improved
+IPD417413,PT123348,HSP-04,Orthopaedics,2023-08-06,2023-08-14,Ligament Injury of Knee,General Ward,0,Recovered
+IPD426995,PT136016,HSP-04,Orthopaedics,2022-04-17,2022-04-22,Mechanical Low Back Pain,Semi-Private,0,Recovered
+IPD431513,PT141938,HSP-04,General Medicine,2024-04-23,2024-04-26,Upper Respiratory Tract Infection,Private Room,0,Recovered
+IPD409113,PT112340,HSP-01,Orthopaedics,2024-06-27,2024-07-09,Osteoarthritis of Knee,Semi-Private,0,Recovered
+IPD411137,PT114983,HSP-01,Endocrinology,2024-07-10,2024-07-13,Type 2 Diabetes Mellitus,General Ward,0,Improved
+IPD408908,PT112090,HSP-01,Cardiology,2022-08-06,2022-08-09,Stable Angina Pectoris,Semi-Private,0,Improved
+IPD413959,PT118508,HSP-01,General Medicine,2023-04-27,2023-05-01,Acute Viral Fever,Private Room,0,Recovered
+IPD405546,PT107565,HSP-01,Nephrology,2024-01-03,2024-01-13,Chronic Kidney Disease Stage 3,Semi-Private,0,Improved
+IPD411186,PT115044,HSP-02,General Medicine,2024-08-18,2024-08-22,Acute Viral Fever,Semi-Private,0,Recovered
+IPD417166,PT123031,HSP-03,Endocrinology,2023-01-25,2023-01-26,Hypothyroidism,Semi-Private,0,Referred
+IPD429678,PT139439,HSP-01,Pulmonology,2023-03-21,2023-03-24,Chronic Obstructive Pulmonary Disease,General Ward,0,Improved
+IPD401889,PT102536,HSP-03,General Medicine,2024-12-07,2024-12-31,Acute Viral Fever,General Ward,0,Recovered
+IPD425174,PT133596,HSP-03,Orthopaedics,2023-02-12,2023-03-09,Mechanical Low Back Pain,Private Room,0,Recovered
+IPD415294,PT120480,HSP-04,General Surgery,2023-10-02,2023-10-05,Acute Fissure in Ano,General Ward,0,Recovered
+IPD428555,PT138080,HSP-01,General Surgery,2023-05-23,2023-05-30,Acute Appendicitis,Semi-Private,0,Improved
+IPD418900,PT125417,HSP-03,Cardiology,2024-08-29,2024-09-02,Congestive Heart Failure,Private Room,0,Recovered
+IPD401717,PT102353,HSP-01,General Surgery,2023-08-23,2023-08-27,Cholelithiasis,Semi-Private,0,Recovered
+IPD405795,PT107892,HSP-02,Orthopaedics,2023-11-19,2023-11-23,Osteoarthritis of Knee,General Ward,0,Recovered
+IPD418841,PT125341,HSP-02,General Medicine,2024-12-26,2024-12-28,Upper Respiratory Tract Infection,General Ward,0,Recovered
+IPD429712,PT139464,HSP-02,General Medicine,2022-09-02,2022-09-06,Acute Gastroenteritis,Semi-Private,0,Improved
+IPD415200,PT120340,HSP-02,General Medicine,2023-12-24,2023-12-25,Upper Respiratory Tract Infection,Private Room,0,Recovered
+IPD402753,PT103827,HSP-01,General Medicine,2023-04-04,2023-04-11,Iron Deficiency Anaemia,Private Room,0,Recovered
+IPD405017,PT106864,HSP-02,Pulmonology,2024-06-19,2024-07-19,Community Acquired Pneumonia,Private Room,0,Recovered
+IPD420659,PT127635,HSP-01,General Medicine,2022-10-20,2022-10-24,Acute Gastroenteritis,Semi-Private,0,Improved
+IPD428943,PT138543,HSP-01,Endocrinology,2022-11-27,2022-11-29,Obesity with Metabolic Syndrome,Semi-Private,0,Recovered
+IPD400079,PT100068,HSP-04,Orthopaedics,2024-06-16,2024-06-25,Osteoarthritis of Knee,Semi-Private,0,Improved
+IPD430112,PT140124,HSP-01,General Medicine,2022-11-21,2022-12-02,Acute Viral Fever,Private Room,0,Recovered
+IPD408386,PT111422,HSP-03,General Medicine,2022-01-05,2022-01-09,Acute Viral Fever,Semi-Private,0,Recovered
+IPD425633,PT134218,HSP-04,Obstetrics & Gynaecology,2022-12-18,2022-12-21,Abnormal Uterine Bleeding,General Ward,0,Referred
+IPD416367,PT122034,HSP-01,Nephrology,2024-02-08,2024-02-11,Nephrotic Syndrome,Private Room,0,Recovered
+IPD403380,PT104629,HSP-02,General Surgery,2022-01-28,2022-01-30,Acute Fissure in Ano,Private Room,0,Recovered
+IPD410921,PT114729,HSP-01,General Medicine,2023-08-21,2023-08-24,Iron Deficiency Anaemia,Private Room,0,Improved
+IPD420871,PT127889,HSP-02,General Surgery,2024-03-16,2024-03-21,Acute Appendicitis,Semi-Private,0,Improved
+IPD411781,PT115821,HSP-02,Orthopaedics,2022-05-16,2022-05-25,Ligament Injury of Knee,General Ward,0,Recovered
+IPD415529,PT120843,HSP-03,Pulmonology,2023-06-22,2023-06-29,Community Acquired Pneumonia,Private Room,0,Improved
+IPD406101,PT108277,HSP-02,Pulmonology,2024-03-19,2024-03-23,Chronic Obstructive Pulmonary Disease,Private Room,0,Recovered
+IPD423075,PT130876,HSP-01,General Medicine,2024-07-01,2024-07-07,Iron Deficiency Anaemia,General Ward,0,Recovered
+IPD410034,PT113543,HSP-03,General Medicine,2023-09-28,2023-10-02,Upper Respiratory Tract Infection,Private Room,0,Improved
+IPD411788,PT115836,HSP-01,General Surgery,2024-10-24,2024-10-25,Cholelithiasis,General Ward,0,Improved
+IPD421745,PT129130,HSP-04,Pulmonology,2022-11-25,2022-12-16,Bronchial Asthma,Private Room,0,Recovered
+IPD430499,PT140616,HSP-01,General Surgery,2022-01-01,2022-01-05,Acute Fissure in Ano,Private Room,0,Recovered
+IPD401001,PT101431,HSP-03,Orthopaedics,2022-08-17,2022-08-20,Osteoarthritis of Knee,General Ward,0,Recovered
+IPD426732,PT135641,HSP-01,General Medicine,2024-06-08,2024-06-11,Acute Gastroenteritis,General Ward,0,Recovered
+IPD408578,PT111688,HSP-04,Orthopaedics,2024-06-20,2024-06-25,Ligament Injury of Knee,Semi-Private,0,Recovered
+IPD429729,PT139479,HSP-01,Orthopaedics,2024-11-29,2024-12-04,Fracture of Distal Radius,Semi-Private,0,Recovered
+IPD421018,PT128081,HSP-01,Orthopaedics,2022-11-02,2022-11-14,Ligament Injury of Knee,General Ward,0,Recovered
+IPD403966,PT105398,HSP-01,Cardiology,2023-09-28,2023-10-02,Congestive Heart Failure,Private Room,0,Recovered
+IPD412872,PT117130,HSP-04,General Medicine,2024-11-15,2024-11-17,Upper Respiratory Tract Infection,Semi-Private,0,Improved
+IPD427201,PT136334,HSP-01,Paediatrics,2024-08-01,2024-08-04,Protein Energy Malnutrition,Private Room,0,LAMA
+IPD413124,PT117471,HSP-03,Orthopaedics,2023-06-18,2023-06-25,Osteoarthritis of Knee,Semi-Private,0,Recovered
+IPD416369,PT122040,HSP-01,General Medicine,2022-12-07,2022-12-11,Upper Respiratory Tract Infection,General Ward,0,Recovered
+IPD427123,PT136218,HSP-01,Endocrinology,2024-12-01,2024-12-07,Obesity with Metabolic Syndrome,Private Room,0,Improved
+IPD404967,PT106781,HSP-02,General Medicine,2023-01-27,2023-01-31,Acute Gastroenteritis,Private Room,0,Recovered
+IPD423359,PT131277,HSP-02,General Medicine,2022-10-29,2022-11-04,Iron Deficiency Anaemia,General Ward,0,Recovered
+IPD406213,PT108406,HSP-03,Cardiology,2024-10-05,2024-10-21,Acute Coronary Syndrome,ICU,1,Recovered
+IPD407727,PT110468,HSP-02,General Surgery,2024-03-04,2024-03-07,Inguinal Hernia,General Ward,0,Improved
+IPD406981,PT109480,HSP-01,General Surgery,2024-02-03,2024-01-26,Acute Fissure in Ano,ICU,1,Recovered
+IPD430465,PT140553,HSP-03,General Medicine,2023-10-28,2023-11-04,Type 2 Diabetes Mellitus,Private Room,0,Recovered
+IPD412390,PT116553,HSP-01,Obstetrics & Gynaecology,2024-10-07,2024-10-10,Antenatal Care - Second Trimester,Semi-Private,0,LAMA
+IPD420609,PT127580,HSP-04,Orthopaedics,2022-07-06,2022-07-11,Mechanical Low Back Pain,Private Room,0,Recovered
+IPD408867,PT112050,HSP-03,Pulmonology,2024-02-08,2024-02-18,Chronic Obstructive Pulmonary Disease,Semi-Private,0,Recovered
+IPD423805,PT131819,HSP-01,Pulmonology,2023-08-24,2023-09-02,Community Acquired Pneumonia,Private Room,0,Improved
+IPD426913,PT135918,HSP-03,Nephrology,2022-07-04,2022-07-07,Nephrotic Syndrome,Semi-Private,0,Referred
+IPD420206,PT127111,HSP-04,General Medicine,2024-06-20,2024-06-26,Type 2 Diabetes Mellitus,Semi-Private,0,Recovered
+IPD425491,PT134074,HSP-04,General Medicine,2023-10-17,2023-10-19,Type 2 Diabetes Mellitus,Private Room,0,Recovered
+IPD413644,PT118155,HSP-01,Orthopaedics,2022-09-22,2022-09-24,Ligament Injury of Knee,Private Room,0,Recovered
+IPD412842,PT117077,HSP-02,General Medicine,2023-08-16,2023-08-23,Acute Gastroenteritis,Private Room,0,Improved
+IPD410816,PT114571,HSP-03,Orthopaedics,2024-12-11,2024-12-17,Mechanical Low Back Pain,Private Room,0,Referred
+IPD420282,PT127192,HSP-01,General Medicine,2023-03-13,2023-03-16,Type 2 Diabetes Mellitus,Semi-Private,0,Recovered
+IPD428892,PT138480,HSP-03,Pulmonology,2023-10-02,2023-10-04,Chronic Obstructive Pulmonary Disease,Private Room,0,Recovered
+IPD400286,PT100382,HSP-01,Paediatrics,2023-11-22,2023-11-28,Acute Bronchiolitis,Private Room,0,Improved
+IPD415503,PT120800,HSP-04,General Medicine,2024-09-07,2024-09-11,Acute Gastroenteritis,Private Room,0,Recovered
+IPD426941,PT135947,HSP-02,General Medicine,2023-12-15,2023-12-17,Acute Gastroenteritis,Private Room,0,Recovered
+IPD412108,PT116250,HSP-01,Obstetrics & Gynaecology,2022-12-31,2023-01-02,Abnormal Uterine Bleeding,General Ward,0,Referred
+IPD424923,PT133218,HSP-03,Paediatrics,2022-01-01,2022-01-06,Protein Energy Malnutrition,General Ward,0,Recovered
+IPD421556,PT128923,HSP-01,Pulmonology,2024-05-15,2024-05-18,Community Acquired Pneumonia,General Ward,0,Recovered
+IPD418538,PT124953,HSP-01,ENT,2024-03-16,2024-03-18,Acute Tonsillitis,General Ward,0,Improved
+IPD424829,PT133109,HSP-01,Cardiology,2024-01-24,2024-01-26,Acute Coronary Syndrome,ICU,1,Recovered
+IPD421289,PT128519,HSP-01,Cardiology,2022-01-06,2022-01-13,Congestive Heart Failure,General Ward,0,Recovered
+IPD421982,PT129446,HSP-01,General Medicine,2024-07-12,2024-07-17,Acute Gastroenteritis,Semi-Private,0,Recovered
+IPD402115,PT102849,HSP-03,Orthopaedics,2023-06-28,2023-07-02,Fracture of Distal Radius,Private Room,0,Recovered
+IPD407951,PT110777,HSP-01,Orthopaedics,2024-02-15,2024-02-28,Ligament Injury of Knee,Semi-Private,0,Improved
+IPD412423,PT116599,HSP-04,General Medicine,2022-03-03,2022-03-07,Upper Respiratory Tract Infection,Semi-Private,0,Recovered
+IPD422632,PT130299,HSP-01,Pulmonology,2023-06-18,2023-06-20,Community Acquired Pneumonia,Semi-Private,0,Recovered
+IPD401269,PT101730,HSP-02,ENT,2024-09-09,2024-09-11,Allergic Rhinitis,General Ward,0,Recovered
+IPD416044,PT121556,HSP-03,Cardiology,2024-12-07,2024-12-11,Congestive Heart Failure,Semi-Private,0,Recovered
+IPD410179,PT113740,HSP-04,General Medicine,2023-03-28,2023-04-02,Essential Hypertension,Semi-Private,0,Recovered
+IPD404588,PT106220,HSP-03,Nephrology,2024-12-04,2024-12-08,Nephrotic Syndrome,General Ward,0,Improved
+IPD423909,PT131938,HSP-03,Orthopaedics,2024-01-02,2024-01-06,Mechanical Low Back Pain,Semi-Private,0,Recovered
+IPD427886,PT137202,HSP-03,Orthopaedics,2022-05-10,2022-05-14,Fracture of Distal Radius,Semi-Private,0,Recovered
+IPD408494,PT111578,HSP-03,Cardiology,2023-04-04,2023-04-06,Acute Coronary Syndrome,Private Room,0,Recovered
+IPD424352,PT132494,HSP-04,Orthopaedics,2022-06-07,2022-06-12,Osteoarthritis of Knee,Semi-Private,0,Improved
+IPD414634,PT119416,HSP-02,Pulmonology,2023-06-03,2023-06-11,Community Acquired Pneumonia,General Ward,0,Recovered
+IPD408630,PT111768,HSP-03,General Medicine,2023-12-17,2023-12-19,Upper Respiratory Tract Infection,General Ward,0,Recovered
+IPD412274,PT116428,HSP-03,Cardiology,2023-08-19,2023-08-25,Atrial Fibrillation,ICU,1,Recovered
+IPD414579,PT119325,HSP-02,Orthopaedics,2024-01-29,2024-02-04,Ligament Injury of Knee,General Ward,0,Improved
+IPD429452,PT139131,HSP-04,General Medicine,2022-05-02,2022-05-05,Essential Hypertension,General Ward,0,Recovered
+IPD415236,PT120402,HSP-01,Obstetrics & Gynaecology,2022-05-15,2022-05-19,Polycystic Ovary Syndrome,Private Room,0,Improved
+IPD416928,PT122725,HSP-02,General Medicine,2023-10-01,2023-10-04,Acute Gastroenteritis,Private Room,0,Recovered
+IPD411358,PT115241,HSP-01,General Surgery,2023-10-31,2023-11-05,Cholelithiasis,Private Room,0,Recovered
+IPD421833,PT129256,HSP-01,General Medicine,2023-04-26,2023-04-29,Essential Hypertension,Semi-Private,0,Recovered
+IPD425962,PT134675,HSP-01,General Medicine,2023-11-17,2023-11-21,Acute Viral Fever,Private Room,0,Improved
+IPD429619,PT139365,HSP-03,Nephrology,2024-04-22,2024-05-01,Chronic Kidney Disease Stage 3,ICU,1,Recovered
+IPD415105,PT120174,HSP-03,General Medicine,2023-12-24,2023-12-28,Acute Viral Fever,Private Room,0,Improved
+IPD410313,PT113904,HSP-01,Pulmonology,2024-03-26,,Bronchial Asthma,Semi-Private,0,Recovered
+IPD424719,PT132994,HSP-04,General Medicine,2022-10-19,2022-10-21,Type 2 Diabetes Mellitus,Private Room,0,Improved
+IPD407453,PT110099,HSP-01,General Medicine,2024-06-22,2024-06-25,Upper Respiratory Tract Infection,Semi-Private,0,Referred
+IPD417178,PT123044,HSP-04,Paediatrics,2022-10-22,2022-10-25,Protein Energy Malnutrition,Private Room,0,Recovered
+IPD425363,PT133869,HSP-01,Orthopaedics,2024-11-16,2024-11-20,Osteoarthritis of Knee,Semi-Private,0,Recovered
+IPD425413,PT133942,HSP-01,General Medicine,2022-01-28,2022-02-01,Acute Viral Fever,Private Room,0,Recovered
+IPD406949,PT109432,HSP-02,General Surgery,2022-06-03,2022-06-08,Acute Fissure in Ano,Private Room,0,Recovered
+IPD409913,PT113388,HSP-03,General Medicine,2022-03-05,2022-03-09,Acute Viral Fever,General Ward,0,Recovered
+IPD407867,PT110679,HSP-01,General Medicine,2024-10-11,2024-10-19,Essential Hypertension,Private Room,0,Improved
+IPD406736,PT109181,HSP-01,General Medicine,2022-11-14,2022-11-18,Iron Deficiency Anaemia,General Ward,0,Recovered
+IPD402017,PT102742,HSP-02,Orthopaedics,2022-01-26,2022-02-01,Mechanical Low Back Pain,General Ward,0,Recovered
+IPD411036,PT114864,HSP-02,Obstetrics & Gynaecology,2024-03-10,2024-03-11,Polycystic Ovary Syndrome,Semi-Private,0,Recovered
+IPD420885,PT127900,HSP-03,Obstetrics & Gynaecology,2024-11-12,2024-11-16,Polycystic Ovary Syndrome,Semi-Private,0,Recovered
+IPD420916,PT127958,HSP-02,Orthopaedics,2023-03-07,2023-03-13,Mechanical Low Back Pain,General Ward,0,Recovered
+IPD409637,PT112988,HSP-04,Obstetrics & Gynaecology,2022-01-02,2022-01-05,Abnormal Uterine Bleeding,Semi-Private,0,Referred
+IPD425265,PT133762,HSP-03,Nephrology,2024-10-18,2024-10-24,Nephrotic Syndrome,Semi-Private,0,Recovered
+IPD430805,PT140998,HSP-01,General Surgery,2023-06-12,2023-06-17,Cholelithiasis,Private Room,0,Referred
+IPD401616,PT102203,HSP-01,Pulmonology,2023-05-25,,Community Acquired Pneumonia,General Ward,0,Improved
+IPD401811,PT102456,HSP-03,General Surgery,2024-10-08,2024-10-11,Acute Appendicitis,Semi-Private,0,Recovered
+IPD430683,PT140875,HSP-02,General Medicine,2024-10-23,2024-10-25,Upper Respiratory Tract Infection,Private Room,0,LAMA
+IPD421474,PT128799,HSP-03,General Medicine,2023-09-17,2023-09-24,Type 2 Diabetes Mellitus,Private Room,0,Recovered
+IPD414356,PT119053,HSP-02,General Surgery,2023-04-11,2023-04-13,Inguinal Hernia,ICU,1,Recovered
+IPD429760,PT139554,HSP-01,Nephrology,2022-11-14,2022-11-18,Chronic Kidney Disease Stage 3,General Ward,0,Improved
+IPD403262,PT104491,HSP-04,Orthopaedics,2023-03-12,2023-03-25,Fracture of Distal Radius,Private Room,0,Recovered
+IPD407132,PT109692,HSP-04,General Medicine,2022-12-22,2022-12-29,Type 2 Diabetes Mellitus,General Ward,0,LAMA
+IPD412533,PT116725,HSP-01,General Medicine,2023-12-30,2024-01-01,Acute Gastroenteritis,Private Room,0,Recovered
+IPD404855,PT106614,HSP-01,General Medicine,2022-09-20,2022-09-25,Essential Hypertension,Semi-Private,0,Recovered
+IPD402153,PT102919,HSP-04,Paediatrics,2022-10-17,2022-10-21,Acute Otitis Media,Semi-Private,0,Recovered
+IPD415453,PT120713,HSP-04,Pulmonology,2022-09-13,2022-09-17,Chronic Obstructive Pulmonary Disease,General Ward,0,Improved
+IPD410419,PT114051,HSP-01,General Medicine,2024-10-09,2024-10-14,Acute Viral Fever,Semi-Private,0,Recovered
+IPD416969,PT122754,HSP-01,General Medicine,2024-04-02,2024-04-05,Type 2 Diabetes Mellitus,Private Room,0,Recovered
+IPD407617,PT110314,HSP-02,Pulmonology,2024-02-21,2024-02-27,Bronchial Asthma,Semi-Private,0,Recovered
+IPD410669,PT114398,HSP-01,General Medicine,2024-08-23,2024-08-27,Essential Hypertension,General Ward,0,Recovered
+IPD414834,PT119759,HSP-01,General Medicine,2023-01-06,2023-01-12,Acute Gastroenteritis,Semi-Private,0,Recovered
+IPD419217,PT125798,HSP-03,General Medicine,2022-10-03,2022-10-10,Acute Gastroenteritis,General Ward,0,Recovered
+IPD424221,PT132333,HSP-01,Cardiology,2023-10-07,2023-10-14,Congestive Heart Failure,ICU,1,Recovered
+IPD403148,PT104318,HSP-03,Orthopaedics,2022-02-01,2022-02-10,Ligament Injury of Knee,Semi-Private,0,Recovered
+IPD426946,PT135952,HSP-01,General Medicine,2023-12-09,2023-12-12,Acute Viral Fever,General Ward,0,Recovered
+IPD412290,PT116442,HSP-04,General Medicine,2022-01-30,2022-02-09,Acute Viral Fever,Semi-Private,0,Recovered
+IPD406296,PT108555,HSP-01,General Medicine,2024-04-18,2024-04-20,Essential Hypertension,Private Room,0,Improved
+IPD407863,PT110674,HSP-03,Obstetrics & Gynaecology,2024-12-30,2024-12-31,Abnormal Uterine Bleeding,Semi-Private,0,Recovered
+IPD415604,PT120952,HSP-01,General Surgery,2023-09-19,2023-09-24,Acute Fissure in Ano,General Ward,0,Referred
+IPD406330,PT108608,HSP-03,Cardiology,2023-12-02,2023-12-08,Atrial Fibrillation,ICU,1,Recovered
+IPD405338,PT107287,HSP-01,Orthopaedics,2024-11-21,2024-11-27,Osteoarthritis of Knee,General Ward,0,Improved
+IPD409161,PT112373,HSP-01,Endocrinology,2023-09-08,2023-09-12,Obesity with Metabolic Syndrome,Private Room,0,Recovered
+IPD417726,PT123853,HSP-02,General Medicine,2023-05-22,2023-05-26,Acute Viral Fever,Semi-Private,0,Expired
+IPD411660,PT115645,HSP-01,Cardiology,2023-06-16,2023-06-25,Atrial Fibrillation,General Ward,0,Recovered
+IPD410194,PT113755,HSP-03,Cardiology,2024-09-26,2024-10-12,Congestive Heart Failure,ICU,1,Recovered
+IPD420149,PT127047,HSP-03,General Medicine,2022-01-24,2022-01-27,Iron Deficiency Anaemia,Private Room,0,Recovered
+IPD416573,PT122303,HSP-01,Cardiology,2022-01-28,2022-02-02,Atrial Fibrillation,Private Room,0,LAMA
+IPD424772,PT133050,HSP-01,General Medicine,2023-06-03,2023-06-07,Acute Viral Fever,Private Room,0,Recovered
+IPD429416,PT139087,HSP-01,General Medicine,2022-09-21,2022-09-23,Upper Respiratory Tract Infection,Semi-Private,0,Recovered
+IPD413382,PT117778,HSP-02,Orthopaedics,2023-06-23,2023-06-29,Mechanical Low Back Pain,Semi-Private,0,Recovered
+IPD407060,PT109569,HSP-04,Obstetrics & Gynaecology,2024-10-31,2024-11-07,Polycystic Ovary Syndrome,Private Room,0,Recovered
+IPD404036,PT105504,HSP-01,Cardiology,2023-10-09,2023-10-19,Acute Coronary Syndrome,General Ward,0,Recovered
+IPD416494,PT122207,HSP-03,Cardiology,2024-04-05,2024-04-09,Stable Angina Pectoris,ICU,1,Recovered
+IPD900264,PT100169,HSP-04,Paediatrics,2022-01-23,2022-01-27,Protein Energy Malnutrition,Private Room,0,Recovered
+IPD411124,PT114971,HSP-01,Orthopaedics,2022-12-16,2022-12-23,Fracture of Distal Radius,General Ward,0,Recovered
+IPD424098,PT132203,HSP-02,Pulmonology,2024-02-15,2024-02-16,Community Acquired Pneumonia,General Ward,0,Recovered
+IPD428578,PT138100,HSP-02,Orthopaedics,2023-07-03,2023-07-09,Ligament Injury of Knee,General Ward,0,Recovered
+IPD418062,PT124350,HSP-01,General Medicine,2024-01-08,2024-01-10,Iron Deficiency Anaemia,General Ward,0,Improved
+IPD416112,PT121648,HSP-01,Nephrology,2024-10-29,2024-11-03,Nephrotic Syndrome,Semi-Private,0,Recovered
+IPD412721,PT116959,HSP-01,Orthopaedics,2022-11-17,2022-11-22,Osteoarthritis of Knee,Semi-Private,0,Recovered
+IPD419909,PT126741,HSP-01,General Medicine,2024-02-03,2024-02-07,Essential Hypertension,General Ward,0,Improved
+IPD409506,PT112841,HSP-03,General Medicine,2023-10-08,2023-10-10,Acute Gastroenteritis,Private Room,0,Recovered
+IPD423865,PT131879,HSP-03,General Medicine,2024-10-04,2024-10-10,Acute Viral Fever,Private Room,0,Recovered
+IPD417820,PT123974,HSP-03,Cardiology,2024-10-28,2024-11-08,Acute Coronary Syndrome,General Ward,0,Recovered
+IPD426559,PT135380,HSP-01,Paediatrics,2023-07-20,2023-07-23,Acute Bronchiolitis,General Ward,0,Recovered
+IPD412024,PT116123,HSP-01,General Surgery,2024-12-06,2024-12-17,Cholelithiasis,General Ward,0,Improved
+IPD407706,PT110454,HSP-04,General Medicine,2022-01-07,2022-01-19,Essential Hypertension,Semi-Private,0,Recovered
+IPD412922,PT117225,HSP-01,General Medicine,2023-04-07,2023-04-09,Acute Viral Fever,Semi-Private,0,Recovered
+IPD417031,PT122866,HSP-04,General Medicine,2022-05-30,2022-06-07,Upper Respiratory Tract Infection,Semi-Private,0,Recovered
+IPD421364,PT128622,HSP-01,Endocrinology,2022-10-11,2022-10-14,Type 2 Diabetes Mellitus,Semi-Private,0,Recovered
+IPD414155,PT118811,HSP-03,General Medicine,2022-10-26,2022-11-02,Essential Hypertension,Semi-Private,0,Recovered
+IPD423277,PT131179,HSP-01,General Medicine,2023-11-10,2023-11-12,Acute Viral Fever,Semi-Private,0,Recovered
+IPD428602,PT138128,HSP-01,ENT,2024-01-19,2024-01-22,Allergic Rhinitis,General Ward,0,Recovered
+IPD417822,PT123974,HSP-04,General Medicine,2022-09-06,2022-09-08,Type 2 Diabetes Mellitus,General Ward,0,Recovered
+IPD900094,PT134409,HSP-02,Pulmonology,2024-12-06,2024-12-08,Community Acquired Pneumonia,Semi-Private,0,Improved
+IPD420922,PT127967,HSP-02,General Surgery,2024-03-11,2024-03-18,Acute Appendicitis,ICU,1,Recovered
+IPD411585,PT115552,HSP-01,Cardiology,2022-04-13,2022-04-18,Acute Coronary Syndrome,Private Room,0,Referred
+IPD404060,PT105559,HSP-01,Orthopaedics,2022-09-20,2022-09-30,Osteoarthritis of Knee,Semi-Private,0,Recovered
+IPD409415,PT112722,HSP-03,Paediatrics,2023-01-02,2023-01-10,Acute Bronchiolitis,General Ward,0,Recovered
+IPD401541,PT102076,HSP-04,Orthopaedics,2022-08-18,2022-08-20,Osteoarthritis of Knee,Semi-Private,0,Improved
+IPD401756,PT102397,HSP-02,General Medicine,2023-12-31,2024-01-03,Upper Respiratory Tract Infection,Private Room,0,Recovered
+IPD424801,PT133088,HSP-03,Nephrology,2022-08-05,2022-08-13,Nephrotic Syndrome,Semi-Private,0,Recovered
+IPD421306,PT128548,HSP-01,Nephrology,2022-01-03,2022-01-11,Nephrotic Syndrome,General Ward,0,Improved
+IPD422366,PT129957,HSP-02,Obstetrics & Gynaecology,2024-12-23,2024-12-31,Polycystic Ovary Syndrome,Private Room,0,Recovered
+IPD406548,PT108896,HSP-02,General Medicine,2024-05-25,2024-05-29,Type 2 Diabetes Mellitus,Private Room,0,Improved
+IPD418959,PT125481,HSP-02,General Medicine,2023-12-21,2023-12-31,Iron Deficiency Anaemia,Private Room,0,Improved
+IPD408642,PT111791,HSP-02,General Surgery,2022-12-27,2023-01-06,Cholelithiasis,ICU,1,Recovered
+IPD421576,PT128940,HSP-01,General Surgery,2022-04-07,2022-04-11,Cholelithiasis,General Ward,0,Recovered
+IPD426209,PT134941,HSP-01,Endocrinology,2023-01-26,2023-01-31,Obesity with Metabolic Syndrome,General Ward,0,Recovered
+IPD410531,PT114195,HSP-02,Obstetrics & Gynaecology,2022-02-10,2022-02-12,Postnatal Care,Semi-Private,0,Recovered
+IPD419293,PT125917,HSP-04,ENT,2023-02-19,2023-02-23,Allergic Rhinitis,Private Room,0,Recovered
+IPD431505,PT141936,HSP-02,General Surgery,2023-11-01,2023-11-06,Acute Fissure in Ano,Private Room,0,Recovered
+IPD429100,PT138714,HSP-01,Orthopaedics,2024-01-17,2024-01-06,Fracture of Distal Radius,Private Room,0,Recovered
+IPD407917,PT110741,HSP-01,General Medicine,2023-12-03,2023-12-07,Type 2 Diabetes Mellitus,Semi-Private,0,Recovered
+IPD415597,PT120946,HSP-04,Obstetrics & Gynaecology,2023-05-06,2023-05-10,Antenatal Care - Second Trimester,Private Room,0,Recovered
+IPD415296,PT120481,HSP-02,Orthopaedics,2023-07-30,2023-08-09,Osteoarthritis of Knee,Semi-Private,0,Recovered
+IPD405559,PT107574,HSP-01,Orthopaedics,2022-05-29,2022-06-05,Osteoarthritis of Knee,Private Room,0,Recovered
+IPD406269,PT108530,HSP-01,Orthopaedics,2022-05-27,2022-05-29,Fracture of Distal Radius,Private Room,0,Recovered
+IPD425915,PT134612,HSP-01,Pulmonology,2022-06-21,2022-07-01,Chronic Obstructive Pulmonary Disease,Semi-Private,0,Recovered
+IPD410358,PT113975,HSP-03,Orthopaedics,2024-04-07,2024-04-13,Ligament Injury of Knee,General Ward,0,Improved
+IPD410362,PT113980,HSP-01,General Medicine,2022-12-26,2022-12-28,Acute Gastroenteritis,Private Room,0,Recovered
+IPD408190,PT111105,HSP-02,General Medicine,2024-12-29,2024-12-31,Essential Hypertension,Semi-Private,0,Recovered
+IPD426029,PT134731,HSP-01,Nephrology,2023-07-10,2023-07-14,Chronic Kidney Disease Stage 3,Semi-Private,0,Recovered
+IPD418044,PT124319,HSP-02,Pulmonology,2024-10-08,2024-10-14,Community Acquired Pneumonia,General Ward,0,Improved
+IPD428732,PT138300,HSP-01,General Medicine,2024-07-16,2024-07-21,Iron Deficiency Anaemia,Private Room,0,Recovered
+IPD421712,PT129111,HSP-01,Cardiology,2023-07-08,2023-07-16,Acute Coronary Syndrome,General Ward,0,Recovered
+IPD408021,PT110874,HSP-01,Orthopaedics,2024-02-29,2024-03-04,Osteoarthritis of Knee,General Ward,0,Improved
+IPD409780,PT113240,HSP-01,General Medicine,2023-06-02,2023-06-05,Iron Deficiency Anaemia,Private Room,0,Referred
+IPD423374,PT131293,HSP-01,Orthopaedics,2024-12-07,2024-12-12,Ligament Injury of Knee,Semi-Private,0,Recovered
+IPD423404,PT131332,HSP-04,General Medicine,2024-06-16,2024-06-23,Essential Hypertension,Semi-Private,0,Recovered
+IPD419820,PT126622,HSP-04,General Medicine,2024-04-20,2024-04-23,Iron Deficiency Anaemia,General Ward,0,Recovered
+IPD418257,PT124606,HSP-01,Cardiology,2022-06-28,2022-07-09,Stable Angina Pectoris,Semi-Private,0,Recovered
+IPD413968,PT118524,HSP-01,General Medicine,2023-06-04,2023-06-09,Upper Respiratory Tract Infection,Semi-Private,0,Recovered
+IPD401659,PT102266,HSP-03,Nephrology,2022-08-29,2022-09-06,Nephrotic Syndrome,ICU,1,Recovered
+IPD427871,PT137184,HSP-02,Orthopaedics,2024-03-10,2024-03-16,Fracture of Distal Radius,General Ward,0,Improved
+IPD420830,PT127848,HSP-01,Cardiology,2022-12-18,2022-12-23,Stable Angina Pectoris,Private Room,0,Recovered
+IPD406500,PT108838,HSP-04,General Medicine,2023-01-14,2023-01-16,Type 2 Diabetes Mellitus,General Ward,0,Recovered
+IPD413412,PT117811,HSP-02,General Surgery,2024-12-24,2024-12-28,Acute Fissure in Ano,ICU,1,Recovered
+IPD409250,PT112487,HSP-03,General Medicine,2024-02-06,2024-02-10,Acute Viral Fever,Private Room,0,Improved
+IPD410700,PT114419,HSP-04,Orthopaedics,2024-01-19,2024-01-26,Ligament Injury of Knee,Private Room,0,Recovered
+IPD410644,PT114367,HSP-04,General Medicine,2023-08-26,2023-08-31,Type 2 Diabetes Mellitus,General Ward,0,Recovered
+IPD405092,PT106968,HSP-03,General Medicine,2024-07-24,2024-07-29,Upper Respiratory Tract Infection,Private Room,0,Recovered
+IPD424482,PT132725,HSP-01,Pulmonology,2024-10-11,2024-10-16,Community Acquired Pneumonia,General Ward,0,Recovered
+IPD406207,PT108404,HSP-02,Orthopaedics,2024-12-18,2024-12-28,Mechanical Low Back Pain,Private Room,0,Recovered
+IPD429862,PT139708,HSP-04,General Medicine,2024-02-04,2024-02-06,Acute Gastroenteritis,Private Room,0,Recovered
+IPD430747,PT140933,HSP-01,General Medicine,2023-02-03,2023-02-24,Type 2 Diabetes Mellitus,Private Room,0,Recovered
+IPD406624,PT109020,HSP-02,General Medicine,2023-03-31,2023-04-02,Acute Gastroenteritis,Private Room,0,LAMA
+IPD419942,PT126771,HSP-03,Pulmonology,2022-05-06,2022-05-10,Bronchial Asthma,Private Room,0,Recovered
+IPD423213,PT131072,HSP-03,Cardiology,2022-08-09,2022-08-13,Stable Angina Pectoris,General Ward,0,Referred
+IPD412638,PT116908,HSP-03,General Surgery,2022-05-16,2022-05-18,Cholelithiasis,ICU,1,Recovered
+IPD430962,PT141221,HSP-01,General Medicine,2024-01-25,2024-02-02,Type 2 Diabetes Mellitus,General Ward,0,Recovered
+IPD410416,PT114050,HSP-03,Orthopaedics,2023-09-22,2023-09-27,Ligament Injury of Knee,General Ward,0,Recovered
+IPD403942,PT105378,HSP-03,Cardiology,2023-02-02,2023-02-11,Acute Coronary Syndrome,General Ward,0,Improved
+IPD406896,PT109362,HSP-02,General Surgery,2023-03-31,2023-04-05,Acute Fissure in Ano,General Ward,0,Recovered
+IPD402645,PT103639,HSP-02,General Surgery,2023-06-04,2023-06-08,Acute Fissure in Ano,Semi-Private,0,Referred
+IPD417849,PT124018,HSP-03,General Medicine,2024-09-21,2024-09-25,Acute Gastroenteritis,Private Room,0,Recovered
+IPD412261,PT116411,HSP-02,General Surgery,2022-03-26,2022-03-29,Inguinal Hernia,General Ward,0,Expired
+IPD407724,PT110468,HSP-02,General Medicine,2024-03-30,2024-04-09,Upper Respiratory Tract Infection,Semi-Private,0,Recovered
+IPD422924,PT130666,HSP-01,Cardiology,2023-08-16,2023-08-23,Congestive Heart Failure,ICU,1,Recovered
+IPD410004,PT113486,HSP-02,General Medicine,2023-09-14,2023-09-18,Type 2 Diabetes Mellitus,Semi-Private,0,Recovered
+IPD401280,PT101749,HSP-02,General Medicine,2024-11-12,2024-11-16,Upper Respiratory Tract Infection,General Ward,0,Recovered
+IPD406604,PT108974,HSP-01,Orthopaedics,2022-01-05,2022-01-16,Mechanical Low Back Pain,General Ward,0,Recovered
+IPD427193,PT136333,HSP-03,Cardiology,2022-09-22,2022-09-28,Stable Angina Pectoris,ICU,1,Recovered
+IPD430890,PT141110,HSP-02,General Medicine,2023-03-15,2023-03-18,Iron Deficiency Anaemia,Private Room,0,Recovered
+IPD403964,PT105398,HSP-02,General Surgery,2023-01-07,2023-01-12,Cholelithiasis,Private Room,0,Improved
+IPD405485,PT107471,HSP-03,Orthopaedics,2024-07-09,2024-07-18,Mechanical Low Back Pain,Private Room,0,Recovered
+IPD426311,PT135074,HSP-01,General Surgery,2023-11-05,2023-11-06,Acute Appendicitis,General Ward,0,Recovered
+IPD413849,PT118363,HSP-01,General Medicine,2022-12-24,2022-12-26,Essential Hypertension,Semi-Private,0,Recovered
+IPD418903,PT125425,HSP-01,Endocrinology,2024-11-23,2024-11-25,Obesity with Metabolic Syndrome,Private Room,0,Improved
+IPD419414,PT126123,HSP-04,Orthopaedics,2022-12-03,2022-12-08,Osteoarthritis of Knee,General Ward,0,Recovered
+IPD412586,PT116832,HSP-03,Cardiology,2023-05-30,2023-06-08,Stable Angina Pectoris,General Ward,0,Recovered
+IPD416818,PT122593,HSP-03,Nephrology,2024-07-30,2024-08-02,Acute Kidney Injury,ICU,1,Improved
+IPD418822,PT125318,HSP-01,General Medicine,2022-11-23,2022-11-24,Acute Viral Fever,Semi-Private,0,Improved
+IPD409065,PT112287,HSP-02,Obstetrics & Gynaecology,2022-02-07,2022-02-09,Antenatal Care - Second Trimester,General Ward,0,Improved
+IPD420268,PT127183,HSP-01,Nephrology,2022-01-29,2022-01-31,Chronic Kidney Disease Stage 3,ICU,1,Recovered
+IPD411196,PT115055,HSP-01,General Medicine,2023-08-14,2023-08-16,Acute Gastroenteritis,Semi-Private,0,Recovered
+IPD400999,PT101426,HSP-01,Nephrology,2022-04-21,2022-04-24,Nephrotic Syndrome,ICU,1,Recovered
+IPD419582,PT126335,HSP-04,General Medicine,2022-10-31,2022-11-04,Essential Hypertension,Private Room,0,Referred
+IPD408010,PT110856,HSP-01,General Medicine,2022-05-27,2022-05-29,Type 2 Diabetes Mellitus,Private Room,0,Recovered
+IPD401004,PT101431,HSP-03,General Surgery,2022-01-30,2022-02-06,Acute Fissure in Ano,Semi-Private,0,Recovered
+IPD402295,PT103127,HSP-01,General Surgery,2022-08-15,2022-08-20,Inguinal Hernia,General Ward,0,Recovered
+IPD407361,PT109978,HSP-03,Cardiology,2024-09-13,2024-09-24,Acute Coronary Syndrome,ICU,1,Recovered
+IPD415209,PT120355,HSP-03,Endocrinology,2023-02-27,2023-03-07,Type 2 Diabetes Mellitus,General Ward,0,Recovered
+IPD431309,PT141636,HSP-04,General Medicine,2022-09-03,2022-09-09,Acute Viral Fever,Semi-Private,0,Recovered
+IPD424093,PT132196,HSP-03,General Medicine,2024-08-30,2024-09-06,Type 2 Diabetes Mellitus,Private Room,0,Recovered
+IPD409054,PT112259,HSP-01,Orthopaedics,2024-03-17,2024-03-25,Ligament Injury of Knee,Semi-Private,0,Recovered
+IPD412675,PT116939,HSP-02,Orthopaedics,2023-01-09,2023-01-19,Fracture of Distal Radius,Private Room,0,Recovered
+IPD419446,PT126154,HSP-04,Orthopaedics,2023-07-15,2023-07-23,Fracture of Distal Radius,Private Room,0,Expired
+IPD402056,PT102775,HSP-01,General Medicine,2023-11-20,2023-11-28,Type 2 Diabetes Mellitus,Private Room,0,Referred
+IPD421390,PT128643,HSP-04,General Medicine,2023-07-16,2023-07-21,Essential Hypertension,General Ward,0,Improved
+IPD403475,PT104770,HSP-03,Paediatrics,2022-01-05,2022-01-08,Protein Energy Malnutrition,General Ward,0,Recovered
+IPD410983,PT114785,HSP-03,General Medicine,2023-08-08,2023-08-13,Type 2 Diabetes Mellitus,Semi-Private,0,Recovered
+IPD414813,PT119733,HSP-01,General Medicine,2022-11-14,2022-11-20,Acute Viral Fever,General Ward,0,Recovered
+IPD431058,PT141356,HSP-04,Pulmonology,2022-06-16,2022-06-26,Bronchial Asthma,General Ward,0,Recovered
+IPD410193,PT113754,HSP-03,Paediatrics,2024-09-25,2024-09-28,Acute Bronchiolitis,Semi-Private,0,Recovered
+IPD424900,PT133179,HSP-02,Pulmonology,2024-05-20,2024-05-22,Chronic Obstructive Pulmonary Disease,Semi-Private,0,Recovered
+IPD415501,PT120800,HSP-04,General Medicine,2023-07-11,2023-07-14,Iron Deficiency Anaemia,General Ward,0,Improved
+IPD425655,PT134236,HSP-04,Pulmonology,2024-10-25,2024-10-28,Chronic Obstructive Pulmonary Disease,General Ward,0,Recovered
+IPD430597,PT140770,HSP-01,General Surgery,2022-04-06,2022-04-12,Cholelithiasis,Private Room,0,Recovered
+IPD411247,PT115116,HSP-04,Orthopaedics,2024-11-30,2024-12-12,Osteoarthritis of Knee,General Ward,0,Recovered
+IPD401505,PT102040,HSP-01,General Medicine,2024-03-04,2024-03-09,Upper Respiratory Tract Infection,General Ward,0,Referred
+IPD413216,PT117578,HSP-02,General Medicine,2024-07-30,2024-08-03,Acute Gastroenteritis,Private Room,0,Improved
+IPD419702,PT126497,HSP-04,ENT,2024-10-01,2024-10-03,Acute Tonsillitis,Semi-Private,0,Recovered
+IPD412333,PT116472,HSP-03,Pulmonology,2022-03-16,2022-03-28,Bronchial Asthma,General Ward,0,Improved
+IPD408477,PT111565,HSP-01,General Surgery,2023-03-05,2023-03-10,Inguinal Hernia,General Ward,0,Recovered
+IPD411486,PT115409,HSP-03,Endocrinology,2022-11-08,2022-11-12,Obesity with Metabolic Syndrome,Semi-Private,0,LAMA
+IPD429414,PT139081,HSP-04,General Medicine,2023-04-20,2023-04-25,Type 2 Diabetes Mellitus,Semi-Private,0,Recovered
+IPD402320,PT103169,HSP-01,Pulmonology,2023-11-22,2023-11-29,Community Acquired Pneumonia,General Ward,0,Improved
+IPD411592,PT115561,HSP-03,Endocrinology,2024-08-04,2024-08-06,Hypothyroidism,Semi-Private,0,Improved
+IPD422097,PT129633,HSP-01,Orthopaedics,2024-11-28,2024-12-03,Ligament Injury of Knee,General Ward,0,Improved
+IPD415728,PT121067,HSP-01,General Surgery,2022-01-01,2022-01-03,Cholelithiasis,ICU,1,Recovered
+IPD416951,PT122741,HSP-03,Endocrinology,2024-11-25,2024-12-01,Type 2 Diabetes Mellitus,General Ward,0,Recovered
+IPD402586,PT103572,HSP-03,Cardiology,2024-05-12,2024-05-23,Atrial Fibrillation,Private Room,0,Referred
+IPD409742,PT113183,HSP-03,Endocrinology,2022-06-26,2022-06-23,Hypothyroidism,Private Room,0,Recovered
+IPD405848,PT107990,HSP-04,General Medicine,2023-04-15,2023-04-19,Type 2 Diabetes Mellitus,Semi-Private,0,Recovered
+IPD423850,PT131867,HSP-04,ENT,2024-03-07,2024-03-11,Allergic Rhinitis,General Ward,0,Recovered
+IPD429915,PT139829,HSP-02,Paediatrics,2024-08-28,2024-09-02,Febrile Illness in Child,General Ward,0,LAMA
+IPD416521,PT122245,HSP-01,General Medicine,2023-01-28,2023-01-31,Iron Deficiency Anaemia,Semi-Private,0,Recovered
+IPD409722,PT113155,HSP-03,Cardiology,2024-05-24,2024-05-28,Atrial Fibrillation,ICU,1,Recovered
+IPD413862,PT118387,HSP-04,General Medicine,2023-08-12,2023-08-22,Acute Gastroenteritis,General Ward,0,Recovered
+IPD420275,PT127183,HSP-01,Cardiology,2022-02-24,2022-03-09,Atrial Fibrillation,ICU,1,Recovered
+IPD428859,PT138452,HSP-01,General Surgery,2023-04-25,2023-05-02,Acute Appendicitis,ICU,1,Recovered
+IPD406427,PT108729,HSP-03,Orthopaedics,2023-06-14,2023-06-24,Ligament Injury of Knee,Private Room,0,Recovered
+IPD425742,PT134349,HSP-04,Orthopaedics,2023-12-18,2023-12-24,Osteoarthritis of Knee,Semi-Private,0,Recovered
+IPD406783,PT109251,HSP-02,Pulmonology,2024-08-19,2024-08-29,Chronic Obstructive Pulmonary Disease,Private Room,0,Recovered
+IPD400952,PT101358,HSP-02,General Medicine,2024-06-19,2024-06-24,Type 2 Diabetes Mellitus,Private Room,0,Recovered
+IPD413769,PT118282,HSP-02,General Medicine,2024-05-28,2024-06-01,Upper Respiratory Tract Infection,General Ward,0,Recovered
+IPD417503,PT123461,HSP-02,Orthopaedics,2023-12-08,2023-12-15,Ligament Injury of Knee,Semi-Private,0,Improved
+IPD414026,PT118618,HSP-02,General Medicine,2024-03-27,2024-04-03,Essential Hypertension,Semi-Private,0,Recovered
+IPD429464,PT139146,HSP-02,Orthopaedics,2023-07-08,2023-07-15,Mechanical Low Back Pain,Semi-Private,0,Recovered
+IPD426738,PT135642,HSP-03,Pulmonology,2023-07-18,2023-07-27,Chronic Obstructive Pulmonary Disease,Semi-Private,0,Recovered
+IPD404630,PT106284,HSP-03,Pulmonology,2024-01-31,2024-02-08,Chronic Obstructive Pulmonary Disease,Semi-Private,0,Recovered
+IPD411844,PT115912,HSP-01,General Medicine,2024-02-13,2024-02-19,Upper Respiratory Tract Infection,Private Room,0,Improved
+IPD403491,PT104783,HSP-01,General Surgery,2023-05-18,2023-05-21,Acute Fissure in Ano,General Ward,0,Improved
+IPD421593,PT128973,HSP-02,General Medicine,2024-07-23,2024-07-27,Type 2 Diabetes Mellitus,Semi-Private,0,Recovered
+IPD415483,PT120766,HSP-03,Endocrinology,2022-01-25,2022-01-29,Type 2 Diabetes Mellitus,Semi-Private,0,Recovered
+IPD424839,PT133121,HSP-04,General Medicine,2024-10-07,2024-10-10,Upper Respiratory Tract Infection,Semi-Private,0,Improved
+IPD414035,PT118641,HSP-03,Pulmonology,2023-03-18,2023-03-23,Bronchial Asthma,Private Room,0,Recovered
+IPD401933,PT102615,HSP-02,Pulmonology,2024-07-14,2024-07-20,Bronchial Asthma,Private Room,0,Recovered
+IPD401710,PT102348,HSP-03,Endocrinology,2024-06-23,2024-06-28,Type 2 Diabetes Mellitus,Semi-Private,0,Recovered
+IPD402968,PT104069,HSP-01,Orthopaedics,2023-01-06,2023-01-13,Fracture of Distal Radius,Private Room,0,Improved
+IPD407575,PT110270,HSP-01,General Medicine,2024-08-02,2024-08-05,Acute Gastroenteritis,Private Room,0,Referred
+IPD416758,PT122500,HSP-03,General Surgery,2024-07-13,2024-07-15,Inguinal Hernia,ICU,1,Referred
+IPD412555,PT116761,HSP-02,Orthopaedics,2024-08-08,2024-08-18,Fracture of Distal Radius,Private Room,0,Recovered
+IPD427855,PT137171,HSP-04,General Medicine,2024-05-07,2024-05-09,Type 2 Diabetes Mellitus,Private Room,0,Recovered
+IPD420581,PT127556,HSP-02,Orthopaedics,2022-02-05,2022-02-20,Osteoarthritis of Knee,Semi-Private,0,Recovered
+IPD427092,PT136177,HSP-02,Paediatrics,2022-01-01,2022-01-04,Acute Otitis Media,Semi-Private,0,Improved
+IPD409892,PT113357,HSP-01,Pulmonology,2024-02-03,2024-02-06,Chronic Obstructive Pulmonary Disease,General Ward,0,LAMA
+IPD429019,PT138617,HSP-03,Endocrinology,2022-01-05,2022-01-07,Obesity with Metabolic Syndrome,General Ward,0,Recovered

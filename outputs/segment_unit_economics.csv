@@ -1,0 +1,4 @@
+segment,opd_rev_per_visit,ipd_rev_per_admission,admissions,readmissions
+Dormant One-Time,751.5114481156427,32094.529857482186,842.0,0.0
+Frequent OPD Regulars,851.9487265938119,47351.193372645364,12210.0,589.0
+High-Acuity Inpatient,821.6451216451725,53837.594752061574,18190.0,1624.0

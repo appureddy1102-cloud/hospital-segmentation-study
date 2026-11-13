@@ -1,0 +1,13 @@
+segment,driver,scenario,driver_value,benefit_value,cost_total,roi_pct
+High-Acuity Inpatient,retention / readmission avoidability,Pessimistic,7.5%,2894946.0,1762000.0,64.3
+High-Acuity Inpatient,retention / readmission avoidability,Base,15.0%,5789892.0,1762000.0,228.6
+High-Acuity Inpatient,retention / readmission avoidability,Optimistic,22.5%,8684838.0,1762000.0,392.9
+Dormant One-Time,reactivation conversion,Pessimistic,3.5%,323772.0,526215.0,-38.5
+Dormant One-Time,reactivation conversion,Base,7.0%,647544.0,526215.0,23.1
+Dormant One-Time,reactivation conversion,Optimistic,10.5%,971316.0,526215.0,84.6
+Frequent OPD Regulars,avoidable repeat testing,Pessimistic,11.0%,2057391.0,1080000.0,90.5
+Frequent OPD Regulars,avoidable repeat testing,Base,22.0%,4114782.0,1080000.0,281.0
+Frequent OPD Regulars,avoidable repeat testing,Optimistic,33.0%,6172173.0,1080000.0,471.5
+Network-wide,avoidable bed-day share,Pessimistic,3.0%,11418316.0,2900000.0,293.7
+Network-wide,avoidable bed-day share,Base,6.0%,22836632.0,2900000.0,687.5
+Network-wide,avoidable bed-day share,Optimistic,9.0%,34254948.0,2900000.0,1081.2

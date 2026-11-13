@@ -1,0 +1,11 @@
+criterion,rfm,kmeans,winner,note
+Number of segments produced,7 rule-based segments,3 empirical clusters,K-means,RFM yields a large residual tier because the rules are priority-ordered and the last rule absorbs everything unmatched.
+Smallest segment (% of base),2.8%,14.3%,Both pass,"5% viability floor: RFM smallest 2.8%, K-means smallest 14.3%."
+Silhouette (own feature space),0.284 (3-D score space),0.460 (8-D behavioural space),K-means,The two scores are computed in different spaces and are NOT directly comparable; reported for completeness only.
+Bootstrap stability (ARI),0.046 period-over-period,0.996 resample / 0.158 period-over-period,K-means,"K-means is ~3x more temporally stable than RFM on the same patients. RFM's quantile thresholds are re-estimated on each period, so a patient who does not move can still change score simply because the distribution moved."
+Interpretability to a ward manager,High - a 3-number score per patient,"Medium - requires a profile table, but each cluster has a clear clinical meaning",RFM,RFM codes travel well in an OPD dashboard; cluster profiles need a one-page brief.
+Captures non-monetary behaviour,"No - only R, F and M enter the score","Yes - admissions, LOS, lab intensity, department spread, recent trend",K-means,The unit-economics review showed that OPD visits and IPD admissions have very different value; RFM's single M dimension cannot distinguish them.
+Segment size balance,32.6% largest vs 2.8% smallest,54.0% largest vs 14.3% smallest,K-means,Both have a dominant tier; K-means' is smaller and more homogeneous.
+Actionability / one intervention per segment,Weak - the residual tier mixes champions-in-waiting with churned patients,Strong - each cluster maps to a distinct operating model,K-means,See the four recommendations: each targets one cluster with one owner and one KPI set.
+Threshold sensitivity,High - quantile cut-points move with the population,"Medium - centroids move, but assignment is relative and re-matching is possible",K-means,Quantile scoring guarantees 20% of patients per score band even if behaviour is unchanged.
+Reproducibility,Fully deterministic,Deterministic given a seed; n_init=50 used,RFM,Both are reproducible in this project; K-means needs the seed documented.

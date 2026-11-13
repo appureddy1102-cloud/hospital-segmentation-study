@@ -1,0 +1,535 @@
+{
+  "shape": {
+    "pat": [
+      42000,
+      13
+    ],
+    "opd": [
+      158744,
+      19
+    ],
+    "adm": [
+      31282,
+      12
+    ],
+    "lab": [
+      49741,
+      8
+    ],
+    "bill": [
+      263073,
+      20
+    ],
+    "feat": [
+      41834,
+      51
+    ]
+  },
+  "dtypes": {
+    "pat": {
+      "patient_id": "object",
+      "age_years": "int64",
+      "gender": "object",
+      "home_hospital_id": "object",
+      "area_locality": "object",
+      "pincode_masked": "object",
+      "registration_date": "datetime64[ns]",
+      "primary_payer": "object",
+      "consent_outreach": "object",
+      "age_years_clean": "float64",
+      "age_imputed": "bool",
+      "age_repaired_from_year": "bool",
+      "age_band": "category"
+    },
+    "opd": {
+      "visit_id": "object",
+      "patient_id": "object",
+      "hospital_id": "object",
+      "department": "object",
+      "visit_date": "datetime64[ns]",
+      "visit_type": "object",
+      "diagnosis_text": "object",
+      "diagnosis_code": "object",
+      "doctor_id": "object",
+      "consultation_fee": "float64",
+      "planned_followup_days": "int64",
+      "token_no": "int64",
+      "diagnosis_canonical": "object",
+      "diagnosis_source": "object",
+      "visit_year": "int32",
+      "visit_month": "object",
+      "visit_quarter": "object",
+      "dow": "int32",
+      "is_weekend": "bool"
+    },
+    "adm": {
+      "admission_id": "object",
+      "patient_id": "object",
+      "hospital_id": "object",
+      "department": "object",
+      "admission_date": "datetime64[ns]",
+      "discharge_date": "datetime64[ns]",
+      "admitting_diagnosis": "object",
+      "ward_type": "object",
+      "icu_flag": "int64",
+      "discharge_status": "object",
+      "discharge_date_imputed": "bool",
+      "los_days": "int64"
+    },
+    "lab": {
+      "test_id": "object",
+      "visit_id": "object",
+      "patient_id": "object",
+      "hospital_id": "object",
+      "test_name": "object",
+      "test_date": "datetime64[ns]",
+      "test_cost": "float64",
+      "has_visit_link": "bool"
+    },
+    "bill": {
+      "encounter_id": "object",
+      "patient_id": "object",
+      "hospital_id": "object",
+      "service_date": "datetime64[ns]",
+      "service_type": "object",
+      "department": "object",
+      "discount_pct": "float64",
+      "base_amount": "float64",
+      "gst_rate": "float64",
+      "gst_amount": "float64",
+      "total_amount": "float64",
+      "bill_id": "object",
+      "payment_mode": "object",
+      "payer_type": "object",
+      "is_zero_value_line": "bool",
+      "date_recovered_from_encounter": "bool",
+      "encounter_type": "object",
+      "encounter_valid": "bool",
+      "service_year": "int32",
+      "service_month": "object"
+    },
+    "feat": {
+      "patient_id": "object",
+      "last_visit_date": "datetime64[ns]",
+      "first_visit_date": "datetime64[ns]",
+      "frequency": "int64",
+      "n_departments": "int64",
+      "n_hospitals": "int64",
+      "n_doctors": "int64",
+      "followup_visits": "int64",
+      "monetary": "float64",
+      "admission_count": "float64",
+      "avg_los_days": "float64",
+      "total_bed_days": "float64",
+      "icu_admissions": "float64",
+      "expired_flag": "float64",
+      "lama_flag": "float64",
+      "lab_count": "float64",
+      "lab_spend": "float64",
+      "recency_days": "int64",
+      "tenure_days": "int64",
+      "tenure_months": "float64",
+      "visits_per_month": "float64",
+      "visits_per_active_month": "float64",
+      "admission_rate": "float64",
+      "lab_per_visit": "float64",
+      "avg_billing_per_visit": "float64",
+      "opd_to_admission_ratio": "float64",
+      "bed_days_per_visit": "float64",
+      "dept_diversity": "float64",
+      "visits_last_90d": "float64",
+      "visits_prior_90d": "float64",
+      "recent_activity_ratio": "float64",
+      "v_last6m": "float64",
+      "v_prior6m": "float64",
+      "visit_growth_rate": "float64",
+      "winter_visit_share": "float64",
+      "chronic_share": "float64",
+      "followup_measurable": "int64",
+      "followup_compliance": "float64",
+      "readmission_30d": "int64",
+      "age": "float64",
+      "gender": "object",
+      "home_hospital_id": "object",
+      "primary_payer": "object",
+      "consent_outreach": "object",
+      "age_band": "category",
+      "primary_hospital": "object",
+      "primary_department": "object",
+      "window_label": "object",
+      "window_start": "datetime64[ms]",
+      "window_end": "datetime64[ms]",
+      "reference_date": "datetime64[ms]"
+    }
+  },
+  "hospital_overview": [
+    {
+      "hospital_id": "HSP-01",
+      "visits": 52684,
+      "patients": 19130,
+      "revenue": 638825307.47,
+      "beds": 65,
+      "visits_per_bed": 810.5
+    },
+    {
+      "hospital_id": "HSP-02",
+      "visits": 40745,
+      "patients": 15737,
+      "revenue": 374869268.25,
+      "beds": 50,
+      "visits_per_bed": 814.9
+    },
+    {
+      "hospital_id": "HSP-03",
+      "visits": 39132,
+      "patients": 14937,
+      "revenue": 493471813.08,
+      "beds": 70,
+      "visits_per_bed": 559.0
+    },
+    {
+      "hospital_id": "HSP-04",
+      "visits": 26183,
+      "patients": 10751,
+      "revenue": 210253069.1,
+      "beds": 35,
+      "visits_per_bed": 748.1
+    }
+  ],
+  "opd_ipd": {
+    "opd_visits": 158744,
+    "ipd_admissions": 31282,
+    "opd_share_events": 83.54,
+    "ipd_share_events": 16.46,
+    "opd_revenue": 131432137.43,
+    "ipd_revenue": 1585987320.4699998,
+    "ipd_revenue_share": 92.35
+  },
+  "monthly_trend": {
+    "min_month": "2022-06",
+    "min_visits": 2967,
+    "max_month": "2022-01",
+    "max_visits": 8508,
+    "cv_pct": 24.37,
+    "first_year_avg": 4012,
+    "last_year_avg": 4871,
+    "yoy_growth_pct": 21.41
+  },
+  "age_band": {
+    "0-4": 1122,
+    "5-14": 2361,
+    "15-29": 7809,
+    "30-44": 11934,
+    "45-59": 11110,
+    "60-74": 5933,
+    "75+": 1565
+  },
+  "age_45plus": {
+    "patient_share": 44.48,
+    "revenue_share": 72.75
+  },
+  "gender": {
+    "F": 21627,
+    "M": 20207
+  },
+  "department": [
+    {
+      "department": "Ophthalmology",
+      "visits": 2871,
+      "patients": 2334,
+      "revenue": 1975945.88,
+      "revenue_per_visit": 688.0
+    },
+    {
+      "department": "General Surgery",
+      "visits": 3852,
+      "patients": 2908,
+      "revenue": 236752894.86,
+      "revenue_per_visit": 61462.0
+    },
+    {
+      "department": "Dermatology",
+      "visits": 9411,
+      "patients": 6537,
+      "revenue": 7022475.81,
+      "revenue_per_visit": 746.0
+    },
+    {
+      "department": "Nephrology",
+      "visits": 9883,
+      "patients": 5564,
+      "revenue": 139805625.74,
+      "revenue_per_visit": 14146.0
+    },
+    {
+      "department": "Obstetrics & Gynaecology",
+      "visits": 10539,
+      "patients": 7105,
+      "revenue": 30676022.65,
+      "revenue_per_visit": 2911.0
+    },
+    {
+      "department": "ENT",
+      "visits": 10556,
+      "patients": 7010,
+      "revenue": 27466722.22,
+      "revenue_per_visit": 2602.0
+    },
+    {
+      "department": "Paediatrics",
+      "visits": 10683,
+      "patients": 7105,
+      "revenue": 24186595.65,
+      "revenue_per_visit": 2264.0
+    },
+    {
+      "department": "Cardiology",
+      "visits": 10751,
+      "patients": 6109,
+      "revenue": 395171420.08,
+      "revenue_per_visit": 36757.0
+    },
+    {
+      "department": "Endocrinology",
+      "visits": 10807,
+      "patients": 6053,
+      "revenue": 35895749.65,
+      "revenue_per_visit": 3322.0
+    },
+    {
+      "department": "Orthopaedics",
+      "visits": 16519,
+      "patients": 9238,
+      "revenue": 373200512.69,
+      "revenue_per_visit": 22592.0
+    },
+    {
+      "department": "Pulmonology",
+      "visits": 24955,
+      "patients": 8936,
+      "revenue": 160613048.93,
+      "revenue_per_visit": 6436.0
+    },
+    {
+      "department": "General Medicine",
+      "visits": 37917,
+      "patients": 18595,
+      "revenue": 284652443.74,
+      "revenue_per_visit": 7507.0
+    }
+  ],
+  "dept_top3_share": 50.01,
+  "diagnosis": {
+    "n_canonical": 45,
+    "top15": {
+      "Type 2 Diabetes Mellitus": 12927,
+      "Bronchial Asthma": 10630,
+      "Chronic Obstructive Pulmonary Disease": 10497,
+      "Essential Hypertension": 9616,
+      "Mechanical Low Back Pain": 5996,
+      "Osteoarthritis of Knee": 5952,
+      "Acute Viral Fever": 4807,
+      "Iron Deficiency Anaemia": 4763,
+      "Acute Gastroenteritis": 4736,
+      "Upper Respiratory Tract Infection": 4702,
+      "Chronic Kidney Disease Stage 3": 4226,
+      "Nephrotic Syndrome": 4097,
+      "Community Acquired Pneumonia": 3828,
+      "Hypothyroidism": 3640,
+      "Acute Tonsillitis": 3601
+    },
+    "chronic_share_pct": 62.49
+  },
+  "billing_dist": {
+    "n": 263073,
+    "total": 1717419457.8999999,
+    "mean": 6528.299969590189,
+    "median": 715.0,
+    "p95": 35985.6,
+    "p99": 85027.31559999999,
+    "max": 473812.5,
+    "skew": 6.410112635226857,
+    "kurtosis": 68.14342931803054,
+    "pct_of_value_top10pct_lines": 72.6
+  },
+  "revenue_by_hospital": {
+    "HSP-01": 63.88,
+    "HSP-02": 37.49,
+    "HSP-03": 49.35,
+    "HSP-04": 21.03
+  },
+  "frequency": {
+    "mean": 3.79,
+    "median": 1.0,
+    "p90": 9.0,
+    "p99": 23.0,
+    "max": 58,
+    "single_visit_pct": 52.18
+  },
+  "recency": {
+    "mean": 377.0,
+    "median": 202.0,
+    "p25": 68.0,
+    "p75": 658.0,
+    "over_365_pct": 37.03,
+    "under_30_pct": 8.68
+  },
+  "los": {
+    "mean": 5.29,
+    "median": 4.0,
+    "p90": 9.0,
+    "p99": 23.0,
+    "max": 42,
+    "skew": 2.84,
+    "kurtosis": 12.31
+  },
+  "los_by_department": {
+    "ENT": 3.1,
+    "Obstetrics & Gynaecology": 3.12,
+    "Paediatrics": 3.79,
+    "Endocrinology": 4.01,
+    "General Medicine": 4.51,
+    "General Surgery": 5.35,
+    "Pulmonology": 5.88,
+    "Nephrology": 6.35,
+    "Orthopaedics": 6.49,
+    "Cardiology": 7.07
+  },
+  "missing_raw": {
+    "consultation_fee": {
+      "patients": NaN,
+      "opd_visits": 0.498,
+      "admissions": NaN,
+      "lab_tests": NaN,
+      "billing": NaN
+    },
+    "department": {
+      "patients": NaN,
+      "opd_visits": 1.096,
+      "admissions": 0.0,
+      "lab_tests": NaN,
+      "billing": 0.0
+    },
+    "diagnosis_text": {
+      "patients": NaN,
+      "opd_visits": 2.394,
+      "admissions": NaN,
+      "lab_tests": NaN,
+      "billing": NaN
+    },
+    "discharge_date": {
+      "patients": NaN,
+      "opd_visits": NaN,
+      "admissions": 0.795,
+      "lab_tests": NaN,
+      "billing": NaN
+    },
+    "gst_amount": {
+      "patients": NaN,
+      "opd_visits": NaN,
+      "admissions": NaN,
+      "lab_tests": NaN,
+      "billing": 0.6
+    },
+    "patient_id": {
+      "patients": 0.0,
+      "opd_visits": 0.4,
+      "admissions": 0.0,
+      "lab_tests": 0.0,
+      "billing": 0.0
+    },
+    "test_cost": {
+      "patients": NaN,
+      "opd_visits": NaN,
+      "admissions": NaN,
+      "lab_tests": 0.398,
+      "billing": NaN
+    },
+    "total_amount": {
+      "patients": NaN,
+      "opd_visits": NaN,
+      "admissions": NaN,
+      "lab_tests": NaN,
+      "billing": 0.005
+    },
+    "visit_date": {
+      "patients": NaN,
+      "opd_visits": 0.302,
+      "admissions": NaN,
+      "lab_tests": NaN,
+      "billing": NaN
+    },
+    "visit_id": {
+      "patients": NaN,
+      "opd_visits": 0.0,
+      "admissions": NaN,
+      "lab_tests": 5.997,
+      "billing": NaN
+    }
+  },
+  "correlation": {
+    "frequency_vs_monetary": 0.696,
+    "frequency_vs_visits_per_month": 1.0,
+    "monetary_vs_avg_billing_per_visit": 0.883,
+    "recency_vs_frequency": -0.405,
+    "admission_vs_bed_days": 0.815
+  },
+  "outliers_iqr": {
+    "frequency": {
+      "q1": 1.0,
+      "q3": 5.0,
+      "upper_fence": 11.0,
+      "n_outliers": 2811,
+      "pct_outliers": 6.72
+    },
+    "monetary": {
+      "q1": 699.0,
+      "q3": 25471.0625,
+      "upper_fence": 62629.15625,
+      "n_outliers": 6491,
+      "pct_outliers": 15.52
+    },
+    "avg_billing_per_visit": {
+      "q1": 603.0,
+      "q3": 5414.295,
+      "upper_fence": 12631.2375,
+      "n_outliers": 7268,
+      "pct_outliers": 17.37
+    },
+    "total_bed_days": {
+      "q1": 4.0,
+      "q3": 15.0,
+      "upper_fence": 31.5,
+      "n_outliers": 1431,
+      "pct_outliers": 3.42
+    },
+    "lab_count": {
+      "q1": 0.0,
+      "q3": 2.0,
+      "upper_fence": 5.0,
+      "n_outliers": 2565,
+      "pct_outliers": 6.13
+    }
+  },
+  "seasonality_index": {
+    "Jan": 139.4,
+    "Feb": 96.1,
+    "Mar": 92.2,
+    "Apr": 90.0,
+    "May": 94.2,
+    "Jun": 79.2,
+    "Jul": 85.0,
+    "Aug": 86.7,
+    "Sep": 101.1,
+    "Oct": 109.0,
+    "Nov": 122.4,
+    "Dec": 104.7
+  },
+  "seasonality": {
+    "peak_month": "Jan",
+    "peak_index": 139.4,
+    "trough_month": "Jun",
+    "trough_index": 79.2,
+    "amplitude_pct": 60.2
+  }
+}
