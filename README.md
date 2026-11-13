@@ -205,8 +205,8 @@ viability floor — which removes k=4 through k=10 (smallest segments 3.1% down 
 See [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md#3-why-k3-and-not-the-highest-silhouette).
 
 **3. The GST correction was reconstructed, not assumed.** A blanket "divide by 1.05" would
-have corrupted 96% of billing rows. The pipeline establishes the identity empirically
-(`total = base + gst` holds for 96.0% of rows; the residual 1.2% satisfy
+have corrupted almost every billing row. The pipeline establishes the identity empirically
+(`total = base + gst` holds for 97.58% of rows; the residual 1.16% satisfy
 `total = base + 2 × gst`), inspects the rate by service type (0% healthcare services, 5%
 pharmacy, 12% consumables), and rebuilds `total` from `base` and the row's own rate.
 See [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md#1-the-gst-investigation).
@@ -234,7 +234,7 @@ repository. See [`docs/DATA_PROVENANCE.md`](docs/DATA_PROVENANCE.md).
 - Benefit figures are annualised projections from cross-sectional unit economics, not measured
   treatment effects from a controlled pilot.
 - K-means assumes convex, similarly-sized clusters; the data is more of a continuum
-  (silhouette 0.43–0.51 is honest but modest).
+  (silhouette 0.44–0.65 across k=2…10 is honest but modest).
 - Segmentation is only moderately stable over 18 months (ARI 0.158) — monthly re-scoring is
   required, and that instability is itself reported as a finding.
 - No clinical severity adjustment (SOFA/Charlson); "high-acuity" is high-acuity by resource

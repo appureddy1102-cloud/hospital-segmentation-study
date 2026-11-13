@@ -551,7 +551,7 @@ NUM("Test whether the residual rows satisfy total = base + 2 × gst. "
 NUM("Inspect the applied rate by service type. It is not constant: 0% on healthcare services "
     "(consultations, room charges, procedures, laboratory — consistent with the GST exemption on "
     "healthcare), 5% on pharmacy and 12% on consumables.")
-CALLOUT("Conclusion: a 'divide every amount by 1.05' correction would have corrupted 96% of billing rows. "
+CALLOUT("Conclusion: a 'divide every amount by 1.05' correction would have corrupted almost every billing row. "
         "The correct repair is to recompute gst_amount = base_amount × the row's own gst_rate and then "
         "rebuild total_amount = base + gst. After this repair the identity holds for 100% of rows "
         f"({L['validation']['bill_identity_breaks']} breaks remain).")
@@ -1435,7 +1435,7 @@ lims = [
                          "assumptions, so every ROI is a margin-weighted estimate rather than an audited "
                          "financial result."),
     ("K-means assumptions", "Convex, spherical, similar-sized clusters. The data is more of a continuum; "
-                            "silhouette values of 0.43–0.51 are honest but modest. Fuzzy c-means or a "
+                            "silhouette values of 0.44–0.65 across k=2-10 are honest but modest. Fuzzy c-means or a "
                             "Gaussian mixture would give softer boundaries at the cost of explainability."),
     ("Projection, not measurement", "Benefit figures are annualised from cross-sectional unit economics. "
                                     "No controlled pilot or holdout was run, so they are business cases, "

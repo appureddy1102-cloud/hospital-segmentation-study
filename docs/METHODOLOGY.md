@@ -35,8 +35,9 @@ healthcare services. The repair is to recompute `gst_amount = base_amount × gst
 the row's own rate and rebuild `total_amount = base + gst`. After the repair, the billing
 identity holds for 100% of rows (0 breaks).
 
-A blanket 1.05 division would have corrupted 96% of the billing table — every row whose
-service type is GST-exempt or taxed at 12%.
+A blanket 1.05 division would have corrupted 98.8% of the billing table — every row whose
+service type is GST-exempt or taxed at 12%. Only the 1.16% of rows that already double-counted
+GST would have been accidentally corrected.
 
 **Worked example.**
 
