@@ -178,6 +178,41 @@ class TestKMeans:
     def test_k_within_evaluated_range(self, outputs):
         assert outputs["kmeans"]["k"] in set(C.K_RANGE)
 
+    def test_selection_is_not_silhouette_max(self, outputs):
+        """
+        Regression guard. The report once claimed k=3 had the highest
+        silhouette when k=2 actually peaks. The chosen k must be the OUS
+        winner among ELIGIBLE candidates, and if a different k has a higher
+        silhouette that fact must be documented rather than glossed.
+        """
+        ous = pd.read_csv(OUT / "kmeans_operational_utility.csv")
+        chosen = outputs["kmeans"]["k"]
+        elig = ous[ous["eligible"]]
+        assert chosen == int(elig.sort_values("score", ascending=False).iloc[0]["k"])
+
+        sil_best = int(ous.sort_values("silhouette", ascending=False).iloc[0]["k"])
+        if sil_best != chosen:
+            # the higher-silhouette solution must have been excluded for a
+            # stated reason - either ineligible, or a lower OUS
+            alt = ous[ous.k == sil_best].iloc[0]
+            chosen_row = ous[ous.k == chosen].iloc[0]
+            assert (not alt["eligible"]) or (alt["score"] < chosen_row["score"]), \
+                "a higher-silhouette candidate was rejected without a recorded reason"
+
+    def test_every_candidate_is_scored(self, outputs):
+        """The k-selection argument is unauditable if only the winner is persisted."""
+        ous = pd.read_csv(OUT / "kmeans_operational_utility.csv")
+        assert set(ous["k"]) == set(C.K_RANGE)
+
+    def test_report_quotes_the_measured_silhouette(self, outputs):
+        """The report must not state a silhouette the data does not support."""
+        from docx import Document
+        d = Document(ROOT / "reports" / "Hospital_Segmentation_Study_Report.docx")
+        text = "\n".join(p.text for p in d.paragraphs)
+        k3 = outputs["kmeans"]["silhouette"]
+        assert f"{k3:.3f}" in text or f"{k3:.2f}" in text, \
+            f"report never quotes the measured k=3 silhouette ({k3:.3f})"
+
 
 # ---------------------------------------------------------------- profiles
 class TestProfiles:

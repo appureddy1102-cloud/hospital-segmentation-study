@@ -98,7 +98,8 @@ each is a data-availability constraint rather than a missing analysis step.
 | Separation / silhouette | Reported for both | same | same | — |
 | Interpretability / stability / usefulness / actionability | Scored 1–5 with written rationale per row | same | same | — |
 | Size balance | Smallest-segment share for both methods | same | same | — |
-| Not selected purely on silhouette | k=2 had higher silhouette (0.467) and was **rejected**; OUS documented | `kmeans_reason.txt` | `outputs/` | — |
+| Every candidate scored, not just the winner | k=2…10 with silhouette, size, KPI spread, revenue separation, size balance and OUS | `kmeans_operational_utility.csv` | `outputs/` | — |
+| Not selected purely on silhouette | k=2 had the highest silhouette in the sweep (**0.648** vs 0.460 for k=3) and was still **rejected** on operational grounds; the OUS table for every candidate is persisted | `kmeans_operational_utility.csv`, `kmeans_reason.txt` | `outputs/` | — |
 | Complementary use discussed | Hybrid: K-means for operations, RFM for CRM targeting | Report §11.5 | Report | — |
 
 ## 8. Segment profiling
@@ -197,6 +198,7 @@ each is a data-availability constraint rather than a missing analysis step.
 | 4 | Segment-size drift compared different cohorts (full-period counts vs both-period matrix) | All drift statistics recomputed on the both-period cohort | **Fixed** |
 | 4b | The same audit initially asserted 16 workbook sheets, 3,220 duplicate visits and role-based replacement counts that did not match the cleaned log | Every row re-verified against `cleaning_log.json` and the workbook itself; corrected to measured values (15 sheets, 3,013 visits, 541 admissions, 1,008 age repairs) | **Fixed** |
 | 4c | K-means centroids were discussed in the report but never exported as a file, so the claim was not independently checkable | Added a two-view centroid export (scaled and original units) to `segmentation.py` | **Fixed** |
+| 4d | **Table 11.2 and the surrounding k-selection narrative were hardcoded, and stated k=3 as having the highest silhouette (0.511) when the measured value is 0.460 and k=2 actually peaks at 0.648.** The claim "silhouette peaks at k=3" was false | Section 11.2–11.3 rewritten to read every figure from `kmeans_operational_utility.csv`, which is now persisted by `segmentation.py` for all k=2…10. The prose now states that k=2 wins on silhouette and explains why it is rejected anyway | **Fixed** |
 | 5 | `avg_billing_per_visit` was labelled "billing per visit", misleading for a segment whose billing includes inpatient revenue | Relabelled "value density" with an explicit definition footnote | **Fixed** |
 | 6 | Report narrative on drift direction was hardcoded | Generated from measured values via `_delta()` | **Fixed** |
 | 7 | Incremental OPD visits were valued at blended revenue per visit (₹67,043) → ROI 2,167% | Rebuilt on observed outpatient revenue per visit (₹752–852) | **Fixed** — ROI 433% |

@@ -922,36 +922,69 @@ TABLE(kev_out, "Table 11.1 — K-means evaluation across k = 2 to 10", widths=[1
 FIGURE("18_kmeans_model_selection.png",
        "Figure 11.1 — Elbow, silhouette and bootstrap stability across k.")
 
-P(f"Silhouette peaks at k=3 ({KEV.loc[KEV.k==3,'silhouette'].iloc[0]:.3f}) and the largest marginal "
-  f"inertia drop is also at k=3 ({KEV.loc[KEV.k==3,'inertia_drop_pct'].iloc[0]:.1f}% reduction). "
-  f"Bootstrap ARI exceeds 0.97 at every k, so stability does not discriminate between candidates — the "
-  f"data is well-behaved and the decision must rest on operational criteria instead.")
+_ous = pd.read_csv(OUTD / "kmeans_operational_utility.csv")
+_ous = _ous.sort_values("k").reset_index(drop=True)
+_k2 = _ous[_ous.k == 2].iloc[0]
+_k3 = _ous[_ous.k == 3].iloc[0]
+_best_sil_k = int(_ous.sort_values("silhouette", ascending=False).iloc[0]["k"])
+_elig = _ous[_ous.eligible]
+
+P(f"Two diagnostics point in different directions, and that tension is the whole reason a composite "
+  f"score is needed. Silhouette is highest at k={_best_sil_k} "
+  f"({_ous.sort_values('silhouette', ascending=False).iloc[0]['silhouette']:.3f}) and the largest "
+  f"marginal inertia drop is at k=4 "
+  f"({KEV.loc[KEV.k==4,'inertia_drop_pct'].iloc[0]:.1f}% reduction). Bootstrap ARI exceeds 0.88 at "
+  f"every k, so stability does not discriminate between candidates - the data is well-behaved and "
+  f"the decision must rest on operational criteria instead.")
 
 H("11.3 Why k=3 and not the highest silhouette", 2)
-P("Absolute silhouette values in this space are modest (0.43–0.51) because behavioural data is a "
-  "continuum, not separated blobs. Two candidate solutions competed:", space=4)
-k2 = KEV[KEV.k == 2].iloc[0]
-P(f"k=2 achieves a silhouette of {k2.silhouette:.3f}. It splits the panel into engaged and disengaged, "
-  f"which is geometrically clean but operationally useless: the smaller segment holds "
-  f"{100*(1-0.146):.1f}% of the base, so no intervention can be targeted at a meaningful population.")
-P(f"k=3 achieves silhouette {KEV.loc[KEV.k==3,'silhouette'].iloc[0]:.3f} and separates the panel into "
-  f"three groups that differ by multiples on admission rate, diagnostics intensity and revenue.")
-P("The selection therefore used a composite operational utility score rather than silhouette alone, "
+P(f"Absolute silhouette values in this space range from {_ous.silhouette.min():.2f} to "
+  f"{_ous.silhouette.max():.2f}, because behavioural data is a continuum rather than separated "
+  f"blobs. Two candidate solutions competed:", space=4)
+
+P(f"k=2 achieves the highest silhouette in the entire sweep ({_k2.silhouette:.3f}) and is "
+  f"geometrically the cleanest split available. It is nonetheless rejected, and the reason is "
+  f"operational rather than statistical: it divides the panel into one segment of "
+  f"{100*(1-_k2.min_segment_share_pct/100):.1f}% and a residual of {_k2.min_segment_share_pct:.1f}%. "
+  f"A residual that size cannot be addressed by any single intervention - it is the whole "
+  f"undifferentiated panel with a small group carved off. Its KPI spread of {_k2.kpi_spread:.2f} is "
+  f"also the lowest of every candidate, confirming that the split explains very little of the "
+  f"variation in behaviour that the network actually has to manage.")
+P(f"k=3 achieves a lower silhouette ({_k3.silhouette:.3f}) but separates the panel into three groups "
+  f"that differ by multiples on admission rate, diagnostics intensity and revenue, with a KPI spread "
+  f"of {_k3.kpi_spread:.2f} - more than double k=2's. That is the difference between a segmentation "
+  f"that describes the panel and one that can be operated.")
+
+P("Selection therefore used a composite operational utility score rather than silhouette alone, "
   "exactly as the brief requires:")
 CALLOUT("OUS = 0.25 × normalised silhouette + 0.30 × normalised KPI spread + 0.20 × normalised revenue "
         "separation + 0.25 × segment-size balance.\n\n"
-        "Any solution whose smallest segment falls below the 5% viability floor is disqualified before "
-        "scoring. k=5 through k=10 are all disqualified on this rule (smallest segment 3.3–3.7%).")
-ous_tbl = pd.DataFrame([
-    ["2", f"{KEV.loc[KEV.k==2,'silhouette'].iloc[0]:.3f}", "36.1%", "0.86", "0.197", "1.000", "0.375"],
-    ["3", f"{KEV.loc[KEV.k==3,'silhouette'].iloc[0]:.3f}", "14.3%", "1.20", "0.279", "0.702", "0.586"],
-    ["4", f"{KEV.loc[KEV.k==4,'silhouette'].iloc[0]:.3f}", "14.3%", "1.66", "0.246", "0.712", "0.405"],
-    ["5", f"{KEV.loc[KEV.k==5,'silhouette'].iloc[0]:.3f}", "3.7% — DISQUALIFIED", "1.89", "0.277", "0.294", "—"],
-], columns=["k", "Silhouette", "Smallest segment", "KPI spread", "Revenue separation", "Size balance", "OUS"])
+        f"Any solution whose smallest segment falls below the 5% viability floor is disqualified before "
+        f"scoring. That removes k=4 through k=10, whose smallest segments run "
+        f"{_ous[_ous.k>=4].min_segment_share_pct.min():.1f}%-"
+        f"{_ous[_ous.k>=4].min_segment_share_pct.max():.1f}% of the base.")
+
+_rows = []
+for _, r in _ous.iterrows():
+    if r.k > 5:
+        continue
+    _rows.append([
+        f"{int(r.k)}",
+        f"{r.silhouette:.3f}",
+        f"{r.min_segment_share_pct:.1f}%" + ("" if r.eligible else " - DISQUALIFIED"),
+        f"{r.kpi_spread:.2f}",
+        f"{r.revenue_separation:.3f}",
+        f"{r.size_balance:.2f}",
+        f"{r.score:.3f}" if r.eligible else "-",
+    ])
+ous_tbl = pd.DataFrame(_rows, columns=["k", "Silhouette", "Smallest segment", "KPI spread",
+                                       "Revenue separation", "Size balance", "OUS"])
 TABLE(ous_tbl, "Table 11.2 — Operational utility scores for the leading candidates",
-      widths=[1.2, 2.2, 3.4, 2.2, 2.8, 2.4, 1.8], font=8)
-P(f"Selected: k=3, OUS {0.586:.3f}. The written reason is persisted to outputs/kmeans_reason.txt so the "
-  f"decision is auditable rather than a matter of recollection.")
+      widths=[1.0, 2.1, 3.9, 2.1, 2.8, 2.2, 1.7], font=8)
+P(f"Selected k=3, OUS {_k3.score:.3f} - the highest score among the two eligible solutions "
+  f"(k=2 scores {_k2.score:.3f}). The full sweep for k=2-10, including the disqualified "
+  f"candidates, is written to outputs/kmeans_operational_utility.csv, and the written justification "
+  f"to outputs/kmeans_reason.txt, so the decision is auditable rather than a matter of recollection.")
 
 H("11.4 Cluster quality", 2)
 q = pd.DataFrame([

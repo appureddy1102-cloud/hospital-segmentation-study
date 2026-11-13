@@ -34,7 +34,7 @@
 | 🔐 **Data provenance & ethics** | [`docs/DATA_PROVENANCE.md`](docs/DATA_PROVENANCE.md) |
 | 🧾 **Field-level schema** | [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) |
 | ⚡ **One-command rebuild** | `pip install -r requirements.txt && python src/run_all.py` (~3 min) |
-| ✅ **Validation** | `pytest tests/ -q` → 46 passed |
+| ✅ **Validation** | `pytest tests/ -q` → 49 passed |
 
 ---
 
@@ -60,16 +60,16 @@ records and no patient-level view of its own panel. This project:
 
 | Finding | Value |
 |---|---|
-| Patients segmented | **41,849** |
-| Transactional rows processed | **493,265** |
-| Observed billing value (36 months) | **₹17.65 crore** |
-| IPD share of encounters → share of value | **5.3% → 78.0%** |
-| Patients aged 45+ → share of value | **44.5% → 72.2%** |
+| Patients segmented | **41,834** |
+| Transactional rows processed | **507,544** raw → 502,840 clean |
+| Observed billing value (36 months) | **₹171.58 crore** |
+| IPD share of encounters → share of value | **16.5% → 92.4%** |
+| Patients aged 45+ → share of value | **44.5% → 72.8%** |
 | Patients with exactly one visit | **52.2%** |
-| Patients inactive > 365 days | **36.1%** |
+| Patients inactive > 365 days | **37.0%** |
 | Segments retained (all ≥ 5% floor) | **3** |
 | KPI spread on admission rate | **~98×** |
-| K-means silhouette (k=3) | **0.460** |
+| K-means silhouette (k=3) | **0.460** (k=2 scores 0.648 but is rejected) |
 | Bootstrap stability (ARI, 15 resamples) | **0.996** |
 | Period-over-period ARI — K-means vs RFM | **0.158 vs 0.046** |
 | Portfolio ROI of the four programmes | **433%** |
@@ -195,11 +195,13 @@ tenure_months` — gives a single-visit patient a tenure of exactly one month, h
 fixed-window rate and the tenure-based version retained only as a diagnostic.
 See [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md#2-the-feature-that-had-to-be-redefined).
 
-**2. k=3 was selected despite k=2 winning on silhouette.** k=2 splits the panel into engaged
-and disengaged — geometrically clean, operationally useless, because 64% of the panel lands
-in one residual. Selection uses a composite operational utility score weighted on KPI spread,
-segment-size balance, silhouette and revenue separation, and disqualifies any solution whose
-smallest segment falls below the 5% viability floor. k=5 through k=10 all fall below it.
+**2. k=3 was selected despite k=2 winning on silhouette.** k=2 scores the highest silhouette in
+the sweep (**0.648** vs 0.460 for k=3) but splits the panel into a small engaged group and an
+85.4% residual — geometrically clean, operationally useless, because no single intervention can
+serve a residual that size. Selection uses a composite operational utility score weighted on
+KPI spread, segment-size balance, silhouette and revenue separation (k=3 scores 0.586, k=2
+scores 0.500), and disqualifies any solution whose smallest segment falls below the 5%
+viability floor — which removes k=4 through k=10 (smallest segments 3.1% down to 0.8%).
 See [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md#3-why-k3-and-not-the-highest-silhouette).
 
 **3. The GST correction was reconstructed, not assumed.** A blanket "divide by 1.05" would

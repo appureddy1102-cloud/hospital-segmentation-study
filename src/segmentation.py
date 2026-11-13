@@ -364,6 +364,11 @@ def run():
     ous["eligible"] = ous["eligible"] & (ous["ari_mean"] >= 0.85)
     print("\nOperational utility score:\n", ous.round(3).to_string(index=False))
 
+    # persist the full utility table: the k-selection argument is only
+    # auditable if a reviewer can see every candidate's score, not just the
+    # winner's.
+    ous.to_csv(OUT / "kmeans_operational_utility.csv", index=False)
+
     elig = ous[ous["eligible"]].sort_values("score", ascending=False)
     if len(elig) == 0:
         raise RuntimeError("No k satisfies the 5% segment floor and ARI>=0.85")

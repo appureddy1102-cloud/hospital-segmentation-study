@@ -89,18 +89,24 @@ demographic in the network. No error message would have appeared.
 
 ## 3. Why k=3 and not the highest silhouette
 
-**The competing solutions.**
-| k | Silhouette | Smallest segment | KPI spread | Verdict |
-|---:|---:|---:|---:|---|
-| 2 | 0.467 | 36.1% | 0.86 | Highest silhouette, **rejected** |
-| **3** | **0.511** | **14.3%** | **1.20** | **Selected** |
-| 4 | 0.435 | 14.3% | 1.66 | Below k=3 on silhouette and revenue separation |
-| 5–10 | 0.42–0.44 | 3.3–3.7% | 1.9–3.7 | **Disqualified** — below 5% floor |
+**The competing solutions** (from `outputs/kmeans_operational_utility.csv`).
+
+| k | Silhouette | Smallest segment | KPI spread | Revenue separation | Size balance | OUS | Verdict |
+|---:|---:|---:|---:|---:|---:|---:|---|
+| 2 | **0.648** | 14.6% | 0.81 | 0.029 | 1.00 | 0.500 | Highest silhouette, **rejected** |
+| **3** | 0.460 | **14.3%** | **1.66** | **0.279** | 1.00 | **0.586** | **Selected** |
+| 4 | 0.477 | 3.1% | 1.72 | 0.169 | 0.25 | — | **Disqualified** — below 5% floor |
+| 5 | 0.523 | 3.1% | 2.18 | 0.255 | 0.25 | — | **Disqualified** — below 5% floor |
+| 6 | 0.470 | 3.1% | 2.48 | 0.225 | 0.25 | — | **Disqualified** — below 5% floor |
+| 7–8 | 0.472 | 0.8% | 2.5–2.6 | 0.19–0.20 | 0.07 | — | **Disqualified** — below 5% floor |
+| 9–10 | 0.44 | 0.8% | 3.0–3.2 | 0.23 | 0.07 | — | **Disqualified** — below 5% floor |
 
 **Why silhouette alone is not the criterion.** Silhouette measures how well-separated
 clusters are in feature space. It does not measure whether those clusters are *useful*. k=2
-splits the panel into "engaged" and "disengaged" — 36%/64%. The 64% residual cannot be served
-by any single intervention, so the segmentation cannot be operationalised.
+splits the panel into a small engaged group and an 85.4% residual. A residual that size cannot
+be served by any single intervention, so the segmentation cannot be operationalised. This is
+the clearest case in the study of a metric disagreeing with the business requirement: k=2 wins
+on separation by a margin of 0.19 and loses on every operational criterion.
 
 **The composite operational utility score (OUS).**
 
@@ -122,7 +128,10 @@ where
 Solutions with any segment below 5% of the patient base are **disqualified before scoring**,
 per the brief's viability requirement.
 
-**Result.** k=3 scores 0.586; k=2 scores 0.375; k=4 scores 0.405.
+**Result.** k=3 scores 0.586 and k=2 scores 0.500. k=4 and above never reach scoring, because
+every one of them breaches the 5% segment-viability floor (smallest segments 3.1%, 3.1%, 3.1%,
+0.8%, 0.8%, 0.8%, 0.8% for k=4…10). The OUS is a tie-break between two *viable* solutions, not
+a mechanism for selecting an unviable one.
 
 The selection reason is persisted to `outputs/kmeans_reason.txt` so the decision is auditable
 rather than a matter of recollection.
