@@ -47,22 +47,22 @@ hidden labels let the recovery be measured rather than assumed.
 
 ### Injected data-quality defects
 
-Seven defect families are injected at measured rates, and a register is written to
+Eighteen individual defect types, grouped into seven families, are injected at measured rates, and a register is written to
 `data/raw/_injected_defect_register.csv`:
 
 | Defect family | Records |
 |---|---:|
-| Free-text diagnosis variants | 29,419 |
-| Hospital naming drift | 6,627 |
-| Department naming drift | 10,733 |
-| Missing values (7 columns) | 9,000+ |
-| Duplicate visits | 3,220 |
-| Duplicate admissions | 89 |
-| Duplicate GST in totals | 2,977 |
-| Invalid billing amounts | 1,630 |
-| Impossible service dates | 990 |
-| Swapped admission/discharge dates | 50 |
-| Age holding year of birth | 1,500 |
+| Free-text diagnosis variants | 26,571 |
+| Hospital naming drift | 6,015 |
+| Department naming drift | 9,601 |
+| Missing values (7 columns) | 9,548 |
+| Duplicate visits | 2,880 |
+| Duplicate admissions | 283 |
+| Duplicate GST in totals | 3,076 |
+| Invalid billing amounts | 1,751 |
+| Impossible service dates | 1,093 |
+| Swapped admission/discharge dates | 140 |
+| Age holding year of birth | 1,449 |
 
 This register is what allows the cleaning pipeline's detection rate to be **validated against
 ground truth** (report Table 5.2) rather than merely asserted. That is a stronger claim than

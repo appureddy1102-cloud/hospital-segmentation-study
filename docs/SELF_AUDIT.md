@@ -26,7 +26,7 @@ each is a data-availability constraint rather than a missing analysis step.
 | Unique patients / hospitals / departments | 42,000 / 4 / 12 | `cleaning_log.json` | Report §4.2 | — |
 | Date coverage | 2022-01-01 → 2024-12-31, 1,096 days, verified per table | test `test_all_dates_in_window` | `tests/test_pipeline.py` | — |
 | Billing distribution | Percentiles, log-scale histogram, GST decomposition | Figure 09 | `figures/09_billing_distribution.png` | — |
-| Diagnosis text inspection | 29,419 raw values normalised; 45 canonical diagnoses retained | Figure 08; `cleaning_log.json` | Report §5.3 | — |
+| Diagnosis text inspection | 26,571 injected variants; 30,291 values normalised; 45 canonical diagnoses retained | Figure 08; `cleaning_log.json` | Report §5.3 | — |
 | Cross-table consistency | 0 orphan encounters; 0 identity breaks after repair | `cleaning_log.json` → `identity_breaks_after` | Report §5.6 | — |
 | **Quality table** (Issue \| records \| % \| correction \| validation) | 13 defect classes, each with all five columns populated and a measured validation result | Table 5.1 | Report §5.1 | — |
 | Free-text diagnosis variants | 26,571 injected variants; **30,291 rewritten**, 3,899 resolved via diagnosis-code fallback, **0 unresolvable** | `opd_diagnosis_canonicalised`, `opd_diagnosis_from_code_fallback` | `cleaning_log.json` | — |
@@ -175,7 +175,7 @@ each is a data-availability constraint rather than a missing analysis step.
 | Requirement | Work completed | Evidence | Location | Remaining gap |
 |---|---|---|---|---|
 | Only actual analysis | Every number originates in a computed output file | `outputs/*.json|csv` | `outputs/` | — |
-| No fabricated scores / counts / revenue | Arithmetic re-verified by test suite; ROI, shares and identities recomputed | 46 tests | `tests/test_pipeline.py` | — |
+| No fabricated scores / counts / revenue | Arithmetic re-verified by test suite; ROI, shares and identities recomputed | 49 tests | `tests/test_pipeline.py` | — |
 | Flag unavailable data explicitly | Cost data absent → margins declared as assumptions; clinical severity absent → proxy disclosed | Report §15.1, §18.4 | Report | — |
 | Label synthetic data | Banner on report cover, deck slide 1 and 12, notebook cell 1, README, dashboard footer | test `test_provenance_disclosed` | multiple | — |
 | Worked numerical examples | 6 worked examples (GST repair, readmission ROI, OUS, retention, drift, payback) | `METHODOLOGY.md` §1, §6; Report §5.1, §15.5 | multiple | — |
@@ -183,7 +183,7 @@ each is a data-availability constraint rather than a missing analysis step.
 | Every recommendation traceable to a finding | Each recommendation row cites the segment KPI that motivates it | `recommendations_cost_benefit.csv` col `problem` | `outputs/` | — |
 | No repetition | Cross-references used instead of restating; one-home principle per topic | — | Report | — |
 | Professional language | Formal register throughout; no marketing superlatives without a number | — | — | — |
-| Reproducible code + validation checks | `run_all.py` + 46 tests | `pytest -q` → 46 passed | `tests/` | — |
+| Reproducible code + validation checks | `run_all.py` + 49 tests | `pytest -q` → 49 passed | `tests/` | — |
 | Methodological decisions explained | 7 decisions documented with rejected alternatives | `docs/METHODOLOGY.md` | `docs/` | — |
 | Findings vs assumptions separated | 3-class evidence table in every cost-benefit section | Table 15.1 | Report §15.1 | — |
 | Patient privacy protected | Surrogate keys, masked pincode, no names, 5% cell-size floor | `docs/DATA_PROVENANCE.md` §2 | `docs/` | — |
@@ -193,7 +193,7 @@ each is a data-availability constraint rather than a missing analysis step.
 | # | Deficiency found during this audit | Action taken | Status |
 |---|---|---|---|
 | 1 | `figure_index.csv` was overwritten by each pipeline stage, so only the last stage's figures were indexed | `viz.write_index()` rewritten to merge on disk by filename | **Fixed** — 25 indexed |
-| 2 | `visits_per_month = frequency ÷ tenure` inverted the engagement relationship | Redefined to a fixed-window rate; tenure version demoted to diagnostic | **Fixed** — ρ 0.999 |
+| 2 | `visits_per_month = frequency ÷ tenure` inverted the engagement relationship | Redefined to a fixed-window rate; tenure version demoted to diagnostic | **Fixed** — ρ 1.000 |
 | 3 | Cluster matching used Euclidean distance and paired by magnitude, not shape | Replaced with correlation distance on the 8-KPI profile | **Fixed** — mapping verified |
 | 4 | Segment-size drift compared different cohorts (full-period counts vs both-period matrix) | All drift statistics recomputed on the both-period cohort | **Fixed** |
 | 4b | The same audit initially asserted 16 workbook sheets, 3,220 duplicate visits and role-based replacement counts that did not match the cleaned log | Every row re-verified against `cleaning_log.json` and the workbook itself; corrected to measured values (15 sheets, 3,013 visits, 541 admissions, 1,008 age repairs) | **Fixed** |
@@ -221,7 +221,7 @@ each is a data-availability constraint rather than a missing analysis step.
 | Deck slides | 10–12 | 12 | ✅ |
 | Notebook cells | — | 41, executed | ✅ |
 | Dashboard pages | 7 | 7 | ✅ |
-| Pipeline tests | — | 46 passing | ✅ |
+| Pipeline tests | — | 49 passing | ✅ |
 
 **Open disclosures (3):** cost data unavailable → margins assumed; clinical severity scores
 unavailable → resource-intensity proxy; deck not visually rendered in this environment.

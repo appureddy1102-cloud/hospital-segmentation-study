@@ -9,7 +9,7 @@ All tables are **synthetic** (see [DATA_PROVENANCE.md](DATA_PROVENANCE.md)).
 | Column | Type | Description | Notes |
 |---|---|---|---|
 | `patient_id` | string | Surrogate key, `PT######` | No names, no MRN, no real identifiers |
-| `age_years` | int | Age in years | **Raw field contains defects**: 1,500 rows hold a birth year (>110) or a negative value. Use `age_years_clean` after cleaning |
+| `age_years` | int | Age in years | **Raw field contains defects**: 1,449 rows hold a birth year (>110) or a negative value. Use `age_years_clean` after cleaning |
 | `gender` | string | `M` / `F` | |
 | `home_hospital_id` | string | Assigned site `HSP-01`…`HSP-04` | Patients may be treated away from home site |
 | `area_locality` | string | Catchment locality | |
@@ -27,12 +27,12 @@ All tables are **synthetic** (see [DATA_PROVENANCE.md](DATA_PROVENANCE.md)).
 | Column | Type | Description | Notes |
 |---|---|---|---|
 | `visit_id` | string | Surrogate key `OPD#######` | |
-| `patient_id` | string | FK to `patients` | **0.4% null in raw** → quarantined |
-| `hospital_id` | string | FK to site | **6,627 rows hold name/typo variants** in raw → canonicalised |
-| `department` | string | Treating department | **10,733 rows hold abbreviation/case variants** in raw → canonicalised |
-| `visit_date` | date | Consultation date | **0.3% null in raw** → quarantined |
+| `patient_id` | string | FK to `patients` | **0.39% null in raw** → dropped with a logged reason |
+| `hospital_id` | string | FK to site | **6,015 rows hold name/typo variants** in raw → canonicalised |
+| `department` | string | Treating department | **9,601 rows hold abbreviation/case variants** in raw → canonicalised |
+| `visit_date` | date | Consultation date | **0.30% null in raw** → dropped with a logged reason |
 | `visit_type` | string | `New` / `Follow-up` | First visit of each patient is always `New` |
-| `diagnosis_text` | string | Free-text diagnosis | **29,419 rows rewritten to synonyms/typos** in raw → mapped to `diagnosis_canonical` |
+| `diagnosis_text` | string | Free-text diagnosis | **26,571 rows rewritten to synonyms/typos** in raw → mapped to `diagnosis_canonical` |
 | `diagnosis_code` | string | Internal code, e.g. `GM02` | Used as a fallback when free text is unresolvable |
 | `doctor_id` | string | Treating clinician (surrogate) | |
 | `consultation_fee` | float | OPD tariff (INR) | **0.5% null in raw** → department median |
@@ -51,7 +51,7 @@ All tables are **synthetic** (see [DATA_PROVENANCE.md](DATA_PROVENANCE.md)).
 | `patient_id` | string | FK to `patients` | |
 | `hospital_id` | string | FK to site | |
 | `department` | string | Treating department | |
-| `admission_date` | date | Admission date | **50 pairs swapped with discharge in raw** |
+| `admission_date` | date | Admission date | **140 pairs swapped with discharge in raw** |
 | `discharge_date` | date | Discharge date | **0.8% null in raw** → department median LOS |
 | `admitting_diagnosis` | string | Diagnosis at admission | |
 | `ward_type` | string | `General Ward` / `Semi-Private` / `Private Room` / `ICU` | |
@@ -105,14 +105,14 @@ All tables are **synthetic** (see [DATA_PROVENANCE.md](DATA_PROVENANCE.md)).
 | `encounter_id` | string | FK to `visit_id` (OPD) or `admission_id` (IPD) | |
 | `patient_id` | string | FK to `patients` | |
 | `hospital_id` | string | FK to site | |
-| `service_date` | date | Date of service | **990 rows after study end in raw** → recovered from encounter |
+| `service_date` | date | Date of service | **1,093 rows after study end in raw** → recovered from encounter |
 | `service_type` | string | `OPD_CONSULTATION` / `PHARMACY` / `IPD_ROOM` / `PROCEDURE` / `CONSUMABLES` | Determines the GST rate |
 | `department` | string | Billing department | |
 | `discount_pct` | float | Discount applied before tax | 5–18% |
-| `base_amount` | float | Pre-tax amount (INR) | **1,630 rows invalid** (negative/zero/10× inflated) in raw |
+| `base_amount` | float | Pre-tax amount (INR) | **1,751 rows invalid** (negative/zero/10× inflated) in raw |
 | `gst_rate` | float | Applicable GST rate | 0.00 / 0.05 / 0.12 |
 | `gst_amount` | float | GST charged (INR) | **0.6% null in raw** |
-| `total_amount` | float | `base + gst` | **2,977 rows had GST counted twice** in raw → rebuilt |
+| `total_amount` | float | `base + gst` | **3,076 rows had GST counted twice** in raw → rebuilt |
 | `payment_mode` | string | `UPI` / `Cash` / `Card` / `Insurance Claim` | |
 | `payer_type` | string | Payer classification | |
 
