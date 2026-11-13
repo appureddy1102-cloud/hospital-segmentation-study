@@ -17,10 +17,24 @@
 >
 > The generator is calibrated to realistic Indian community-hospital operating parameters
 > (OPD footfall, ALOS, tariff bands, GST treatment of healthcare services) and deliberately
-> injects **seven families of data-quality defects** so that the cleaning stage in this
+> injects **seven families of data-quality defects** (18 individual defect types) so that the cleaning stage in this
 > project is a genuine analytical exercise rather than a narrative. A defect register is
 > written alongside the data, which lets the cleaning pipeline's detection rate be validated
 > against ground truth rather than asserted.
+
+---
+
+## Quick links for review
+
+| | |
+|---|---|
+| 📄 **Start here** | [`docs/SELF_AUDIT.md`](docs/SELF_AUDIT.md) — maps every requirement to produced evidence |
+| 📊 **One-page summary** | [Executive summary](reports/Hospital_Segmentation_Study_Report.docx) — Word report, section 1 |
+| 🔬 **How the analysis was validated** | [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) — 7 decisions, rejected alternatives, worked examples |
+| 🔐 **Data provenance & ethics** | [`docs/DATA_PROVENANCE.md`](docs/DATA_PROVENANCE.md) |
+| 🧾 **Field-level schema** | [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) |
+| ⚡ **One-command rebuild** | `pip install -r requirements.txt && python src/run_all.py` (~3 min) |
+| ✅ **Validation** | `pytest tests/ -q` → 46 passed |
 
 ---
 
