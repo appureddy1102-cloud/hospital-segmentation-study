@@ -84,15 +84,50 @@ def footer(s, text="Synthetic data — not real hospital evidence"):
     p.text = text; p.font.size = Pt(9); p.font.color.rgb = GREY
 
 
+SLIDE_H_CM = 19.05          # 7.5 in, 16:9
+FOOTER_RESERVE_CM = 1.15    # keep clear of the bottom margin
+
+
 def bullets(s, items, left=1.9, top=4.6, width=15.2, size=15, gap=0.55):
-    tb = s.shapes.add_textbox(Cm(left), Cm(top), Cm(width), Cm(12))
-    tf = tb.text_frame; tf.word_wrap = True
+    """
+    Render a bullet list, auto-fitting it to the space left on the slide.
+
+    The naive version used a fixed Cm(12) height, which silently overflowed
+    the slide on slides with many or long bullets. Height is now derived from
+    the remaining space, and the font is stepped down (never below 11 pt)
+    until the estimated text block fits. Every shape is therefore guaranteed
+    to sit inside the 13.33 x 7.5 in canvas.
+    """
+    avail_cm = SLIDE_H_CM - top - FOOTER_RESERVE_CM
+
+    # Estimated rendered lines per bullet: wrap at ~1.85 chars per mm of width.
+    chars_per_line = max(20, int(width * 10 / (size * 0.52)))
+
+    def estimate(pt):
+        cpl = max(20, int(width * 10 / (pt * 0.52)))
+        lines = 0
+        for txt, lvl in items:
+            n = len(txt) + 2
+            lines += max(1, -(-n // cpl))
+        # a line is ~1.32x the font size tall, plus paragraph spacing
+        return (lines * pt * 1.32 / 28.35) + (len(items) * 0.35)
+
+    chosen = size
+    while chosen > 11 and estimate(chosen) > avail_cm:
+        chosen -= 0.5
+
+    height_cm = min(avail_cm, max(6.0, estimate(chosen) + 0.6))
+    tb = s.shapes.add_textbox(Cm(left), Cm(top), Cm(width), Cm(height_cm))
+    tf = tb.text_frame
+    tf.word_wrap = True
+    tf.auto_size = None
     for i, (txt, lvl) in enumerate(items):
         p = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
         p.text = ("• " if lvl == 0 else "– ") + txt
-        p.font.size = Pt(size if lvl == 0 else size - 2)
+        p.font.size = Pt(chosen if lvl == 0 else chosen - 2)
         p.font.color.rgb = NAVY if lvl == 0 else GREY
-        p.space_after = Pt(10)
+        p.space_after = Pt(8 if len(items) <= 5 else 5)
+        p.line_spacing = 1.0
         p.level = lvl
     return tb
 
